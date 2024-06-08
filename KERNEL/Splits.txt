@@ -1,0 +1,4288 @@
+undefined _iosAssert()
+	Start:   0x0
+	End:     0x2C
+	Section: .text
+undefined Undefined_Gap_0x2C_0x278()
+	Start:   0x2C
+	End:     0x278
+	Section: .text
+undefined iosIopRead()
+	Start:   0x278
+	End:     0x45C
+	Section: .text
+undefined iosCdStStart()
+	Start:   0x460
+	End:     0x48C
+	Section: .text
+undefined iosCdStStop()
+	Start:   0x490
+	End:     0x498
+	Section: .text
+undefined iosCdStRead()
+	Start:   0x498
+	End:     0x5A8
+	Section: .text
+undefined iosCdStSkip()
+	Start:   0x5A8
+	End:     0x5C8
+	Section: .text
+undefined iosCdStSectorAlignSkip()
+	Start:   0x5C8
+	End:     0x61C
+	Section: .text
+undefined iosCdSetErrorCallback()
+	Start:   0x620
+	End:     0x634
+	Section: .text
+undefined iosCdSetMode()
+	Start:   0x638
+	End:     0x668
+	Section: .text
+undefined iosCdStInit()
+	Start:   0x668
+	End:     0x744
+	Section: .text
+undefined iosCdInit()
+	Start:   0x748
+	End:     0x7A4
+	Section: .text
+undefined iosInitDebPc()
+	Start:   0x7A8
+	End:     0x7B0
+	Section: .text
+undefined iosStopPc()
+	Start:   0x7B0
+	End:     0x7B8
+	Section: .text
+undefined iosDebPcVsyncCounterCheck()
+	Start:   0x7B8
+	End:     0x7C0
+	Section: .text
+undefined iosGetCnt0Pc()
+	Start:   0x7C0
+	End:     0x7C8
+	Section: .text
+undefined iosGetCnt1Pc()
+	Start:   0x7C8
+	End:     0x7D0
+	Section: .text
+undefined InitDebPc()
+	Start:   0x7D0
+	End:     0x7D8
+	Section: .text
+undefined iosWaitIdleThread()
+	Start:   0x7D8
+	End:     0x7FC
+	Section: .text
+undefined iosCreateIdleThread()
+	Start:   0x800
+	End:     0x858
+	Section: .text
+undefined iosGetClock()
+	Start:   0x858
+	End:     0x868
+	Section: .text
+undefined iosGetClockSecond()
+	Start:   0x868
+	End:     0x8D8
+	Section: .text
+undefined Undefined_Gap_0x8D8_0x968()
+	Start:   0x8D8
+	End:     0x968
+	Section: .text
+undefined iosInit()
+	Start:   0x968
+	End:     0x99C
+	Section: .text
+undefined iosAddIntcHandler()
+	Start:   0x9A0
+	End:     0xA60
+	Section: .text
+undefined iosCreateSema()
+	Start:   0xA60
+	End:     0xA9C
+	Section: .text
+undefined iosDeleteSema()
+	Start:   0xAA0
+	End:     0xAC8
+	Section: .text
+undefined iosInitIntrSystem()
+	Start:   0xAC8
+	End:     0xB78
+	Section: .text
+undefined iosGetTCount()
+	Start:   0xB78
+	End:     0xB8C
+	Section: .text
+undefined iosGetTCountExtension()
+	Start:   0xB90
+	End:     0xBB4
+	Section: .text
+undefined iosGetSecondFromTCount()
+	Start:   0xBB8
+	End:     0xC90
+	Section: .text
+undefined iosResetCpuRapCounter()
+	Start:   0xC90
+	End:     0xCBC
+	Section: .text
+undefined iosGetCpuRapCountPar1Int()
+	Start:   0xCC0
+	End:     0xD34
+	Section: .text
+undefined iosDI()
+	Start:   0xD38
+	End:     0xDB0
+	Section: .text
+undefined iosEI()
+	Start:   0xDB0
+	End:     0xE20
+	Section: .text
+undefined iosLoaderResetEntry()
+	Start:   0xE20
+	End:     0xEB8
+	Section: .text
+undefined Undefined_Gap_0xEB8_0xF40()
+	Start:   0xEB8
+	End:     0xF40
+	Section: .text
+undefined iosEE2IopRequest()
+	Start:   0xF40
+	End:     0xFB0
+	Section: .text
+undefined iosEE2IopEndChk()
+	Start:   0xFB0
+	End:     0xFB8
+	Section: .text
+undefined iosCreateIopMgr()
+	Start:   0xFB8
+	End:     0xFC0
+	Section: .text
+undefined Undefined_Gap_0xFC0_0x34D8()
+	Start:   0xFC0
+	End:     0x34D8
+	Section: .text
+undefined iosWaitMalloc()
+	Start:   0x34D8
+	End:     0x34F4
+	Section: .text
+undefined iosSignalMalloc()
+	Start:   0x34F8
+	End:     0x3514
+	Section: .text
+undefined iosMallocGarbageTickProc()
+	Start:   0x3518
+	End:     0x3640
+	Section: .text
+undefined iosMallocAlign()
+	Start:   0x3640
+	End:     0x3758
+	Section: .text
+undefined iosMallocAlignNoCheck()
+	Start:   0x3758
+	End:     0x37D8
+	Section: .text
+undefined iosMallocInGarbagePtn()
+	Start:   0x37D8
+	End:     0x3874
+	Section: .text
+undefined iosMallocSetExecGarbageCallback()
+	Start:   0x3878
+	End:     0x390C
+	Section: .text
+undefined iosReallocAlign()
+	Start:   0x3910
+	End:     0x3990
+	Section: .text
+undefined iosFree()
+	Start:   0x3990
+	End:     0x39D4
+	Section: .text
+undefined iosFreeParts()
+	Start:   0x39D8
+	End:     0x3A48
+	Section: .text
+undefined iosCreatePartition()
+	Start:   0x3A48
+	End:     0x3AB8
+	Section: .text
+undefined iosCreatePartitionWithPc()
+	Start:   0x3AB8
+	End:     0x3B28
+	Section: .text
+undefined iosInitMallocSystem()
+	Start:   0x3B28
+	End:     0x3B94
+	Section: .text
+undefined iosGetMallocPtn()
+	Start:   0x3B98
+	End:     0x3BC0
+	Section: .text
+undefined iosGetMallocRootPtnRemainSize()
+	Start:   0x3BC0
+	End:     0x3BD0
+	Section: .text
+undefined iosFollowAllLink()
+	Start:   0x3BD0
+	End:     0x3C28
+	Section: .text
+undefined iosDebugPartitionDump()
+	Start:   0x3C28
+	End:     0x3C84
+	Section: .text
+undefined iosDebugPartitionFileDump()
+	Start:   0x3C88
+	End:     0x3CF0
+	Section: .text
+undefined Undefined_Gap_0x3CF0_0x3D10()
+	Start:   0x3CF0
+	End:     0x3D10
+	Section: .text
+undefined addMemoryDebugCallback()
+	Start:   0x3D10
+	End:     0x3D1C
+	Section: .text
+undefined getMemorySafetyLockFlag()
+	Start:   0x3D20
+	End:     0x3D2C
+	Section: .text
+undefined Undefined_Gap_0x3D2C_0x3D60()
+	Start:   0x3D2C
+	End:     0x3D60
+	Section: .text
+undefined iosMcInit()
+	Start:   0x3D60
+	End:     0x3E58
+	Section: .text
+undefined iosMcGetInfo()
+	Start:   0x3E58
+	End:     0x3F80
+	Section: .text
+undefined iosMcChDir()
+	Start:   0x3F80
+	End:     0x4028
+	Section: .text
+undefined iosMcMkDir()
+	Start:   0x4028
+	End:     0x40D0
+	Section: .text
+undefined iosMcCreateFile()
+	Start:   0x40D0
+	End:     0x4178
+	Section: .text
+undefined iosMcDeleteFile()
+	Start:   0x4178
+	End:     0x4220
+	Section: .text
+undefined iosMcReadFile()
+	Start:   0x4220
+	End:     0x4318
+	Section: .text
+undefined iosMcWriteFile()
+	Start:   0x4318
+	End:     0x4410
+	Section: .text
+undefined iosMcFormat()
+	Start:   0x4410
+	End:     0x4458
+	Section: .text
+undefined iosMcUnformat()
+	Start:   0x4458
+	End:     0x44A0
+	Section: .text
+undefined iosMcGetDir()
+	Start:   0x44A0
+	End:     0x4588
+	Section: .text
+undefined Undefined_Gap_0x4588_0x4628()
+	Start:   0x4588
+	End:     0x4628
+	Section: .text
+undefined iosSendMsg()
+	Start:   0x4628
+	End:     0x47A0
+	Section: .text
+undefined iosRecvMsg()
+	Start:   0x47A0
+	End:     0x4918
+	Section: .text
+undefined iosInitMessageSystem()
+	Start:   0x4918
+	End:     0x4920
+	Section: .text
+undefined iosCreateMsgQueue()
+	Start:   0x4920
+	End:     0x498C
+	Section: .text
+undefined Undefined_Gap_0x498C_0x4C80()
+	Start:   0x498C
+	End:     0x4C80
+	Section: .text
+undefined iosNetRecvMsg()
+	Start:   0x4C80
+	End:     0x4E24
+	Section: .text
+undefined InitNet()
+	Start:   0x4E28
+	End:     0x4F98
+	Section: .text
+undefined iosNetRecv()
+	Start:   0x4F98
+	End:     0x50C0
+	Section: .text
+undefined iosNetSend()
+	Start:   0x50C0
+	End:     0x51B0
+	Section: .text
+undefined iosNetRecvMsgWithStateCallback()
+	Start:   0x51B0
+	End:     0x5378
+	Section: .text
+undefined iosNetClose()
+	Start:   0x5378
+	End:     0x5410
+	Section: .text
+undefined iosNetOpen()
+	Start:   0x5410
+	End:     0x54D4
+	Section: .text
+undefined iosPadTickProc()
+	Start:   0x54D8
+	End:     0x56BC
+	Section: .text
+undefined iosPadGetXZInputL()
+	Start:   0x56C0
+	End:     0x58B4
+	Section: .text
+undefined iosPadGetXZInputLwithThreshold()
+	Start:   0x58B8
+	End:     0x5A9C
+	Section: .text
+undefined iosPadGetXZInputLwithThresholdIndepAxis()
+	Start:   0x5AA0
+	End:     0x5C0C
+	Section: .text
+undefined iosPadGetXZInputR()
+	Start:   0x5C10
+	End:     0x5E04
+	Section: .text
+undefined iosPadEntryTickFunc()
+	Start:   0x5E08
+	End:     0x5E14
+	Section: .text
+undefined iosPadRead()
+	Start:   0x5E18
+	End:     0x5F08
+	Section: .text
+undefined iosPadChkConnect()
+	Start:   0x5F08
+	End:     0x5F30
+	Section: .text
+undefined iosPadInit()
+	Start:   0x5F30
+	End:     0x5F84
+	Section: .text
+undefined iosSPrintf()
+	Start:   0x5F88
+	End:     0x5FDC
+	Section: .text
+undefined iosUsbSerialPrintf()
+	Start:   0x5FE0
+	End:     0x604C
+	Section: .text
+undefined iosCreatePrintMgr()
+	Start:   0x6050
+	End:     0x6058
+	Section: .text
+undefined iosGetPrintfMode()
+	Start:   0x6058
+	End:     0x6064
+	Section: .text
+undefined iosSrpWaitDMA()
+	Start:   0x6068
+	End:     0x6080
+	Section: .text
+undefined iosMemToSprDmaAdrCopy()
+	Start:   0x6080
+	End:     0x60E8
+	Section: .text
+undefined iosSprToMemDmaAdrCopy()
+	Start:   0x60E8
+	End:     0x614C
+	Section: .text
+undefined iosCreateThread()
+	Start:   0x6150
+	End:     0x6304
+	Section: .text
+undefined Undefined_Gap_0x6304_0x6470()
+	Start:   0x6304
+	End:     0x6470
+	Section: .text
+undefined iosInitThreadSystem()
+	Start:   0x6470
+	End:     0x65C4
+	Section: .text
+undefined iosGetThread()
+	Start:   0x65C8
+	End:     0x65FC
+	Section: .text
+undefined iosCreateThreadS()
+	Start:   0x6600
+	End:     0x66C4
+	Section: .text
+undefined iosStartThread()
+	Start:   0x66C8
+	End:     0x6714
+	Section: .text
+undefined iosSleepThread()
+	Start:   0x6718
+	End:     0x672C
+	Section: .text
+undefined iosWakeupThread()
+	Start:   0x6730
+	End:     0x6790
+	Section: .text
+undefined iosiWakeupThread()
+	Start:   0x6790
+	End:     0x67A8
+	Section: .text
+undefined iosChangeThreadPriority()
+	Start:   0x67A8
+	End:     0x67F0
+	Section: .text
+undefined iosGetThreadPriority()
+	Start:   0x67F0
+	End:     0x6830
+	Section: .text
+undefined iosDeleteThread()
+	Start:   0x6830
+	End:     0x68A4
+	Section: .text
+undefined iosCallBackThreadMgr()
+	Start:   0x68A8
+	End:     0x6908
+	Section: .text
+undefined ioskernel()
+	Start:   0x6908
+	End:     0x6A78
+	Section: .text
+undefined iosJumpRecoverPoint()
+	Start:   0x6A78
+	End:     0x6AF0
+	Section: .text
+undefined iosResetKernel()
+	Start:   0x6AF0
+	End:     0x6B04
+	Section: .text
+undefined Undefined_Gap_0x6B04_0x6B58()
+	Start:   0x6B04
+	End:     0x6B58
+	Section: .text
+undefined endSCEDemo()
+	Start:   0x6B58
+	End:     0x6B60
+	Section: .text
+undefined Undefined_Gap_0x6B60_0x7280()
+	Start:   0x6B60
+	End:     0x7280
+	Section: .text
+undefined Init_ShockVoiceSet()
+	Start:   0x7280
+	End:     0x72B8
+	Section: .text
+undefined Init_Shock()
+	Start:   0x72B8
+	End:     0x7378
+	Section: .text
+undefined Shock_SetShockVoiceSet()
+	Start:   0x7378
+	End:     0x73AC
+	Section: .text
+undefined Init_Player()
+	Start:   0x73B0
+	End:     0x73F0
+	Section: .text
+undefined Init_Controler()
+	Start:   0x73F0
+	End:     0x73FC
+	Section: .text
+undefined Shock_Request()
+	Start:   0x7400
+	End:     0x749C
+	Section: .text
+undefined Shock_Decode()
+	Start:   0x74A0
+	End:     0x75CC
+	Section: .text
+undefined Shock_SetMotor()
+	Start:   0x75D0
+	End:     0x772C
+	Section: .text
+undefined Undefined_Gap_0x772C_0x8288()
+	Start:   0x772C
+	End:     0x8288
+	Section: .text
+undefined isysMoveModuleObj()
+	Start:   0x8288
+	End:     0x8404
+	Section: .text
+undefined isysCreateModuleObjExisted()
+	Start:   0x8408
+	End:     0x863C
+	Section: .text
+undefined isysResolveAllModuleObjHasUndefSymbol()
+	Start:   0x8640
+	End:     0x8734
+	Section: .text
+undefined Undefined_Gap_0x8734_0x8E60()
+	Start:   0x8734
+	End:     0x8E60
+	Section: .text
+undefined isysLaunchModule()
+	Start:   0x8E60
+	End:     0x9068
+	Section: .text
+undefined IosCdvdManagerSimulation()
+	Start:   0x9068
+	End:     0x9334
+	Section: .text
+undefined isysGetXffEntryPointPreRelocation()
+	Start:   0x9338
+	End:     0x948C
+	Section: .text
+undefined InitDld()
+	Start:   0x9490
+	End:     0x9518
+	Section: .text
+undefined IosLoadIrxSimulation()
+	Start:   0x9518
+	End:     0x957C
+	Section: .text
+undefined IosGetMergeDataFileName()
+	Start:   0x9580
+	End:     0x958C
+	Section: .text
+undefined isysSearchSymbol()
+	Start:   0x9590
+	End:     0x95E8
+	Section: .text
+undefined isysSearchModuleFuncNameByAddr()
+	Start:   0x95E8
+	End:     0x9738
+	Section: .text
+undefined isysDumpExecutableModules()
+	Start:   0x9738
+	End:     0x97A0
+	Section: .text
+undefined isysSearchModuleSymbolByGroup()
+	Start:   0x97A0
+	End:     0x9910
+	Section: .text
+undefined isysRemoveModuleObjGroup()
+	Start:   0x9910
+	End:     0x9978
+	Section: .text
+undefined isysResolveOneModuleObj()
+	Start:   0x9978
+	End:     0x9A10
+	Section: .text
+undefined isysResolveAllProgramModule()
+	Start:   0x9A10
+	End:     0x9B04
+	Section: .text
+undefined isysLaunchExecModule()
+	Start:   0x9B08
+	End:     0x9B54
+	Section: .text
+undefined isysInitModuleObjExisted()
+	Start:   0x9B58
+	End:     0x9D14
+	Section: .text
+undefined isysFlushModuleObj()
+	Start:   0x9D18
+	End:     0x9DFC
+	Section: .text
+undefined GetSymbolByIndex()
+	Start:   0x9E00
+	End:     0x9E28
+	Section: .text
+undefined isysRelocateModuleObj()
+	Start:   0x9E28
+	End:     0x9E90
+	Section: .text
+undefined isysGetXffWorkSize()
+	Start:   0x9E90
+	End:     0x9EE4
+	Section: .text
+undefined isysGetModuleObjMallocSize()
+	Start:   0x9EE8
+	End:     0x9F28
+	Section: .text
+undefined isysDisposeModuleObjRelocationElement()
+	Start:   0x9F28
+	End:     0xA01C
+	Section: .text
+undefined GetExecModuleSize()
+	Start:   0xA020
+	End:     0xA02C
+	Section: .text
+undefined getModuleSize()
+	Start:   0xA030
+	End:     0xA03C
+	Section: .text
+undefined Undefined_Gap_0xA03C_0xA090()
+	Start:   0xA03C
+	End:     0xA090
+	Section: .text
+undefined isysGetUndefModuleObjNum()
+	Start:   0xA090
+	End:     0xA100
+	Section: .text
+undefined isysGetSymdefModuleObjNum()
+	Start:   0xA100
+	End:     0xA170
+	Section: .text
+undefined Undefined_Gap_0xA170_0xA508()
+	Start:   0xA170
+	End:     0xA508
+	Section: .text
+undefined isysResolveAllModuleObjOfGroup()
+	Start:   0xA508
+	End:     0xA5F8
+	Section: .text
+undefined readEModule()
+	Start:   0xA5F8
+	End:     0xA6C0
+	Section: .text
+undefined isysWriteLinkerScriptFile()
+	Start:   0xA6C0
+	End:     0xA70C
+	Section: .text
+undefined Undefined_Gap_0xA70C_0xA728()
+	Start:   0xA70C
+	End:     0xA728
+	Section: .text
+undefined loadtest()
+	Start:   0xA728
+	End:     0xA77C
+	Section: .text
+undefined iosLoaderGetFileSizeName()
+	Start:   0xA780
+	End:     0xA8D4
+	Section: .text
+undefined iosFileRead()
+	Start:   0xA8D8
+	End:     0xAA38
+	Section: .text
+undefined iosLoaderFOpen()
+	Start:   0xAA38
+	End:     0xAAD8
+	Section: .text
+undefined iosLoaderFClose()
+	Start:   0xAAD8
+	End:     0xAB4C
+	Section: .text
+undefined iosLoaderFRead()
+	Start:   0xAB50
+	End:     0xAB64
+	Section: .text
+undefined iosLoaderGetFileSize()
+	Start:   0xAB68
+	End:     0xABB4
+	Section: .text
+undefined initDldSys()
+	Start:   0xABB8
+	End:     0xABF4
+	Section: .text
+undefined Undefined_Gap_0xABF4_0xB0A8()
+	Start:   0xABF4
+	End:     0xB0A8
+	Section: .text
+undefined DldExceptionByOriginAdr()
+	Start:   0xB0A8
+	End:     0xB0FC
+	Section: .text
+undefined isysSearchCalledModuleFuncNameByAddr()
+	Start:   0xB100
+	End:     0xB1C0
+	Section: .text
+undefined isysCreateExceptionThread()
+	Start:   0xB1C0
+	End:     0xB1C8
+	Section: .text
+undefined Undefined_Gap_0xB1C8_0xB1E0()
+	Start:   0xB1C8
+	End:     0xB1E0
+	Section: .text
+undefined iosCubicBezier()
+	Start:   0xB1E0
+	End:     0xB220
+	Section: .text
+undefined iosCubicInterVectorXYZ()
+	Start:   0xB220
+	End:     0xB284
+	Section: .text
+undefined iosFourthBezier()
+	Start:   0xB288
+	End:     0xB2EC
+	Section: .text
+undefined iosCubicBezierVectorXYZ()
+	Start:   0xB2F0
+	End:     0xB37C
+	Section: .text
+undefined InitMath()
+	Start:   0xB380
+	End:     0xB3FC
+	Section: .text
+undefined Undefined_Gap_0xB3FC_0xBC38()
+	Start:   0xB3FC
+	End:     0xBC38
+	Section: .text
+undefined CompareString16()
+	Start:   0xBC38
+	End:     0xBC68
+	Section: .text
+undefined iosInitCurrentMatrix()
+	Start:   0xBC68
+	End:     0xBC84
+	Section: .text
+undefined iosUnitCurrentMatrix()
+	Start:   0xBC88
+	End:     0xBCA0
+	Section: .text
+undefined iosPushCurrentMatrix()
+	Start:   0xBCA0
+	End:     0xBCB8
+	Section: .text
+undefined iosPopCurrentMatrix()
+	Start:   0xBCB8
+	End:     0xBCD0
+	Section: .text
+undefined iosPushVu0RegistersToWork()
+	Start:   0xBCD0
+	End:     0xBDD4
+	Section: .text
+undefined iosPopVu0RegistersFromWork()
+	Start:   0xBDD8
+	End:     0xBEDC
+	Section: .text
+undefined iosTransCurrentMatrix()
+	Start:   0xBEE0
+	End:     0xBEFC
+	Section: .text
+undefined iosSetTransCurrentMatrix()
+	Start:   0xBF00
+	End:     0xBF10
+	Section: .text
+undefined iosClearTransCurrentMatrix()
+	Start:   0xBF10
+	End:     0xBF1C
+	Section: .text
+undefined iosGetRotXVector()
+	Start:   0xBF20
+	End:     0xBFC4
+	Section: .text
+undefined iosGetRotYVector()
+	Start:   0xBFC8
+	End:     0xC06C
+	Section: .text
+undefined iosRotCurrentMatrixX()
+	Start:   0xC070
+	End:     0xC114
+	Section: .text
+undefined iosRotCurrentMatrixY()
+	Start:   0xC118
+	End:     0xC1BC
+	Section: .text
+undefined iosRotCurrentMatrixZ()
+	Start:   0xC1C0
+	End:     0xC264
+	Section: .text
+undefined iosScaleCurrentMatrix()
+	Start:   0xC268
+	End:     0xC2F4
+	Section: .text
+undefined iosGetCurrentMatrix()
+	Start:   0xC2F8
+	End:     0xC310
+	Section: .text
+undefined iosGetCurrentMatrixTrans()
+	Start:   0xC310
+	End:     0xC31C
+	Section: .text
+undefined iosSetCurrentMatrix()
+	Start:   0xC320
+	End:     0xC338
+	Section: .text
+undefined iosMulCurrentMatrixR()
+	Start:   0xC338
+	End:     0xC3A0
+	Section: .text
+undefined iosMulCurrentMatrixL()
+	Start:   0xC3A0
+	End:     0xC3F8
+	Section: .text
+undefined iosApplyCurrentMatrix()
+	Start:   0xC3F8
+	End:     0xC418
+	Section: .text
+undefined iosApplyRotCurrentMatrix()
+	Start:   0xC418
+	End:     0xC438
+	Section: .text
+undefined iosRotTransPersCurrentMatrix()
+	Start:   0xC438
+	End:     0xC464
+	Section: .text
+undefined iosTransposeCurrentMatrix()
+	Start:   0xC468
+	End:     0xC4B4
+	Section: .text
+undefined iosTransposeRotationCurrentMatrix()
+	Start:   0xC4B8
+	End:     0xC4E8
+	Section: .text
+undefined iosInverseCurrentMatrix()
+	Start:   0xC4E8
+	End:     0xC534
+	Section: .text
+undefined iosPushVu0Registers()
+	Start:   0xC538
+	End:     0xC658
+	Section: .text
+undefined iosPopVu0Registers()
+	Start:   0xC658
+	End:     0xC77C
+	Section: .text
+undefined iosInitPushPosVuSema()
+	Start:   0xC780
+	End:     0xC7AC
+	Section: .text
+undefined iosCopyMatrix()
+	Start:   0xC7B0
+	End:     0xC7D8
+	Section: .text
+undefined iosApplyRotMatrix()
+	Start:   0xC7D8
+	End:     0xC804
+	Section: .text
+undefined iosUnitMatrix()
+	Start:   0xC808
+	End:     0xC830
+	Section: .text
+undefined iosUnitRotation()
+	Start:   0xC830
+	End:     0xC854
+	Section: .text
+undefined iosTransposeMatrix()
+	Start:   0xC858
+	End:     0xC8A0
+	Section: .text
+undefined iosInverseMatrix()
+	Start:   0xC8A0
+	End:     0xC910
+	Section: .text
+undefined iosInverseMatrixPerfect()
+	Start:   0xC910
+	End:     0xC934
+	Section: .text
+undefined iosScaleMatrixV()
+	Start:   0xC938
+	End:     0xC970
+	Section: .text
+undefined iosFloatModulo()
+	Start:   0xC970
+	End:     0xC9AC
+	Section: .text
+undefined iosSetCameraMatrix()
+	Start:   0xC9B0
+	End:     0xCAD0
+	Section: .text
+undefined iosMakeNormalLightMatrix()
+	Start:   0xCAD0
+	End:     0xCBC4
+	Section: .text
+undefined iosScaleNormalLightMatrix()
+	Start:   0xCBC8
+	End:     0xCC00
+	Section: .text
+undefined iosMakeLightColorMatrix()
+	Start:   0xCC00
+	End:     0xCC34
+	Section: .text
+undefined iosTransMatrix()
+	Start:   0xCC38
+	End:     0xCC90
+	Section: .text
+undefined iosTransMatrixF()
+	Start:   0xCC90
+	End:     0xCD04
+	Section: .text
+undefined iosScaleMatrix()
+	Start:   0xCD08
+	End:     0xCD38
+	Section: .text
+undefined iosMulRotMatrixXInt16()
+	Start:   0xCD38
+	End:     0xCE3C
+	Section: .text
+undefined iosMulRotMatrixYInt16()
+	Start:   0xCE40
+	End:     0xCF44
+	Section: .text
+undefined iosMulRotMatrixZInt16()
+	Start:   0xCF48
+	End:     0xD04C
+	Section: .text
+undefined iosRotMatrixX()
+	Start:   0xD050
+	End:     0xD0BC
+	Section: .text
+undefined iosRotMatrixY()
+	Start:   0xD0C0
+	End:     0xD12C
+	Section: .text
+undefined iosRotMatrixZ()
+	Start:   0xD130
+	End:     0xD19C
+	Section: .text
+undefined iosDumpMatrix()
+	Start:   0xD1A0
+	End:     0xD2EC
+	Section: .text
+undefined iosGetScaleMatrixV()
+	Start:   0xD2F0
+	End:     0xD334
+	Section: .text
+undefined iosGetYDirXYZFromMatrix()
+	Start:   0xD338
+	End:     0xD34C
+	Section: .text
+undefined iosGetXDirXYZFromMatrix()
+	Start:   0xD350
+	End:     0xD364
+	Section: .text
+undefined iosFmodf()
+	Start:   0xD368
+	End:     0xD37C
+	Section: .text
+undefined iosRotTransCurrentMatrix()
+	Start:   0xD380
+	End:     0xD3E0
+	Section: .text
+undefined iosMvecZero()
+	Start:   0xD3E0
+	End:     0xD3EC
+	Section: .text
+undefined iosMvecAllOnes()
+	Start:   0xD3F0
+	End:     0xD3FC
+	Section: .text
+undefined iosMvecAllOne()
+	Start:   0xD400
+	End:     0xD410
+	Section: .text
+undefined iosAddMvec()
+	Start:   0xD410
+	End:     0xD44C
+	Section: .text
+undefined iosClampSW_AddMvec()
+	Start:   0xD450
+	End:     0xD48C
+	Section: .text
+undefined iosClampUW_AddMvec()
+	Start:   0xD490
+	End:     0xD4CC
+	Section: .text
+undefined iosSubMvec()
+	Start:   0xD4D0
+	End:     0xD50C
+	Section: .text
+undefined iosMulMvec()
+	Start:   0xD510
+	End:     0xD568
+	Section: .text
+undefined iosApplyM_Mat()
+	Start:   0xD568
+	End:     0xD5D4
+	Section: .text
+undefined iosCalcIcolorToBrightness()
+	Start:   0xD5D8
+	End:     0xD65C
+	Section: .text
+undefined iosIColScale()
+	Start:   0xD660
+	End:     0xD710
+	Section: .text
+undefined iosIColAddVec()
+	Start:   0xD710
+	End:     0xD73C
+	Section: .text
+undefined iosSwClip255Mvec()
+	Start:   0xD740
+	End:     0xD770
+	Section: .text
+undefined iosIColAddVecXYZ()
+	Start:   0xD770
+	End:     0xD7E4
+	Section: .text
+undefined iosUcharColClampAdd()
+	Start:   0xD7E8
+	End:     0xD8A4
+	Section: .text
+undefined iosSWToMmColMvec()
+	Start:   0xD8A8
+	End:     0xD8D0
+	Section: .text
+undefined iosMmColToSWMvec()
+	Start:   0xD8D0
+	End:     0xD8F8
+	Section: .text
+undefined iosITOF15ToMmColMvec()
+	Start:   0xD8F8
+	End:     0xD920
+	Section: .text
+undefined iosMmColToITOF15Mvec()
+	Start:   0xD920
+	End:     0xD948
+	Section: .text
+undefined iosFvecToMmColMvec()
+	Start:   0xD948
+	End:     0xD988
+	Section: .text
+undefined iosMmColToFvecMvec()
+	Start:   0xD988
+	End:     0xD9C8
+	Section: .text
+undefined iosSwClipMvec()
+	Start:   0xD9C8
+	End:     0xDA44
+	Section: .text
+undefined iosFvecToICol()
+	Start:   0xDA48
+	End:     0xDA90
+	Section: .text
+undefined iosIColToMvecSl()
+	Start:   0xDA90
+	End:     0xDABC
+	Section: .text
+undefined iosIColToFvec()
+	Start:   0xDAC0
+	End:     0xDB08
+	Section: .text
+undefined iosPowf()
+	Start:   0xDB08
+	End:     0xDB1C
+	Section: .text
+undefined iosFastPowf()
+	Start:   0xDB20
+	End:     0xDB34
+	Section: .text
+undefined GetDifferencialQuaternionWithNoRegularize()
+	Start:   0xDB38
+	End:     0xDCF8
+	Section: .text
+undefined Undefined_Gap_0xDCF8_0xDEE8()
+	Start:   0xDCF8
+	End:     0xDEE8
+	Section: .text
+undefined GetEulerYXZFromQuaternion()
+	Start:   0xDEE8
+	End:     0xE1F8
+	Section: .text
+undefined GetEulerZXYFromQuaternion()
+	Start:   0xE1F8
+	End:     0xE508
+	Section: .text
+undefined GetEulerXYZFromQuaternion()
+	Start:   0xE508
+	End:     0xE824
+	Section: .text
+undefined GetRotLimitationQuaternion()
+	Start:   0xE828
+	End:     0xEB98
+	Section: .text
+undefined GetLimitationQuaternionWithBaseAxis()
+	Start:   0xEB98
+	End:     0xEED0
+	Section: .text
+undefined GetCurrentQuaternion()
+	Start:   0xEED0
+	End:     0xEEF0
+	Section: .text
+undefined GetLastQuaternion()
+	Start:   0xEEF0
+	End:     0xEF10
+	Section: .text
+undefined MultiCurrentQuaternion()
+	Start:   0xEF10
+	End:     0xEF64
+	Section: .text
+undefined MultiCurrentQuaternionL()
+	Start:   0xEF68
+	End:     0xEFBC
+	Section: .text
+undefined InvertCurrentQuaternion()
+	Start:   0xEFC0
+	End:     0xEFF0
+	Section: .text
+undefined SetCurrentQuaternion()
+	Start:   0xEFF0
+	End:     0xF014
+	Section: .text
+undefined RotCurrentQuaternionX()
+	Start:   0xF018
+	End:     0xF09C
+	Section: .text
+undefined RotCurrentQuaternionY()
+	Start:   0xF0A0
+	End:     0xF124
+	Section: .text
+undefined RotCurrentQuaternionZ()
+	Start:   0xF128
+	End:     0xF1AC
+	Section: .text
+undefined PushQuaternion()
+	Start:   0xF1B0
+	End:     0xF220
+	Section: .text
+undefined PushQuaternionWithNoCopy()
+	Start:   0xF220
+	End:     0xF270
+	Section: .text
+undefined PopQuaternion()
+	Start:   0xF270
+	End:     0xF290
+	Section: .text
+undefined InitQuaternionDrive()
+	Start:   0xF290
+	End:     0xF2AC
+	Section: .text
+undefined SetQuaternionByAxisRotate()
+	Start:   0xF2B0
+	End:     0xF30C
+	Section: .text
+undefined SetQuaternionByAxisRotateWithNoRegularize()
+	Start:   0xF310
+	End:     0xF384
+	Section: .text
+undefined SetQuaternionByAxisRotateV()
+	Start:   0xF388
+	End:     0xF3D0
+	Section: .text
+undefined SetQuaternionByAxisRotateVExact()
+	Start:   0xF3D0
+	End:     0xF410
+	Section: .text
+undefined SetQuaternionByAxisRotateVWithNoRegularize()
+	Start:   0xF410
+	End:     0xF474
+	Section: .text
+undefined DivQuaternion()
+	Start:   0xF478
+	End:     0xF4C8
+	Section: .text
+undefined GetInverseMatrixFromQuaternionPos()
+	Start:   0xF4C8
+	End:     0xF560
+	Section: .text
+undefined MultiMatrixByQuaternion()
+	Start:   0xF560
+	End:     0xF5F4
+	Section: .text
+undefined GetMirrorQuaternion()
+	Start:   0xF5F8
+	End:     0xF6D8
+	Section: .text
+undefined RotQuaternionXExact()
+	Start:   0xF6D8
+	End:     0xF78C
+	Section: .text
+undefined RotQuaternionYExact()
+	Start:   0xF790
+	End:     0xF844
+	Section: .text
+undefined RotQuaternionZExact()
+	Start:   0xF848
+	End:     0xF8FC
+	Section: .text
+undefined GetQuaternionFromMatrix()
+	Start:   0xF900
+	End:     0xF934
+	Section: .text
+undefined CopyMultiQuaternion()
+	Start:   0xF938
+	End:     0xF970
+	Section: .text
+undefined GetQuaternionByAxisDirZY()
+	Start:   0xF970
+	End:     0xFB18
+	Section: .text
+undefined GetQuaternionByAxisDirZYExact()
+	Start:   0xFB18
+	End:     0xFD08
+	Section: .text
+undefined GetQuaternionByAxisDirZX()
+	Start:   0xFD08
+	End:     0xFEB4
+	Section: .text
+undefined SetQuaternionByCosineAxisRotateVWithNoRegularize()
+	Start:   0xFEB8
+	End:     0xFEFC
+	Section: .text
+undefined SetQuaternionByAxisRotateVWithNoRegularizeRadian()
+	Start:   0xFF00
+	End:     0xFF60
+	Section: .text
+undefined GetYRotQuaternionFromDir()
+	Start:   0xFF60
+	End:     0xFFCC
+	Section: .text
+undefined GetStabYRotQuaternion()
+	Start:   0xFFD0
+	End:     0x100A8
+	Section: .text
+undefined StabilizeToYRotQuaternion()
+	Start:   0x100A8
+	End:     0x10174
+	Section: .text
+undefined GetQuaternionByEulerYXZ()
+	Start:   0x10178
+	End:     0x10390
+	Section: .text
+undefined GetQuaternionByEulerYXZExact()
+	Start:   0x10390
+	End:     0x105A4
+	Section: .text
+undefined GetEulerYXZFromQuaternionZHalfPI()
+	Start:   0x105A8
+	End:     0x106CC
+	Section: .text
+undefined GetQuaternionByEulerZXY()
+	Start:   0x106D0
+	End:     0x108E8
+	Section: .text
+undefined GetQuaternionByEulerZXYExact()
+	Start:   0x108E8
+	End:     0x10AFC
+	Section: .text
+undefined GetQuaternionByEulerXYZ()
+	Start:   0x10B00
+	End:     0x10D18
+	Section: .text
+undefined GetQuaternionByEulerXYZExact()
+	Start:   0x10D18
+	End:     0x10F2C
+	Section: .text
+undefined GetLimitationQuaternion()
+	Start:   0x10F30
+	End:     0x11034
+	Section: .text
+undefined GetZDirFromQuaternion()
+	Start:   0x11038
+	End:     0x110D8
+	Section: .text
+undefined GetQuaternionByDegEulerYXZ()
+	Start:   0x110D8
+	End:     0x112E4
+	Section: .text
+undefined GetQuaternionAxisRotInfo()
+	Start:   0x112E8
+	End:     0x11364
+	Section: .text
+undefined SetQuaternionByCosineAxisRotateV()
+	Start:   0x11368
+	End:     0x113DC
+	Section: .text
+undefined iosGetAlignSinCosf()
+	Start:   0x113E0
+	End:     0x11418
+	Section: .text
+undefined iosGetSinCosf()
+	Start:   0x11418
+	End:     0x11564
+	Section: .text
+undefined iosGetSinf()
+	Start:   0x11568
+	End:     0x11688
+	Section: .text
+undefined iosGetCosf()
+	Start:   0x11688
+	End:     0x117A0
+	Section: .text
+undefined iosGetTanf()
+	Start:   0x117A0
+	End:     0x117D0
+	Section: .text
+undefined iosGetSinCos()
+	Start:   0x117D0
+	End:     0x1180C
+	Section: .text
+undefined iosGetSin()
+	Start:   0x11810
+	End:     0x1184C
+	Section: .text
+undefined iosGetCos()
+	Start:   0x11850
+	End:     0x1188C
+	Section: .text
+undefined iosGetTan()
+	Start:   0x11890
+	End:     0x118C4
+	Section: .text
+undefined iosGetACosf()
+	Start:   0x118C8
+	End:     0x1194C
+	Section: .text
+undefined iosGetACos()
+	Start:   0x11950
+	End:     0x119EC
+	Section: .text
+undefined iosGetACosfExact()
+	Start:   0x119F0
+	End:     0x11A44
+	Section: .text
+undefined iosGetASinfExact()
+	Start:   0x11A48
+	End:     0x11AA4
+	Section: .text
+undefined iosGetATanfExact()
+	Start:   0x11AA8
+	End:     0x11ABC
+	Section: .text
+undefined iosGetATan2fExact()
+	Start:   0x11AC0
+	End:     0x11B28
+	Section: .text
+undefined iosGetATan2fExact2()
+	Start:   0x11B28
+	End:     0x11B3C
+	Section: .text
+undefined iosGetASin()
+	Start:   0x11B40
+	End:     0x11B4C
+	Section: .text
+undefined iosGetATan2()
+	Start:   0x11B50
+	End:     0x11B5C
+	Section: .text
+undefined resetArcFuncCall()
+	Start:   0x11B60
+	End:     0x11B84
+	Section: .text
+undefined iosGetTableSin()
+	Start:   0x11B88
+	End:     0x11BD8
+	Section: .text
+undefined iosGetTableCos()
+	Start:   0x11BD8
+	End:     0x11C20
+	Section: .text
+undefined InitTableSinCos()
+	Start:   0x11C20
+	End:     0x11D38
+	Section: .text
+undefined iosFTOI15Vector()
+	Start:   0x11D38
+	End:     0x11D4C
+	Section: .text
+undefined iosFTOI12Vector()
+	Start:   0x11D50
+	End:     0x11D64
+	Section: .text
+undefined iosFTOI4Vector()
+	Start:   0x11D68
+	End:     0x11D7C
+	Section: .text
+undefined iosFTOI0Vector()
+	Start:   0x11D80
+	End:     0x11D94
+	Section: .text
+undefined iosITOF15Vector()
+	Start:   0x11D98
+	End:     0x11DAC
+	Section: .text
+undefined iosITOF12Vector()
+	Start:   0x11DB0
+	End:     0x11DC4
+	Section: .text
+undefined iosITOF4Vector()
+	Start:   0x11DC8
+	End:     0x11DDC
+	Section: .text
+undefined iosITOF0Vector()
+	Start:   0x11DE0
+	End:     0x11DF4
+	Section: .text
+undefined iosGetStabXZVector()
+	Start:   0x11DF8
+	End:     0x11E30
+	Section: .text
+undefined iosInitRandom()
+	Start:   0x11E30
+	End:     0x11E50
+	Section: .text
+undefined iosGetRandom()
+	Start:   0x11E50
+	End:     0x11EA0
+	Section: .text
+undefined iosGetRandomVector()
+	Start:   0x11EA0
+	End:     0x11EBC
+	Section: .text
+undefined iosGetDRandomVector()
+	Start:   0x11EC0
+	End:     0x11EE4
+	Section: .text
+undefined iosGetRandomVector0()
+	Start:   0x11EE8
+	End:     0x11F00
+	Section: .text
+undefined iosAbsVector()
+	Start:   0x11F00
+	End:     0x11F14
+	Section: .text
+undefined iosGetReflectVector()
+	Start:   0x11F18
+	End:     0x11F48
+	Section: .text
+undefined iosDumpFVector()
+	Start:   0x11F48
+	End:     0x11F50
+	Section: .text
+undefined iosDumpIVector()
+	Start:   0x11F50
+	End:     0x11F58
+	Section: .text
+undefined iosGetArbitraryUpVectorElement()
+	Start:   0x11F58
+	End:     0x11FE4
+	Section: .text
+undefined iosGetScaleInverseVector()
+	Start:   0x11FE8
+	End:     0x12044
+	Section: .text
+undefined iosGetStabXYVector()
+	Start:   0x12048
+	End:     0x12080
+	Section: .text
+undefined iosGetStabYZVector()
+	Start:   0x12080
+	End:     0x120B8
+	Section: .text
+undefined iosGetLengthPointToLine()
+	Start:   0x120B8
+	End:     0x1216C
+	Section: .text
+undefined iosGetInverseVectorXYZ()
+	Start:   0x12170
+	End:     0x12194
+	Section: .text
+undefined iosGetExceptAxisVector()
+	Start:   0x12198
+	End:     0x121EC
+	Section: .text
+undefined iosCalcFColorToBrightness()
+	Start:   0x121F0
+	End:     0x12228
+	Section: .text
+undefined iosITOF15VectorXYZ()
+	Start:   0x12228
+	End:     0x1223C
+	Section: .text
+undefined iosScaleColorTo255()
+	Start:   0x12240
+	End:     0x12260
+	Section: .text
+undefined iosScaleColorToONE()
+	Start:   0x12260
+	End:     0x12280
+	Section: .text
+undefined Undefined_Gap_0x12280_0x12590()
+	Start:   0x12280
+	End:     0x12590
+	Section: .text
+undefined iosCreateDC()
+	Start:   0x12590
+	End:     0x12664
+	Section: .text
+undefined iosReleaseDC()
+	Start:   0x12668
+	End:     0x126B0
+	Section: .text
+undefined iosSetDCParam()
+	Start:   0x126B0
+	End:     0x126D8
+	Section: .text
+undefined iosSetDCClearParam()
+	Start:   0x126D8
+	End:     0x12718
+	Section: .text
+undefined iosSetDCViewPort()
+	Start:   0x12718
+	End:     0x127C4
+	Section: .text
+undefined iosSetDCViewPortCenter()
+	Start:   0x127C8
+	End:     0x1284C
+	Section: .text
+undefined iosSetDC()
+	Start:   0x12850
+	End:     0x12898
+	Section: .text
+undefined iosPushDC()
+	Start:   0x12898
+	End:     0x128EC
+	Section: .text
+undefined iosPopDC()
+	Start:   0x128F0
+	End:     0x12940
+	Section: .text
+undefined iosGetRootDC()
+	Start:   0x12940
+	End:     0x1294C
+	Section: .text
+undefined iosSetRootDC()
+	Start:   0x12950
+	End:     0x1296C
+	Section: .text
+undefined iosGetCurrentDC()
+	Start:   0x12970
+	End:     0x1297C
+	Section: .text
+undefined iosSetCurrentDC()
+	Start:   0x12980
+	End:     0x1299C
+	Section: .text
+undefined iosResetDC()
+	Start:   0x129A0
+	End:     0x12A68
+	Section: .text
+undefined iosInitDC()
+	Start:   0x12A68
+	End:     0x12A84
+	Section: .text
+undefined iosGetDCGroup()
+	Start:   0x12A88
+	End:     0x12A94
+	Section: .text
+undefined Undefined_Gap_0x12A94_0x12AA8()
+	Start:   0x12A94
+	End:     0x12AA8
+	Section: .text
+undefined iosSetDCWithClear()
+	Start:   0x12AA8
+	End:     0x12B04
+	Section: .text
+undefined _iosPushDC()
+	Start:   0x12B08
+	End:     0x12B88
+	Section: .text
+undefined iosPushDCWithClear()
+	Start:   0x12B88
+	End:     0x12BF4
+	Section: .text
+undefined Undefined_Gap_0x12BF4_0x12F28()
+	Start:   0x12BF4
+	End:     0x12F28
+	Section: .text
+undefined iosDlPopLayer()
+	Start:   0x12F28
+	End:     0x13018
+	Section: .text
+undefined Undefined_Gap_0x13018_0x13140()
+	Start:   0x13018
+	End:     0x13140
+	Section: .text
+undefined iosUsedPacketBufferSize()
+	Start:   0x13140
+	End:     0x131B4
+	Section: .text
+undefined iosCreateIVArbitrationSema()
+	Start:   0x131B8
+	End:     0x131E8
+	Section: .text
+undefined iosDlGetTransAdrs()
+	Start:   0x131E8
+	End:     0x1320C
+	Section: .text
+undefined iosGetPacketPtrPath1()
+	Start:   0x13210
+	End:     0x13258
+	Section: .text
+undefined iosSetPacketPtrPath1()
+	Start:   0x13258
+	End:     0x1326C
+	Section: .text
+undefined iosAllocPacketPtrPath1()
+	Start:   0x13270
+	End:     0x13294
+	Section: .text
+undefined iosDlChainHead()
+	Start:   0x13298
+	End:     0x1335C
+	Section: .text
+undefined iosDlChainTail()
+	Start:   0x13360
+	End:     0x13424
+	Section: .text
+undefined iosDlChainHeadCurrent()
+	Start:   0x13428
+	End:     0x134F0
+	Section: .text
+undefined iosDlChainTailCurrent()
+	Start:   0x134F0
+	End:     0x135B8
+	Section: .text
+undefined iosDlSwap()
+	Start:   0x135B8
+	End:     0x136C0
+	Section: .text
+undefined iosDlTrans()
+	Start:   0x136C0
+	End:     0x13730
+	Section: .text
+undefined iosDlLockObj()
+	Start:   0x13730
+	End:     0x137A0
+	Section: .text
+undefined iosDlGetWorkBufId()
+	Start:   0x137A0
+	End:     0x137B4
+	Section: .text
+undefined iosDlGetTransBufId()
+	Start:   0x137B8
+	End:     0x137CC
+	Section: .text
+undefined iosDlGetEndAdrs()
+	Start:   0x137D0
+	End:     0x13800
+	Section: .text
+undefined iosDlGetLayer()
+	Start:   0x13800
+	End:     0x13814
+	Section: .text
+undefined iosDlSetLayer()
+	Start:   0x13818
+	End:     0x13878
+	Section: .text
+undefined iosDlPushLayer()
+	Start:   0x13878
+	End:     0x13930
+	Section: .text
+undefined iosDlGetLayerNum()
+	Start:   0x13930
+	End:     0x13944
+	Section: .text
+undefined iosDlRelease()
+	Start:   0x13948
+	End:     0x139DC
+	Section: .text
+undefined InitDL()
+	Start:   0x139E0
+	End:     0x13A20
+	Section: .text
+undefined iosDlCheckAdrs()
+	Start:   0x13A20
+	End:     0x13A54
+	Section: .text
+undefined iosDlCheckSize()
+	Start:   0x13A58
+	End:     0x13AC0
+	Section: .text
+undefined iosDlGetCreateAdrs()
+	Start:   0x13AC0
+	End:     0x13AE8
+	Section: .text
+undefined iosAllocPacketPtrPath1UnCachedA()
+	Start:   0x13AE8
+	End:     0x13B10
+	Section: .text
+undefined iosDlTransNow()
+	Start:   0x13B10
+	End:     0x13B6C
+	Section: .text
+undefined iosDumpDMAStatus()
+	Start:   0x13B70
+	End:     0x13EAC
+	Section: .text
+undefined iosDumpVIF1Status()
+	Start:   0x13EB0
+	End:     0x14250
+	Section: .text
+undefined iosDumpGIFStatus()
+	Start:   0x14250
+	End:     0x14644
+	Section: .text
+undefined iosSyncPath()
+	Start:   0x14648
+	End:     0x1490C
+	Section: .text
+undefined Undefined_Gap_0x1490C_0x14C60()
+	Start:   0x1490C
+	End:     0x14C60
+	Section: .text
+undefined iosGsSetMode()
+	Start:   0x14C60
+	End:     0x14CF8
+	Section: .text
+undefined iosSetRootContext()
+	Start:   0x14CF8
+	End:     0x14DD8
+	Section: .text
+undefined iosGsResizeRootDC()
+	Start:   0x14DD8
+	End:     0x14EAC
+	Section: .text
+undefined iosGsSetDrawContext()
+	Start:   0x14EB0
+	End:     0x15028
+	Section: .text
+undefined iosCopyFrameBuffer()
+	Start:   0x15028
+	End:     0x15510
+	Section: .text
+undefined iosSetScreenEnv()
+	Start:   0x15510
+	End:     0x1567C
+	Section: .text
+undefined getDispScreenWidth()
+	Start:   0x15680
+	End:     0x1568C
+	Section: .text
+undefined getDispScreenHeight()
+	Start:   0x15690
+	End:     0x1569C
+	Section: .text
+undefined getDrawScreenWidth()
+	Start:   0x156A0
+	End:     0x156AC
+	Section: .text
+undefined getDrawScreenHeight()
+	Start:   0x156B0
+	End:     0x156BC
+	Section: .text
+undefined getFrameBufferSize()
+	Start:   0x156C0
+	End:     0x156EC
+	Section: .text
+undefined getFrameBufferSizeFBP()
+	Start:   0x156F0
+	End:     0x15720
+	Section: .text
+undefined getFrameBufferSizeTBP()
+	Start:   0x15720
+	End:     0x15750
+	Section: .text
+undefined getDispBufferAddressTBP()
+	Start:   0x15750
+	End:     0x15758
+	Section: .text
+undefined getDispBufferAddressFBP()
+	Start:   0x15758
+	End:     0x15760
+	Section: .text
+undefined getDrawBufferAddressTBP()
+	Start:   0x15760
+	End:     0x15790
+	Section: .text
+undefined getDrawBufferAddressFBP()
+	Start:   0x15790
+	End:     0x157C0
+	Section: .text
+undefined getZBufferAddressTBP()
+	Start:   0x157C0
+	End:     0x157DC
+	Section: .text
+undefined getZBufferAddressFBP()
+	Start:   0x157E0
+	End:     0x157FC
+	Section: .text
+undefined getTextureAreaAddressTBP()
+	Start:   0x15800
+	End:     0x15834
+	Section: .text
+undefined getTextureAreaAddressFBP()
+	Start:   0x15838
+	End:     0x1586C
+	Section: .text
+undefined getScreenOffsetX()
+	Start:   0x15870
+	End:     0x1587C
+	Section: .text
+undefined getScreenOffsetY()
+	Start:   0x15880
+	End:     0x1588C
+	Section: .text
+undefined getAntiAlias()
+	Start:   0x15890
+	End:     0x1589C
+	Section: .text
+undefined getProgressiveMode()
+	Start:   0x158A0
+	End:     0x158AC
+	Section: .text
+undefined iosResetGraph()
+	Start:   0x158B0
+	End:     0x1591C
+	Section: .text
+undefined iosDmaSendPath1()
+	Start:   0x15920
+	End:     0x15A04
+	Section: .text
+undefined iosDmaSendPath2()
+	Start:   0x15A08
+	End:     0x15AEC
+	Section: .text
+undefined iosDmaSendPath3()
+	Start:   0x15AF0
+	End:     0x15BD4
+	Section: .text
+undefined iosDmaSendSChainPath1()
+	Start:   0x15BD8
+	End:     0x15CAC
+	Section: .text
+undefined iosDmaSendSChainPath2()
+	Start:   0x15CB0
+	End:     0x15D84
+	Section: .text
+undefined iosDmaSendSChainPath3()
+	Start:   0x15D88
+	End:     0x15E5C
+	Section: .text
+undefined iosResetPath()
+	Start:   0x15E60
+	End:     0x15EBC
+	Section: .text
+undefined iosSyncV()
+	Start:   0x15EC0
+	End:     0x15F14
+	Section: .text
+undefined iosGetField()
+	Start:   0x15F18
+	End:     0x15F3C
+	Section: .text
+undefined iosGsChangeMode()
+	Start:   0x15F40
+	End:     0x15F8C
+	Section: .text
+undefined iosSetBGColor()
+	Start:   0x15F90
+	End:     0x16068
+	Section: .text
+undefined iosGsResetCRTC()
+	Start:   0x16068
+	End:     0x160D0
+	Section: .text
+undefined iosSetSyncNoReturnFunc()
+	Start:   0x160D0
+	End:     0x160E0
+	Section: .text
+undefined iosCheckDrawFinish()
+	Start:   0x160E0
+	End:     0x16178
+	Section: .text
+undefined iosGsInitDC()
+	Start:   0x16178
+	End:     0x161B4
+	Section: .text
+undefined InitGp()
+	Start:   0x161B8
+	End:     0x161FC
+	Section: .text
+undefined iosWaitDMA()
+	Start:   0x16200
+	End:     0x16228
+	Section: .text
+undefined iosWaitVU1()
+	Start:   0x16228
+	End:     0x16250
+	Section: .text
+undefined getCRTCoffsetU()
+	Start:   0x16250
+	End:     0x1625C
+	Section: .text
+undefined getCRTCoffsetV()
+	Start:   0x16260
+	End:     0x1626C
+	Section: .text
+undefined ClearVRAM()
+	Start:   0x16270
+	End:     0x1632C
+	Section: .text
+undefined iosGsChangeScreenOffset()
+	Start:   0x16330
+	End:     0x16344
+	Section: .text
+undefined Undefined_Gap_0x16344_0x16738()
+	Start:   0x16344
+	End:     0x16738
+	Section: .text
+undefined set_nowloadingflag()
+	Start:   0x16738
+	End:     0x169A4
+	Section: .text
+undefined iosSyncGP()
+	Start:   0x169A8
+	End:     0x16B1C
+	Section: .text
+undefined bootGPThread()
+	Start:   0x16B20
+	End:     0x16BEC
+	Section: .text
+undefined iosTransGP()
+	Start:   0x16BF0
+	End:     0x16C4C
+	Section: .text
+undefined iosChkGpDlTransExec()
+	Start:   0x16C50
+	End:     0x16C8C
+	Section: .text
+undefined iosGPFrameInit()
+	Start:   0x16C90
+	End:     0x16D88
+	Section: .text
+undefined iosSetIStartFunc()
+	Start:   0x16D88
+	End:     0x16D98
+	Section: .text
+undefined iosSetGpFinishFunc()
+	Start:   0x16D98
+	End:     0x16DA8
+	Section: .text
+undefined iosSetIFinishFunc()
+	Start:   0x16DA8
+	End:     0x16DB8
+	Section: .text
+undefined getIntrGpCount()
+	Start:   0x16DB8
+	End:     0x16DCC
+	Section: .text
+undefined iosSetDlTransFunc()
+	Start:   0x16DD0
+	End:     0x16DE0
+	Section: .text
+undefined iosSetVSchedulerFunc()
+	Start:   0x16DE0
+	End:     0x16DF0
+	Section: .text
+undefined iosWaitGPFinish()
+	Start:   0x16DF0
+	End:     0x16E54
+	Section: .text
+undefined Undefined_Gap_0x16E54_0x16EE0()
+	Start:   0x16E54
+	End:     0x16EE0
+	Section: .text
+undefined iStart()
+	Start:   0x16EE0
+	End:     0x16F08
+	Section: .text
+undefined iFinish()
+	Start:   0x16F08
+	End:     0x16F40
+	Section: .text
+undefined Undefined_Gap_0x16F40_0x17050()
+	Start:   0x16F40
+	End:     0x17050
+	Section: .text
+undefined gsRegBegin()
+	Start:   0x17050
+	End:     0x17138
+	Section: .text
+undefined gsRegEnd()
+	Start:   0x17138
+	End:     0x17324
+	Section: .text
+undefined gsRegEndWithPtr()
+	Start:   0x17328
+	End:     0x17524
+	Section: .text
+undefined gsReglistBegin()
+	Start:   0x17528
+	End:     0x1760C
+	Section: .text
+undefined gsReglistEnd()
+	Start:   0x17610
+	End:     0x17874
+	Section: .text
+undefined gsBox()
+	Start:   0x17878
+	End:     0x17CBC
+	Section: .text
+undefined gsBox2()
+	Start:   0x17CC0
+	End:     0x1825C
+	Section: .text
+undefined gsBoxLine()
+	Start:   0x18260
+	End:     0x18778
+	Section: .text
+undefined spriteNoTexFast()
+	Start:   0x18778
+	End:     0x18BAC
+	Section: .text
+undefined spriteTexFast()
+	Start:   0x18BB0
+	End:     0x19168
+	Section: .text
+undefined gsReg()
+	Start:   0x19168
+	End:     0x191B0
+	Section: .text
+undefined getSpriteDrawFirst()
+	Start:   0x191B0
+	End:     0x191BC
+	Section: .text
+undefined gsReglist()
+	Start:   0x191C0
+	End:     0x191C8
+	Section: .text
+undefined iosTransTex()
+	Start:   0x191C8
+	End:     0x19464
+	Section: .text
+undefined getTWH()
+	Start:   0x19468
+	End:     0x194C4
+	Section: .text
+undefined isysDeleteObjManager()
+	Start:   0x194C8
+	End:     0x197E8
+	Section: .text
+undefined Undefined_Gap_0x197E8_0x19BB8()
+	Start:   0x197E8
+	End:     0x19BB8
+	Section: .text
+undefined isysAddGroupWithLinkParam()
+	Start:   0x19BB8
+	End:     0x19E18
+	Section: .text
+undefined isysAddGroupRelativeWithLinkParam()
+	Start:   0x19E18
+	End:     0x1A060
+	Section: .text
+undefined _isysDeleteGroup()
+	Start:   0x1A060
+	End:     0x1A238
+	Section: .text
+undefined isysDeleteGroupWithLinkParam()
+	Start:   0x1A238
+	End:     0x1A420
+	Section: .text
+undefined isysDeleteGroupAllObj()
+	Start:   0x1A420
+	End:     0x1A5B4
+	Section: .text
+undefined isysDeleteAllGroup()
+	Start:   0x1A5B8
+	End:     0x1A774
+	Section: .text
+undefined isysGroupForFirst()
+	Start:   0x1A778
+	End:     0x1A8C4
+	Section: .text
+undefined isysGroupForFirstForce()
+	Start:   0x1A8C8
+	End:     0x1A9C4
+	Section: .text
+undefined isysGroupGetObjNumForce()
+	Start:   0x1A9C8
+	End:     0x1AAF0
+	Section: .text
+undefined _isysCreateObj()
+	Start:   0x1AAF0
+	End:     0x1ABA8
+	Section: .text
+undefined isysSetObjImmediateDeleteFunc()
+	Start:   0x1ABA8
+	End:     0x1ABB0
+	Section: .text
+undefined isysRequestDeleteObj()
+	Start:   0x1ABB0
+	End:     0x1ACC0
+	Section: .text
+undefined isysInitGroup()
+	Start:   0x1ACC0
+	End:     0x1ACCC
+	Section: .text
+undefined isysAddGroupWithLinkParamNoWait()
+	Start:   0x1ACD0
+	End:     0x1ACE4
+	Section: .text
+undefined isysObjDeleteLock()
+	Start:   0x1ACE8
+	End:     0x1AD10
+	Section: .text
+undefined isysObjDeleteUnLock()
+	Start:   0x1AD10
+	End:     0x1AD38
+	Section: .text
+undefined isysGroupForNext()
+	Start:   0x1AD38
+	End:     0x1ADC0
+	Section: .text
+undefined isysGroupForNextForce()
+	Start:   0x1ADC0
+	End:     0x1AE1C
+	Section: .text
+undefined isysGroupForExit()
+	Start:   0x1AE20
+	End:     0x1AEF4
+	Section: .text
+undefined isysInitObjSystem()
+	Start:   0x1AEF8
+	End:     0x1AFB0
+	Section: .text
+undefined isysGetLinkNum()
+	Start:   0x1AFB0
+	End:     0x1B00C
+	Section: .text
+undefined isysGetLinkMax()
+	Start:   0x1B010
+	End:     0x1B018
+	Section: .text
+undefined isysGetObjIdentifierByObj()
+	Start:   0x1B018
+	End:     0x1B048
+	Section: .text
+undefined isysGetGroupSrhNext()
+	Start:   0x1B048
+	End:     0x1B080
+	Section: .text
+undefined isysObjWaitSema()
+	Start:   0x1B080
+	End:     0x1B0F4
+	Section: .text
+undefined isysObjSignalSema()
+	Start:   0x1B0F8
+	End:     0x1B144
+	Section: .text
+undefined Undefined_Gap_0x1B144_0x1B400()
+	Start:   0x1B144
+	End:     0x1B400
+	Section: .text
+undefined getVIntrCnt()
+	Start:   0x1B400
+	End:     0x1B414
+	Section: .text
+undefined setVIntrBaseTime()
+	Start:   0x1B418
+	End:     0x1B430
+	Section: .text
+undefined getVIntrDiffTime()
+	Start:   0x1B430
+	End:     0x1B494
+	Section: .text
+undefined addVIntrTime()
+	Start:   0x1B498
+	End:     0x1B4FC
+	Section: .text
+undefined waitVscheduler()
+	Start:   0x1B500
+	End:     0x1B524
+	Section: .text
+undefined bootSchedulerThread()
+	Start:   0x1B528
+	End:     0x1B5C4
+	Section: .text
+undefined iosAddISchedulerTaskList()
+	Start:   0x1B5C8
+	End:     0x1B608
+	Section: .text
+undefined iosGetISchedulerExecCnt()
+	Start:   0x1B608
+	End:     0x1B614
+	Section: .text
+undefined ischedStop()
+	Start:   0x1B618
+	End:     0x1B654
+	Section: .text
+undefined ischedRestart()
+	Start:   0x1B658
+	End:     0x1B690
+	Section: .text
+undefined iosSetISchedulerSubthreadTask()
+	Start:   0x1B690
+	End:     0x1B69C
+	Section: .text
+undefined iosSetIVSyncMode()
+	Start:   0x1B6A0
+	End:     0x1B6AC
+	Section: .text
+undefined iosGetIVSyncMode()
+	Start:   0x1B6B0
+	End:     0x1B6BC
+	Section: .text
+undefined vschedSetNextFrameForceGarbage()
+	Start:   0x1B6C0
+	End:     0x1B6D0
+	Section: .text
+undefined GetGarbageTime()
+	Start:   0x1B6D0
+	End:     0x1B6DC
+	Section: .text
+undefined Undefined_Gap_0x1B6DC_0x1B8C0()
+	Start:   0x1B6DC
+	End:     0x1B8C0
+	Section: .text
+undefined isysInitISYSLetterObj()
+	Start:   0x1B8C0
+	End:     0x1B8E8
+	Section: .text
+undefined isysFlushISYSLetterObj()
+	Start:   0x1B8E8
+	End:     0x1B900
+	Section: .text
+undefined isysGetLetterObj()
+	Start:   0x1B900
+	End:     0x1B940
+	Section: .text
+undefined isysLetterObjDiscardLetterAll()
+	Start:   0x1B940
+	End:     0x1B9F0
+	Section: .text
+undefined create_letter()
+	Start:   0x1B9F0
+	End:     0x1BB24
+	Section: .text
+undefined init_letter()
+	Start:   0x1BB28
+	End:     0x1BB3C
+	Section: .text
+undefined is_hope_letter_type()
+	Start:   0x1BB40
+	End:     0x1BB50
+	Section: .text
+undefined get_letter_contents_data()
+	Start:   0x1BB50
+	End:     0x1BB58
+	Section: .text
+undefined Undefined_Gap_0x1BB58_0x1BB68()
+	Start:   0x1BB58
+	End:     0x1BB68
+	Section: .text
+undefined increment_letter_refcount()
+	Start:   0x1BB68
+	End:     0x1BB78
+	Section: .text
+undefined decrement_letter_refcount()
+	Start:   0x1BB78
+	End:     0x1BBD4
+	Section: .text
+undefined is_letter_reach_time()
+	Start:   0x1BBD8
+	End:     0x1BC00
+	Section: .text
+undefined is_init_letter_called()
+	Start:   0x1BC00
+	End:     0x1BC08
+	Section: .text
+undefined get_reference_letter_type()
+	Start:   0x1BC08
+	End:     0x1BC10
+	Section: .text
+undefined get_letter_receiver_obj_group()
+	Start:   0x1BC10
+	End:     0x1BC18
+	Section: .text
+undefined get_letter_receiver_data()
+	Start:   0x1BC18
+	End:     0x1BC20
+	Section: .text
+undefined doit_letter_manager()
+	Start:   0x1BC20
+	End:     0x1BD80
+	Section: .text
+undefined init_letter_manager()
+	Start:   0x1BD80
+	End:     0x1BDB8
+	Section: .text
+undefined send_letter()
+	Start:   0x1BDB8
+	End:     0x1BDF4
+	Section: .text
+undefined Undefined_Gap_0x1BDF4_0x1BE70()
+	Start:   0x1BDF4
+	End:     0x1BE70
+	Section: .text
+undefined create_letter_post()
+	Start:   0x1BE70
+	End:     0x1BEB0
+	Section: .text
+undefined check_free_letter_post()
+	Start:   0x1BEB0
+	End:     0x1BEF0
+	Section: .text
+undefined discard_all_letter_in_post()
+	Start:   0x1BEF0
+	End:     0x1BF60
+	Section: .text
+undefined get_total_letter_in_post()
+	Start:   0x1BF60
+	End:     0x1BF68
+	Section: .text
+undefined open_letter_post()
+	Start:   0x1BF68
+	End:     0x1BF78
+	Section: .text
+undefined get_next_letter_in_post()
+	Start:   0x1BF78
+	End:     0x1BF9C
+	Section: .text
+undefined close_letter_post()
+	Start:   0x1BFA0
+	End:     0x1BFAC
+	Section: .text
+undefined Undefined_Gap_0x1BFAC_0x1BFC8()
+	Start:   0x1BFAC
+	End:     0x1BFC8
+	Section: .text
+undefined push_back_letter_in_post()
+	Start:   0x1BFC8
+	End:     0x1C05C
+	Section: .text
+undefined discard_selecting_letter_in_post()
+	Start:   0x1C060
+	End:     0x1C134
+	Section: .text
+undefined constructor_letter_type()
+	Start:   0x1C138
+	End:     0x1C158
+	Section: .text
+undefined entry_new_letter_type()
+	Start:   0x1C158
+	End:     0x1C194
+	Section: .text
+undefined init_letter_type_store()
+	Start:   0x1C198
+	End:     0x1C1CC
+	Section: .text
+undefined get_letter_type()
+	Start:   0x1C1D0
+	End:     0x1C200
+	Section: .text
+undefined Undefined_Gap_0x1C200_0x1C3F0()
+	Start:   0x1C200
+	End:     0x1C3F0
+	Section: .text
+undefined iosConvertStringSJIStoEUC()
+	Start:   0x1C3F0
+	End:     0x1C52C
+	Section: .text
+undefined iosConvertStringEUCtoSJIS()
+	Start:   0x1C530
+	End:     0x1C5FC
+	Section: .text
+undefined iosConvertStringEUCtoID()
+	Start:   0x1C600
+	End:     0x1C738
+	Section: .text
+undefined iosGetDataSizeOfFont()
+	Start:   0x1C738
+	End:     0x1C750
+	Section: .text
+undefined iosGetFontDataWithID()
+	Start:   0x1C750
+	End:     0x1C7C8
+	Section: .text
+undefined iosGetFontDataWithJIS()
+	Start:   0x1C7C8
+	End:     0x1C860
+	Section: .text
+undefined iosGetFontDataWithSJIS()
+	Start:   0x1C860
+	End:     0x1C984
+	Section: .text
+undefined iosGetFontDataWithEUC()
+	Start:   0x1C988
+	End:     0x1CAD8
+	Section: .text
+undefined iosGetFontIDWithJIS()
+	Start:   0x1CAD8
+	End:     0x1CB00
+	Section: .text
+undefined iosGetFontIDWithSJIS()
+	Start:   0x1CB00
+	End:     0x1CBB4
+	Section: .text
+undefined iosGetFontIDWithEUC()
+	Start:   0x1CBB8
+	End:     0x1CC84
+	Section: .text
+undefined iosEntryLocaleFontNoLoad()
+	Start:   0x1CC88
+	End:     0x1CCDC
+	Section: .text
+undefined iosGetFontInfo()
+	Start:   0x1CCE0
+	End:     0x1CD6C
+	Section: .text
+undefined iosGet2ByteCharCode()
+	Start:   0x1CD70
+	End:     0x1CD84
+	Section: .text
+undefined _isysCreateSubMsgQueue()
+	Start:   0x1CD88
+	End:     0x1CDA0
+	Section: .text
+undefined _isysRecvSubMsg()
+	Start:   0x1CDA0
+	End:     0x1CE0C
+	Section: .text
+undefined _isysSendSubMsg()
+	Start:   0x1CE10
+	End:     0x1CE8C
+	Section: .text
+undefined InitSubThread()
+	Start:   0x1CE90
+	End:     0x1CEAC
+	Section: .text
+undefined isysInitSubThreadExecEnv()
+	Start:   0x1CEB0
+	End:     0x1CF08
+	Section: .text
+undefined isysStartSubThread()
+	Start:   0x1CF08
+	End:     0x1CF8C
+	Section: .text
+undefined isysDeleteSubThread()
+	Start:   0x1CF90
+	End:     0x1CFF8
+	Section: .text
+undefined isysDumpSubThreadStatus()
+	Start:   0x1CFF8
+	End:     0x1D0A8
+	Section: .text
+undefined isysWakeupSubThread()
+	Start:   0x1D0A8
+	End:     0x1D814
+	Section: .text
+undefined isysSleepSubThread()
+	Start:   0x1D4B4
+	End:     0x1D4B4
+	Section: .text
+undefined Undefined_Gap_0x1D4B4_0x1D658()
+	Start:   0x1D4B4
+	End:     0x1D658
+	Section: .text
+undefined SubThreadTerminateRestorePoint()
+	Start:   0x1D658
+	End:     0x1D658
+	Section: .text
+undefined Undefined_Gap_0x1D658_0x1D818()
+	Start:   0x1D658
+	End:     0x1D818
+	Section: .text
+undefined isysGetThisSubThread()
+	Start:   0x1D818
+	End:     0x1D824
+	Section: .text
+undefined isysInitSubThreadObj()
+	Start:   0x1D828
+	End:     0x1D8F8
+	Section: .text
+undefined isysCreateSubThreadS()
+	Start:   0x1D8F8
+	End:     0x1D9F4
+	Section: .text
+undefined isysSleepSubThreadM()
+	Start:   0x1D9F8
+	End:     0x1DA30
+	Section: .text
+undefined isysJumpSubThread()
+	Start:   0x1DA30
+	End:     0x1DB08
+	Section: .text
+undefined isysGetSubThreadWorkSize()
+	Start:   0x1DB08
+	End:     0x1DB10
+	Section: .text
+undefined isysGetSubThreadStackUse()
+	Start:   0x1DB10
+	End:     0x1DBBC
+	Section: .text
+undefined isysGetSubThreadStackSize()
+	Start:   0x1DBC0
+	End:     0x1DC04
+	Section: .text
+undefined isysDumpSubThreadPC()
+	Start:   0x1DC08
+	End:     0x1DC10
+	Section: .text
+undefined isysDebugSetSubThreadSleepProtection()
+	Start:   0x1DC10
+	End:     0x1DC1C
+	Section: .text
+undefined Undefined_Gap_0x1DC1C_0x1DE68()
+	Start:   0x1DC1C
+	End:     0x1DE68
+	Section: .text
+undefined sndSepTickProc()
+	Start:   0x1DE68
+	End:     0x1E078
+	Section: .text
+undefined sndSepReq()
+	Start:   0x1E078
+	End:     0x1E1E8
+	Section: .text
+undefined sndSepPlayerSrh()
+	Start:   0x1E1E8
+	End:     0x1E26C
+	Section: .text
+undefined sndSepPlayerSrh2()
+	Start:   0x1E270
+	End:     0x1E2E8
+	Section: .text
+undefined sndSepStopReq()
+	Start:   0x1E2E8
+	End:     0x1E300
+	Section: .text
+undefined sndSepSetVol()
+	Start:   0x1E300
+	End:     0x1E33C
+	Section: .text
+undefined sndSepSetPan()
+	Start:   0x1E340
+	End:     0x1E398
+	Section: .text
+undefined sndSepSetDefaultParam()
+	Start:   0x1E398
+	End:     0x1E3F4
+	Section: .text
+undefined sndSepPauseAll()
+	Start:   0x1E3F8
+	End:     0x1E41C
+	Section: .text
+undefined sndSepPause()
+	Start:   0x1E420
+	End:     0x1E438
+	Section: .text
+undefined sndSepCont()
+	Start:   0x1E438
+	End:     0x1E45C
+	Section: .text
+undefined sndSepStopTypeAll()
+	Start:   0x1E460
+	End:     0x1E4B0
+	Section: .text
+undefined sndSepInitTickParam()
+	Start:   0x1E4B0
+	End:     0x1E520
+	Section: .text
+undefined sndSepInit()
+	Start:   0x1E520
+	End:     0x1E578
+	Section: .text
+undefined sndVabCreate()
+	Start:   0x1E578
+	End:     0x1E5EC
+	Section: .text
+undefined sndVabDelete()
+	Start:   0x1E5F0
+	End:     0x1E604
+	Section: .text
+undefined sndVabHDOpen()
+	Start:   0x1E608
+	End:     0x1E660
+	Section: .text
+undefined sndVabHDClose()
+	Start:   0x1E660
+	End:     0x1E678
+	Section: .text
+undefined sndBDOpen()
+	Start:   0x1E678
+	End:     0x1E7CC
+	Section: .text
+undefined sndBDClose()
+	Start:   0x1E7D0
+	End:     0x1E7D8
+	Section: .text
+undefined sndVabInit()
+	Start:   0x1E7D8
+	End:     0x1E80C
+	Section: .text
+undefined initSound()
+	Start:   0x1E810
+	End:     0x1E924
+	Section: .text
+undefined tickProcSound()
+	Start:   0x1E928
+	End:     0x1EA08
+	Section: .text
+undefined addAdpcmTickProcFunc()
+	Start:   0x1EA08
+	End:     0x1EA14
+	Section: .text
+undefined setPcmTickProcFunc()
+	Start:   0x1EA18
+	End:     0x1EA24
+	Section: .text
+undefined soundGetTickProcCnt()
+	Start:   0x1EA28
+	End:     0x1EA34
+	Section: .text
+undefined soundSetRevMode()
+	Start:   0x1EA38
+	End:     0x1EA70
+	Section: .text
+undefined soundGetRevMode()
+	Start:   0x1EA70
+	End:     0x1EA7C
+	Section: .text
+undefined getSlotInfo()
+	Start:   0x1EA80
+	End:     0x1EA94
+	Section: .text
+undefined setSoundMode()
+	Start:   0x1EA98
+	End:     0x1EAC4
+	Section: .text
+undefined getSoundMode()
+	Start:   0x1EAC8
+	End:     0x1EADC
+	Section: .text
+undefined iosAllocIopHeap()
+	Start:   0x1EAE0
+	End:     0x1EB38
+	Section: .text
+undefined iosFreeIopHeap()
+	Start:   0x1EB38
+	End:     0x1EB80
+	Section: .text
+undefined iosLoadIopModule()
+	Start:   0x1EB80
+	End:     0x1EC50
+	Section: .text
+undefined iosGetIopTotalFreeMemSize()
+	Start:   0x1EC50
+	End:     0x1EC98
+	Section: .text
+undefined iosGetIopTotalMemSize()
+	Start:   0x1EC98
+	End:     0x1ECC4
+	Section: .text
+undefined iosWaitIopSema()
+	Start:   0x1ECC8
+	End:     0x1ECE4
+	Section: .text
+undefined iosSignalIopSema()
+	Start:   0x1ECE8
+	End:     0x1ED04
+	Section: .text
+undefined InitIopDev()
+	Start:   0x1ED08
+	End:     0x1ED34
+	Section: .text
+undefined Undefined_Gap_0x1ED34_0x1EF50()
+	Start:   0x1ED34
+	End:     0x1EF50
+	Section: .text
+undefined iosKeybdInit()
+	Start:   0x1EF50
+	End:     0x1EF84
+	Section: .text
+undefined iosKeybdSetCallBackFunc()
+	Start:   0x1EF88
+	End:     0x1EFAC
+	Section: .text
+undefined Undefined_Gap_0x1EFAC_0x1EFD0()
+	Start:   0x1EFAC
+	End:     0x1EFD0
+	Section: .text
+undefined iosKeybdGetInfo()
+	Start:   0x1EFD0
+	End:     0x1F034
+	Section: .text
+undefined Undefined_Gap_0x1F034_0x1F2B0()
+	Start:   0x1F034
+	End:     0x1F2B0
+	Section: .text
+undefined iosMouseInit()
+	Start:   0x1F2B0
+	End:     0x1F2D8
+	Section: .text
+undefined iosMouseSetCallBackFunc()
+	Start:   0x1F2D8
+	End:     0x1F2FC
+	Section: .text
+undefined Undefined_Gap_0x1F2FC_0x1F320()
+	Start:   0x1F2FC
+	End:     0x1F320
+	Section: .text
+undefined GetStrHashWorkBuffer()
+	Start:   0x1F320
+	End:     0x1F338
+	Section: .text
+undefined InitStrHash()
+	Start:   0x1F338
+	End:     0x1F3D8
+	Section: .text
+undefined AddStrHashKey()
+	Start:   0x1F3D8
+	End:     0x1F41C
+	Section: .text
+undefined MakeStrHashValue()
+	Start:   0x1F420
+	End:     0x1F4D4
+	Section: .text
+undefined SearchStrHashKey()
+	Start:   0x1F4D8
+	End:     0x1F530
+	Section: .text
+undefined ReleaseStrHashKeyAll()
+	Start:   0x1F530
+	End:     0x1F560
+	Section: .text
+undefined DeleteStrHashKey()
+	Start:   0x1F560
+	End:     0x1F5F8
+	Section: .text
+undefined Sg2ChipSetDigitalOutputMode()
+	Start:   0x1F5F8
+	End:     0x1F624
+	Section: .text
+undefined Sg2ChipInit()
+	Start:   0x1F628
+	End:     0x1F65C
+	Section: .text
+undefined Sg2ChipInitHot()
+	Start:   0x1F660
+	End:     0x1F68C
+	Section: .text
+undefined Undefined_Gap_0x1F68C_0x1F698()
+	Start:   0x1F68C
+	End:     0x1F698
+	Section: .text
+undefined Sg2CtrlEntryTickProc()
+	Start:   0x1F698
+	End:     0x1F72C
+	Section: .text
+undefined Sg2CtrlEntryTickProcById()
+	Start:   0x1F730
+	End:     0x1F770
+	Section: .text
+undefined Sg2CtrlRemoveTickProc()
+	Start:   0x1F770
+	End:     0x1F828
+	Section: .text
+undefined Sg2CtrlTickProc()
+	Start:   0x1F828
+	End:     0x1F88C
+	Section: .text
+undefined Sg2CtrlSetTickMode()
+	Start:   0x1F890
+	End:     0x1F8A4
+	Section: .text
+undefined Sg2CtrlGetTickMode()
+	Start:   0x1F8A8
+	End:     0x1F8B4
+	Section: .text
+undefined Sg2CtrlSetTickTime()
+	Start:   0x1F8B8
+	End:     0x1F8CC
+	Section: .text
+undefined Sg2CtrlGetTickTime()
+	Start:   0x1F8D0
+	End:     0x1F8DC
+	Section: .text
+undefined Sg2CtrlInit()
+	Start:   0x1F8E0
+	End:     0x1F934
+	Section: .text
+undefined Sg2DmaTransVoice()
+	Start:   0x1F938
+	End:     0x1F964
+	Section: .text
+undefined Sg2DmaTransStatus()
+	Start:   0x1F968
+	End:     0x1F97C
+	Section: .text
+undefined Sg2DmaInit()
+	Start:   0x1F980
+	End:     0x1F988
+	Section: .text
+undefined Sg2DspEffectSetEndAdr()
+	Start:   0x1F988
+	End:     0x1F9EC
+	Section: .text
+undefined Sg2DspEffectSetType()
+	Start:   0x1F9F0
+	End:     0x1FA54
+	Section: .text
+undefined Sg2DspEffectSetDepth()
+	Start:   0x1FA58
+	End:     0x1FAC0
+	Section: .text
+undefined Sg2DspEffectSetDepth2()
+	Start:   0x1FAC0
+	End:     0x1FB38
+	Section: .text
+undefined Sg2DspEffectSetDelay()
+	Start:   0x1FB38
+	End:     0x1FB98
+	Section: .text
+undefined Sg2DspEffectSetFeedBack()
+	Start:   0x1FB98
+	End:     0x1FBF8
+	Section: .text
+undefined Sg2DspEffectChange()
+	Start:   0x1FBF8
+	End:     0x1FD54
+	Section: .text
+undefined Sg2DspEffectSetSwitch()
+	Start:   0x1FD58
+	End:     0x1FD7C
+	Section: .text
+undefined Sg2DspSetMasterVolume()
+	Start:   0x1FD80
+	End:     0x1FE10
+	Section: .text
+undefined Sg2DspSetMasterVolumeMax()
+	Start:   0x1FE10
+	End:     0x1FE40
+	Section: .text
+undefined Sg2DspGetMasterVolume()
+	Start:   0x1FE40
+	End:     0x1FE60
+	Section: .text
+undefined Sg2DspInit()
+	Start:   0x1FE60
+	End:     0x1FE9C
+	Section: .text
+undefined Sg2ExStAdpcmInit()
+	Start:   0x1FEA0
+	End:     0x1FF00
+	Section: .text
+undefined Sg2ExStAdpcmStopMode()
+	Start:   0x1FF00
+	End:     0x1FF0C
+	Section: .text
+undefined Sg2ExStAdpcmQuit()
+	Start:   0x1FF10
+	End:     0x1FF2C
+	Section: .text
+undefined Sg2ExStAdpcmSlotMalloc()
+	Start:   0x1FF30
+	End:     0x1FF4C
+	Section: .text
+undefined Sg2ExStAdpcmSlotReserv()
+	Start:   0x1FF50
+	End:     0x1FFFC
+	Section: .text
+undefined Sg2ExStAdpcmSlotFree()
+	Start:   0x20000
+	End:     0x20070
+	Section: .text
+undefined Sg2ExStAdpcmWorkClear()
+	Start:   0x20070
+	End:     0x200B4
+	Section: .text
+undefined Undefined_Gap_0x200B4_0x20350()
+	Start:   0x200B4
+	End:     0x20350
+	Section: .text
+undefined Sg2ExStAdpcmOpenFake()
+	Start:   0x20350
+	End:     0x203D4
+	Section: .text
+undefined Sg2ExStAdpcmOpen()
+	Start:   0x203D8
+	End:     0x20534
+	Section: .text
+undefined Sg2ExStAdpcmSetFd()
+	Start:   0x20538
+	End:     0x20544
+	Section: .text
+undefined Sg2ExStAdpcmGetFd()
+	Start:   0x20548
+	End:     0x20550
+	Section: .text
+undefined Sg2ExStAdpcmSetLsn()
+	Start:   0x20550
+	End:     0x2055C
+	Section: .text
+undefined Sg2ExStAdpcmGetLsn()
+	Start:   0x20560
+	End:     0x20568
+	Section: .text
+undefined Sg2ExStAdpcmGetTargetLsn()
+	Start:   0x20568
+	End:     0x2057C
+	Section: .text
+undefined Sg2ExStAdpcmSetUserParam()
+	Start:   0x20580
+	End:     0x2058C
+	Section: .text
+undefined Sg2ExStAdpcmGetUserParam()
+	Start:   0x20590
+	End:     0x20598
+	Section: .text
+undefined Undefined_Gap_0x20598_0x206A0()
+	Start:   0x20598
+	End:     0x206A0
+	Section: .text
+undefined Sg2ExStAdpcmVolumePercent()
+	Start:   0x206A0
+	End:     0x20758
+	Section: .text
+undefined Sg2ExStAdpcmTrkVolumeDirect()
+	Start:   0x20758
+	End:     0x2087C
+	Section: .text
+undefined Sg2ExStAdpcmTrkVolumePercent()
+	Start:   0x20880
+	End:     0x2091C
+	Section: .text
+undefined Sg2ExStAdpcmTrkDspSw()
+	Start:   0x20920
+	End:     0x20A20
+	Section: .text
+undefined ____VolReflection()
+	Start:   0x20A20
+	End:     0x20AAC
+	Section: .text
+undefined ____VolPerBackup()
+	Start:   0x20AB0
+	End:     0x20B00
+	Section: .text
+undefined Sg2ExStAdpcmPitchPercent()
+	Start:   0x20B00
+	End:     0x20B5C
+	Section: .text
+undefined Sg2ExStAdpcmPlay()
+	Start:   0x20B60
+	End:     0x20BD8
+	Section: .text
+undefined Sg2ExStAdpcmPause()
+	Start:   0x20BD8
+	End:     0x20C1C
+	Section: .text
+undefined Sg2ExStAdpcmCont()
+	Start:   0x20C20
+	End:     0x20C44
+	Section: .text
+undefined Sg2ExStAdpcmStop()
+	Start:   0x20C48
+	End:     0x20CC8
+	Section: .text
+undefined Sg2ExStAdpcmIopReadAdr()
+	Start:   0x20CC8
+	End:     0x20D2C
+	Section: .text
+undefined Sg2ExStAdpcmSetOutputMode()
+	Start:   0x20D30
+	End:     0x20D60
+	Section: .text
+undefined Sg2ExStAdpcmLoopSecNum()
+	Start:   0x20D60
+	End:     0x20D78
+	Section: .text
+undefined Sg2ExStAdpcmGetBuffer()
+	Start:   0x20D78
+	End:     0x20DA0
+	Section: .text
+undefined Sg2ExStAdpcmSetSignal()
+	Start:   0x20DA0
+	End:     0x20DAC
+	Section: .text
+undefined Undefined_Gap_0x20DAC_0x21288()
+	Start:   0x20DAC
+	End:     0x21288
+	Section: .text
+undefined Sg2ExStAdpcmPreLoad()
+	Start:   0x21288
+	End:     0x21318
+	Section: .text
+undefined Sg2ExStAdpcmClose()
+	Start:   0x21318
+	End:     0x213EC
+	Section: .text
+undefined Sg2ExStAdpcmTickProc()
+	Start:   0x213F0
+	End:     0x2144C
+	Section: .text
+undefined Undefined_Gap_0x2144C_0x216D0()
+	Start:   0x2144C
+	End:     0x216D0
+	Section: .text
+undefined all_keyoff()
+	Start:   0x216D0
+	End:     0x2176C
+	Section: .text
+undefined all_soundoff()
+	Start:   0x21770
+	End:     0x2181C
+	Section: .text
+undefined all_soundpause()
+	Start:   0x21820
+	End:     0x218A8
+	Section: .text
+undefined all_soundmute()
+	Start:   0x218A8
+	End:     0x21930
+	Section: .text
+undefined Sg2ModMidiout1()
+	Start:   0x21930
+	End:     0x219B4
+	Section: .text
+undefined Sg2ModMidiout1Exclusive()
+	Start:   0x219B8
+	End:     0x21A58
+	Section: .text
+undefined Sg2ModMidiout()
+	Start:   0x21A58
+	End:     0x21B58
+	Section: .text
+undefined Sg2ModTickProc()
+	Start:   0x21B58
+	End:     0x21EFC
+	Section: .text
+undefined Sg2ModOpenBgm()
+	Start:   0x21F00
+	End:     0x220CC
+	Section: .text
+undefined Sg2ModOpenSe()
+	Start:   0x220D0
+	End:     0x2229C
+	Section: .text
+undefined Sg2ModCheckSndOn()
+	Start:   0x222A0
+	End:     0x222D8
+	Section: .text
+undefined Sg2ModClose()
+	Start:   0x222D8
+	End:     0x22308
+	Section: .text
+undefined Sg2ModSetParam()
+	Start:   0x22308
+	End:     0x22D50
+	Section: .text
+undefined Sg2ModGetParam()
+	Start:   0x22D50
+	End:     0x22E18
+	Section: .text
+undefined Sg2ModSetOutputMode()
+	Start:   0x22E18
+	End:     0x22E2C
+	Section: .text
+undefined Sg2ModInit()
+	Start:   0x22E30
+	End:     0x22EAC
+	Section: .text
+undefined debug_mod_config()
+	Start:   0x22EB0
+	End:     0x23190
+	Section: .text
+undefined Undefined_Gap_0x23190_0x25678()
+	Start:   0x23190
+	End:     0x25678
+	Section: .text
+undefined Sg2RemoteSend()
+	Start:   0x25678
+	End:     0x25708
+	Section: .text
+undefined Sg2RemoteSendDmaCom()
+	Start:   0x25708
+	End:     0x257B4
+	Section: .text
+undefined Sg2RemoteDmaTransStatus()
+	Start:   0x257B8
+	End:     0x257D8
+	Section: .text
+undefined Sg2RemoteGetAdpStmAdr()
+	Start:   0x257D8
+	End:     0x257F0
+	Section: .text
+undefined Sg2RemoteGetPcmStmTransOffset()
+	Start:   0x257F0
+	End:     0x257FC
+	Section: .text
+undefined Sg2RemoteGetSlotReleaseLv()
+	Start:   0x25800
+	End:     0x25818
+	Section: .text
+undefined Sg2RemoteGetDspChangeStatus()
+	Start:   0x25818
+	End:     0x25830
+	Section: .text
+undefined Sg2RemoteSyncStatus()
+	Start:   0x25830
+	End:     0x2584C
+	Section: .text
+undefined Sg2RemoteTickProc()
+	Start:   0x25850
+	End:     0x25A3C
+	Section: .text
+undefined Sg2RemoteInit()
+	Start:   0x25A40
+	End:     0x25B18
+	Section: .text
+undefined Undefined_Gap_0x25B18_0x25C20()
+	Start:   0x25B18
+	End:     0x25C20
+	Section: .text
+undefined Sg2SepPlay()
+	Start:   0x25C20
+	End:     0x25C38
+	Section: .text
+undefined Sg2SepPlaySelectCore()
+	Start:   0x25C38
+	End:     0x25E50
+	Section: .text
+undefined Sg2SepStop()
+	Start:   0x25E50
+	End:     0x25F08
+	Section: .text
+undefined Sg2SepStopSndOff()
+	Start:   0x25F08
+	End:     0x25FC0
+	Section: .text
+undefined Sg2SepPause()
+	Start:   0x25FC0
+	End:     0x26094
+	Section: .text
+undefined Sg2SepCont()
+	Start:   0x26098
+	End:     0x26150
+	Section: .text
+undefined Sg2SepVabStopSndOff()
+	Start:   0x26150
+	End:     0x261BC
+	Section: .text
+undefined Sg2SepAllStopSndOff()
+	Start:   0x261C0
+	End:     0x26200
+	Section: .text
+undefined Sg2SepStatus()
+	Start:   0x26200
+	End:     0x26230
+	Section: .text
+undefined Sg2SepCheckSndOn()
+	Start:   0x26230
+	End:     0x26270
+	Section: .text
+undefined Sg2SepSetParam()
+	Start:   0x26270
+	End:     0x26408
+	Section: .text
+undefined Sg2SepMidiOut()
+	Start:   0x26408
+	End:     0x264C4
+	Section: .text
+undefined Sg2SepMasterVol()
+	Start:   0x264C8
+	End:     0x26564
+	Section: .text
+undefined Sg2SepTickProc()
+	Start:   0x26568
+	End:     0x26804
+	Section: .text
+undefined Sg2SepInit()
+	Start:   0x26808
+	End:     0x268B0
+	Section: .text
+undefined debug_sep_config()
+	Start:   0x268B0
+	End:     0x26A8C
+	Section: .text
+undefined Undefined_Gap_0x26A8C_0x27170()
+	Start:   0x26A8C
+	End:     0x27170
+	Section: .text
+undefined Sg2SlotGetSlotClassIdx()
+	Start:   0x27170
+	End:     0x2718C
+	Section: .text
+undefined Sg2SlotFreeSearch()
+	Start:   0x27190
+	End:     0x27594
+	Section: .text
+undefined Sg2SlotFreeSearchTerm()
+	Start:   0x27598
+	End:     0x27954
+	Section: .text
+undefined Sg2SlotSearchPriority()
+	Start:   0x27958
+	End:     0x27D4C
+	Section: .text
+undefined Sg2SlotSearchPriorityOlder()
+	Start:   0x27D50
+	End:     0x28154
+	Section: .text
+undefined Sg2SlotSearchParam()
+	Start:   0x28158
+	End:     0x28610
+	Section: .text
+undefined Sg2SlotSearchParamOlder0()
+	Start:   0x28610
+	End:     0x28AD0
+	Section: .text
+undefined Sg2SlotSearchParamOlder1()
+	Start:   0x28AD0
+	End:     0x28F28
+	Section: .text
+undefined Sg2SlotSearchTypeOlder()
+	Start:   0x28F28
+	End:     0x2931C
+	Section: .text
+undefined Sg2SlotBlock()
+	Start:   0x29320
+	End:     0x2938C
+	Section: .text
+undefined Sg2SlotFree()
+	Start:   0x29390
+	End:     0x293C0
+	Section: .text
+undefined Sg2SlotCheckSlotClass()
+	Start:   0x293C0
+	End:     0x29418
+	Section: .text
+undefined Sg2SlotFindLoop()
+	Start:   0x29418
+	End:     0x29460
+	Section: .text
+undefined Sg2SlotFindVab()
+	Start:   0x29460
+	End:     0x294B0
+	Section: .text
+undefined Sg2SlotFindVabCh()
+	Start:   0x294B0
+	End:     0x2950C
+	Section: .text
+undefined Sg2SlotFindVabChNote()
+	Start:   0x29510
+	End:     0x29578
+	Section: .text
+undefined Sg2SlotFindVabChSsaBaseNote()
+	Start:   0x29578
+	End:     0x295EC
+	Section: .text
+undefined Sg2SlotFindSlotClass()
+	Start:   0x295F0
+	End:     0x29640
+	Section: .text
+undefined Sg2SlotFindSlotClassCh()
+	Start:   0x29640
+	End:     0x2969C
+	Section: .text
+undefined Sg2SlotFindSlotClassChNote()
+	Start:   0x296A0
+	End:     0x29708
+	Section: .text
+undefined Sg2SlotFindSlotClassChSsaBaseNote()
+	Start:   0x29708
+	End:     0x2977C
+	Section: .text
+undefined Sg2SlotSetBasicParam()
+	Start:   0x29780
+	End:     0x2986C
+	Section: .text
+undefined Sg2SlotSetSsa()
+	Start:   0x29870
+	End:     0x298B4
+	Section: .text
+undefined Sg2SlotSetGroup()
+	Start:   0x298B8
+	End:     0x298D8
+	Section: .text
+undefined Sg2SlotSetMute()
+	Start:   0x298D8
+	End:     0x29958
+	Section: .text
+undefined Sg2SlotSetMasVol()
+	Start:   0x29958
+	End:     0x299C4
+	Section: .text
+undefined Sg2SlotSetSeMasVol()
+	Start:   0x299C8
+	End:     0x29A20
+	Section: .text
+undefined Sg2SlotSetBaseVol()
+	Start:   0x29A20
+	End:     0x29A78
+	Section: .text
+undefined Sg2SlotSetVol()
+	Start:   0x29A78
+	End:     0x29AA8
+	Section: .text
+undefined Sg2SlotSetMasPan()
+	Start:   0x29AA8
+	End:     0x29B04
+	Section: .text
+undefined Sg2SlotSetBasePan()
+	Start:   0x29B08
+	End:     0x29B60
+	Section: .text
+undefined Sg2SlotSetPan()
+	Start:   0x29B60
+	End:     0x29B90
+	Section: .text
+undefined Sg2SlotSetBendRange()
+	Start:   0x29B90
+	End:     0x29BB0
+	Section: .text
+undefined Sg2SlotSetBendValue()
+	Start:   0x29BB0
+	End:     0x29BE0
+	Section: .text
+undefined Sg2SlotSetPitch()
+	Start:   0x29BE0
+	End:     0x29C58
+	Section: .text
+undefined Sg2SlotSetPause()
+	Start:   0x29C58
+	End:     0x29CD4
+	Section: .text
+undefined Sg2SlotSetDirectPitch()
+	Start:   0x29CD8
+	End:     0x29D08
+	Section: .text
+undefined Sg2SlotSetMasTune()
+	Start:   0x29D08
+	End:     0x29D38
+	Section: .text
+undefined Sg2SlotSetAdsr()
+	Start:   0x29D38
+	End:     0x29D88
+	Section: .text
+undefined Sg2SlotSetVolPhase()
+	Start:   0x29D88
+	End:     0x29DC0
+	Section: .text
+undefined Sg2SlotSetLoop()
+	Start:   0x29DC0
+	End:     0x29DE8
+	Section: .text
+undefined Sg2SlotSetDumperOn()
+	Start:   0x29DE8
+	End:     0x29E10
+	Section: .text
+undefined Sg2SlotSetLfoPitchTbl()
+	Start:   0x29E10
+	End:     0x29E54
+	Section: .text
+undefined Sg2SlotSetLfoPitchSpeed()
+	Start:   0x29E58
+	End:     0x29F0C
+	Section: .text
+undefined Sg2SlotSetLfoPitchDepth()
+	Start:   0x29F10
+	End:     0x29FB4
+	Section: .text
+undefined Sg2SlotSetLfoVolTbl()
+	Start:   0x29FB8
+	End:     0x29FFC
+	Section: .text
+undefined Sg2SlotSetLfoVolSpeed()
+	Start:   0x2A000
+	End:     0x2A150
+	Section: .text
+undefined Sg2SlotSetLfoVolDepth()
+	Start:   0x2A150
+	End:     0x2A298
+	Section: .text
+undefined Sg2SlotSetTimeVolParam()
+	Start:   0x2A298
+	End:     0x2A2D4
+	Section: .text
+undefined Sg2SlotSetTimePitchParam()
+	Start:   0x2A2D8
+	End:     0x2A314
+	Section: .text
+undefined Sg2SlotSetTimePanParam()
+	Start:   0x2A318
+	End:     0x2A354
+	Section: .text
+undefined Sg2SlotSetPoltamentParam()
+	Start:   0x2A358
+	End:     0x2A3B4
+	Section: .text
+undefined Sg2SlotGetVol()
+	Start:   0x2A3B8
+	End:     0x2A3D8
+	Section: .text
+undefined Sg2SlotGetPan()
+	Start:   0x2A3D8
+	End:     0x2A3F8
+	Section: .text
+undefined Sg2SlotSetDumperOff()
+	Start:   0x2A3F8
+	End:     0x2A4D8
+	Section: .text
+undefined Sg2SlotModKeyOff()
+	Start:   0x2A4D8
+	End:     0x2A5E4
+	Section: .text
+undefined Sg2SlotVabKeyOff()
+	Start:   0x2A5E8
+	End:     0x2A6F4
+	Section: .text
+undefined Sg2SlotVabKeyOffGroup()
+	Start:   0x2A6F8
+	End:     0x2A83C
+	Section: .text
+undefined Sg2SlotSetKeyOnBit()
+	Start:   0x2A840
+	End:     0x2A8A4
+	Section: .text
+undefined Sg2SlotSetKeyOffBit()
+	Start:   0x2A8A8
+	End:     0x2A90C
+	Section: .text
+undefined Sg2SlotSetReverbOnBit()
+	Start:   0x2A910
+	End:     0x2A974
+	Section: .text
+undefined Sg2SlotSetReverbOffBit()
+	Start:   0x2A978
+	End:     0x2A9E4
+	Section: .text
+undefined Sg2SlotSetNoiseOnBit()
+	Start:   0x2A9E8
+	End:     0x2AA4C
+	Section: .text
+undefined Sg2SlotSetNoiseOffBit()
+	Start:   0x2AA50
+	End:     0x2AABC
+	Section: .text
+undefined Sg2SlotSetOutputMode()
+	Start:   0x2AAC0
+	End:     0x2AAD4
+	Section: .text
+undefined Sg2SlotSetVolShiftDownParam()
+	Start:   0x2AAD8
+	End:     0x2AAEC
+	Section: .text
+undefined Sg2SlotGetVolShiftDownParam()
+	Start:   0x2AAF0
+	End:     0x2AAFC
+	Section: .text
+undefined Sg2SlotTickProc()
+	Start:   0x2AB00
+	End:     0x2B4B8
+	Section: .text
+undefined Sg2SlotInit()
+	Start:   0x2B4B8
+	End:     0x2B664
+	Section: .text
+undefined Sg2SlotTbl()
+	Start:   0x2B668
+	End:     0x2B72C
+	Section: .text
+undefined Sg2SlotEnvTbl()
+	Start:   0x2B730
+	End:     0x2B7F8
+	Section: .text
+undefined Undefined_Gap_0x2B7F8_0x2B8D0()
+	Start:   0x2B7F8
+	End:     0x2B8D0
+	Section: .text
+undefined Sg2SmfpOpen()
+	Start:   0x2B8D0
+	End:     0x2B8E8
+	Section: .text
+undefined Sg2SmfpOpenSelCore()
+	Start:   0x2B8E8
+	End:     0x2BAFC
+	Section: .text
+undefined Sg2SmfpClose()
+	Start:   0x2BB00
+	End:     0x2BB58
+	Section: .text
+undefined Sg2SmfpVabStopSndOff()
+	Start:   0x2BB58
+	End:     0x2BBC4
+	Section: .text
+undefined Sg2SmfpPlay()
+	Start:   0x2BBC8
+	End:     0x2BDB4
+	Section: .text
+undefined Sg2SmfpStop()
+	Start:   0x2BDB8
+	End:     0x2BE20
+	Section: .text
+undefined Sg2SmfpStopSndOff()
+	Start:   0x2BE20
+	End:     0x2BE88
+	Section: .text
+undefined Sg2SmfpPause()
+	Start:   0x2BE88
+	End:     0x2BF04
+	Section: .text
+undefined Sg2SmfpCont()
+	Start:   0x2BF08
+	End:     0x2BF60
+	Section: .text
+undefined Sg2SmfpStatus()
+	Start:   0x2BF60
+	End:     0x2BF88
+	Section: .text
+undefined Sg2SmfpCheckSndOn()
+	Start:   0x2BF88
+	End:     0x2BFC0
+	Section: .text
+undefined Sg2SmfpSetParam()
+	Start:   0x2BFC0
+	End:     0x2C378
+	Section: .text
+undefined Sg2SmfpGetParam()
+	Start:   0x2C378
+	End:     0x2C444
+	Section: .text
+undefined Sg2SmfpMidiOut()
+	Start:   0x2C448
+	End:     0x2C4E0
+	Section: .text
+undefined Sg2SmfpSetSignal()
+	Start:   0x2C4E0
+	End:     0x2C4EC
+	Section: .text
+undefined Sg2SmfpTickProc()
+	Start:   0x2C4F0
+	End:     0x2C7E0
+	Section: .text
+undefined Sg2SmfpInit()
+	Start:   0x2C7E0
+	End:     0x2C864
+	Section: .text
+undefined debug_smfp_mod_config()
+	Start:   0x2C868
+	End:     0x2CB4C
+	Section: .text
+undefined debug_set_smfp_time_count_delta_per()
+	Start:   0x2CB50
+	End:     0x2CC30
+	Section: .text
+undefined Undefined_Gap_0x2CC30_0x2D280()
+	Start:   0x2CC30
+	End:     0x2D280
+	Section: .text
+undefined Sg2StAdpcmOpen()
+	Start:   0x2D280
+	End:     0x2D304
+	Section: .text
+undefined Sg2StAdpcmClose()
+	Start:   0x2D308
+	End:     0x2D334
+	Section: .text
+undefined Sg2StAdpcmSetVolume()
+	Start:   0x2D338
+	End:     0x2D3B0
+	Section: .text
+undefined Sg2StAdpcmSetPitch()
+	Start:   0x2D3B0
+	End:     0x2D418
+	Section: .text
+undefined Sg2StAdpcmPlay()
+	Start:   0x2D418
+	End:     0x2D468
+	Section: .text
+undefined Sg2StAdpcmStop()
+	Start:   0x2D468
+	End:     0x2D4B8
+	Section: .text
+undefined Sg2StAdpcmIopReadAdr()
+	Start:   0x2D4B8
+	End:     0x2D4CC
+	Section: .text
+undefined Sg2StAdpcmInit()
+	Start:   0x2D4D0
+	End:     0x2D4FC
+	Section: .text
+undefined Sg2StAdpcmQuit()
+	Start:   0x2D500
+	End:     0x2D52C
+	Section: .text
+undefined get_vabid()
+	Start:   0x2D530
+	End:     0x2D570
+	Section: .text
+undefined Undefined_Gap_0x2D570_0x2D708()
+	Start:   0x2D570
+	End:     0x2D708
+	Section: .text
+undefined vab_check_alive()
+	Start:   0x2D708
+	End:     0x2D744
+	Section: .text
+undefined vab_get_info()
+	Start:   0x2D748
+	End:     0x2D784
+	Section: .text
+undefined vab_get_seseq()
+	Start:   0x2D788
+	End:     0x2D84C
+	Section: .text
+undefined vab_get_seprogchunk()
+	Start:   0x2D850
+	End:     0x2D8E8
+	Section: .text
+undefined vab_get_progchunk()
+	Start:   0x2D8E8
+	End:     0x2D994
+	Section: .text
+undefined vab_get_splitchunk()
+	Start:   0x2D998
+	End:     0x2D9AC
+	Section: .text
+undefined vab_get_veltbl()
+	Start:   0x2D9B0
+	End:     0x2D9E8
+	Section: .text
+undefined vab_get_lfotbl_param()
+	Start:   0x2D9E8
+	End:     0x2DA2C
+	Section: .text
+undefined vab_set_semastervol()
+	Start:   0x2DA30
+	End:     0x2DA5C
+	Section: .text
+undefined vab_get_semastervol()
+	Start:   0x2DA60
+	End:     0x2DA88
+	Section: .text
+undefined Sg2VabHdOpen()
+	Start:   0x2DA88
+	End:     0x2DB10
+	Section: .text
+undefined Sg2VabGetBdSize()
+	Start:   0x2DB10
+	End:     0x2DB94
+	Section: .text
+undefined Sg2VabBdOpen()
+	Start:   0x2DB98
+	End:     0x2DC00
+	Section: .text
+undefined Sg2VabClose()
+	Start:   0x2DC00
+	End:     0x2DC54
+	Section: .text
+undefined Sg2VabHdClose()
+	Start:   0x2DC58
+	End:     0x2DD18
+	Section: .text
+undefined Sg2VabInit()
+	Start:   0x2DD18
+	End:     0x2DD58
+	Section: .text
+undefined Undefined_Gap_0x2DD58_0x2EE80()
+	Start:   0x2DD58
+	End:     0x2EE80
+	Section: .text
+undefined Sg2ExPcmInputOpenDoubleBuffer()
+	Start:   0x2EE80
+	End:     0x2EEB4
+	Section: .text
+undefined Sg2ExPcmInputOpen()
+	Start:   0x2EEB8
+	End:     0x2EF28
+	Section: .text
+undefined Sg2ExPcmInputClose()
+	Start:   0x2EF28
+	End:     0x2EFB4
+	Section: .text
+undefined Sg2ExPcmInputCtrl()
+	Start:   0x2EFB8
+	End:     0x2F04C
+	Section: .text
+undefined Sg2ExPcmInputGetLipFrame()
+	Start:   0x2F050
+	End:     0x2F078
+	Section: .text
+undefined Sg2ExPcmInputGetRealPlayFrameCount()
+	Start:   0x2F078
+	End:     0x2F0A0
+	Section: .text
+undefined Undefined_Gap_0x2F0A0_0x2F128()
+	Start:   0x2F0A0
+	End:     0x2F128
+	Section: .text
+undefined Sg2ExPcmInputSetVol()
+	Start:   0x2F128
+	End:     0x2F16C
+	Section: .text
+undefined Sg2ExPcmInputSetPan()
+	Start:   0x2F170
+	End:     0x2F1B4
+	Section: .text
+undefined Sg2ExPcmInputSetPhase()
+	Start:   0x2F1B8
+	End:     0x2F204
+	Section: .text
+undefined Sg2ExPcmInputSetOutputMode()
+	Start:   0x2F208
+	End:     0x2F22C
+	Section: .text
+undefined Sg2ExPcmInputAutoFilterInit()
+	Start:   0x2F230
+	End:     0x2F274
+	Section: .text
+undefined Sg2ExPcmInputSetAutoFilterDirect()
+	Start:   0x2F278
+	End:     0x2F368
+	Section: .text
+undefined Sg2ExPcmInputSetAutoFilter()
+	Start:   0x2F368
+	End:     0x2F3F4
+	Section: .text
+undefined Sg2ExPcmInputAutoFilterCtrl()
+	Start:   0x2F3F8
+	End:     0x2F434
+	Section: .text
+undefined Sg2ExPcmOutputOpen()
+	Start:   0x2F438
+	End:     0x2F518
+	Section: .text
+undefined Sg2ExPcmOutputClose()
+	Start:   0x2F518
+	End:     0x2F578
+	Section: .text
+undefined Sg2ExPcmOutputBufferClear()
+	Start:   0x2F578
+	End:     0x2F5EC
+	Section: .text
+undefined Sg2ExPcmOutputSetVol()
+	Start:   0x2F5F0
+	End:     0x2F604
+	Section: .text
+undefined Sg2ExPcmOutputSetEffect()
+	Start:   0x2F608
+	End:     0x2F61C
+	Section: .text
+undefined Sg2ExPcmOutputSetOutputMode()
+	Start:   0x2F620
+	End:     0x2F62C
+	Section: .text
+undefined Sg2ExPcmOutputCtrl()
+	Start:   0x2F630
+	End:     0x2F6D0
+	Section: .text
+undefined Sg2ExPcmOutputGetLipFrame()
+	Start:   0x2F6D0
+	End:     0x2F6DC
+	Section: .text
+undefined Sg2ExPcmOutputAutoFilterInit()
+	Start:   0x2F6E0
+	End:     0x2F700
+	Section: .text
+undefined Sg2ExPcmOutputSetAutoFilterDirect()
+	Start:   0x2F700
+	End:     0x2F7C8
+	Section: .text
+undefined Sg2ExPcmOutputSetAutoFilter()
+	Start:   0x2F7C8
+	End:     0x2F834
+	Section: .text
+undefined Sg2ExPcmOutputAutoFilterCtrl()
+	Start:   0x2F838
+	End:     0x2F860
+	Section: .text
+undefined Sg2ExPcmCheckAutoFilterSeq()
+	Start:   0x2F860
+	End:     0x2F874
+	Section: .text
+undefined Sg2ExPcmTickProc()
+	Start:   0x2F878
+	End:     0x2F934
+	Section: .text
+undefined Sg2ExPcmSetSignal()
+	Start:   0x2F938
+	End:     0x2F944
+	Section: .text
+undefined Sg2ExPcmInit()
+	Start:   0x2F948
+	End:     0x2F9D8
+	Section: .text
+undefined Undefined_Gap_0x2F9D8_0x30090()
+	Start:   0x2F9D8
+	End:     0x30090
+	Section: .text
+undefined IirInit()
+	Start:   0x30090
+	End:     0x300AC
+	Section: .text
+undefined IirParam()
+	Start:   0x300B0
+	End:     0x301B0
+	Section: .text
+undefined IirFilter()
+	Start:   0x301B0
+	End:     0x302EC
+	Section: .text
+undefined Sg2StPcmStart()
+	Start:   0x302F0
+	End:     0x30320
+	Section: .text
+undefined Sg2StPcmStop()
+	Start:   0x30320
+	End:     0x3034C
+	Section: .text
+undefined Sg2StPcmSetVolume()
+	Start:   0x30350
+	End:     0x30380
+	Section: .text
+undefined Sg2StPcmSetEffect()
+	Start:   0x30380
+	End:     0x303AC
+	Section: .text
+undefined Sg2StPcmIopTransOffset()
+	Start:   0x303B0
+	End:     0x303C4
+	Section: .text
+undefined Sg2StPcmInit()
+	Start:   0x303C8
+	End:     0x303F4
+	Section: .text
+undefined Sg2StPcmQuit()
+	Start:   0x303F8
+	End:     0x30424
+	Section: .text
+undefined Undefined_Gap_0x30424_0x307F8()
+	Start:   0x30424
+	End:     0x307F8
+	Section: .text
+undefined mktime()
+	Start:   0x307F8
+	End:     0x30A8C
+	Section: .text
+	Generate: false
+	IncludeContext: false
+	Compile: false
+	Link: false
+undefined strstr()
+	Start:   0x30A90
+	End:     0x30B14
+	Section: .text
+	Generate: false
+	IncludeContext: false
+	Compile: false
+	Link: false
+undefined div()
+	Start:   0x30B18
+	End:     0x30B9C
+	Section: .text
+undefined atanf()
+	Start:   0x30BA0
+	End:     0x30E2C
+	Section: .text
+undefined cosf()
+	Start:   0x30E30
+	End:     0x30F04
+	Section: .text
+undefined fabsf()
+	Start:   0x30F08
+	End:     0x30F30
+	Section: .text
+undefined sinf()
+	Start:   0x30F30
+	End:     0x31018
+	Section: .text
+undefined sqrt()
+	Start:   0x31018
+	End:     0x3102C
+	Section: .text
+undefined acosf()
+	Start:   0x31030
+	End:     0x31044
+	Section: .text
+undefined asinf()
+	Start:   0x31048
+	End:     0x3105C
+	Section: .text
+undefined atan2f()
+	Start:   0x31060
+	End:     0x31074
+	Section: .text
+undefined fmodf()
+	Start:   0x31078
+	End:     0x3108C
+	Section: .text
+undefined powf()
+	Start:   0x31090
+	End:     0x310A4
+	Section: .text
+undefined sqrtf()
+	Start:   0x310A8
+	End:     0x310BC
+	Section: .text
+undefined __ieee754_sqrt()
+	Start:   0x310C0
+	End:     0x313DC
+	Section: .text
+undefined __ieee754_acosf()
+	Start:   0x313E0
+	End:     0x31804
+	Section: .text
+undefined __ieee754_asinf()
+	Start:   0x31808
+	End:     0x31BA8
+	Section: .text
+undefined __ieee754_atan2f()
+	Start:   0x31BA8
+	End:     0x31D88
+	Section: .text
+undefined __ieee754_fmodf()
+	Start:   0x31D88
+	End:     0x31F58
+	Section: .text
+undefined __ieee754_powf()
+	Start:   0x31F58
+	End:     0x32738
+	Section: .text
+undefined __ieee754_rem_pio2f()
+	Start:   0x32738
+	End:     0x32AE8
+	Section: .text
+undefined __ieee754_sqrtf()
+	Start:   0x32AE8
+	End:     0x32BB4
+	Section: .text
+undefined __kernel_cosf()
+	Start:   0x32BB8
+	End:     0x32D08
+	Section: .text
+undefined __kernel_rem_pio2f()
+	Start:   0x32D08
+	End:     0x3356C
+	Section: .text
+undefined __kernel_sinf()
+	Start:   0x33570
+	End:     0x33674
+	Section: .text
+undefined floorf()
+	Start:   0x33678
+	End:     0x33750
+	Section: .text
+undefined scalbnf()
+	Start:   0x33750
+	End:     0x33818
+	Section: .text
+undefined copysignf()
+	Start:   0x33818
+	End:     0x33854
+	Section: .text
+undefined sceGsSetDefLoadImage()
+	Start:   0x33858
+	End:     0x33A3C
+	Section: .text
+undefined sceGsExecLoadImage()
+	Start:   0x33A40
+	End:     0x33BBC
+	Section: .text
+undefined sceGsPutIMR()
+	Start:   0x33BC0
+	End:     0x33BFC
+	Section: .text
+undefined sceGsGetIMR()
+	Start:   0x33C00
+	End:     0x33C1C
+	Section: .text
+undefined isceGsPutIMR()
+	Start:   0x33C20
+	End:     0x33C5C
+	Section: .text
+undefined sceCdRead()
+	Start:   0x33C60
+	End:     0x33E40
+	Section: .text
+undefined sceCdReadIOPm()
+	Start:   0x33E40
+	End:     0x33F94
+	Section: .text
+undefined sceCdGetError()
+	Start:   0x33F98
+	End:     0x34030
+	Section: .text
+undefined sceCdStatus()
+	Start:   0x34030
+	End:     0x340E8
+	Section: .text
+undefined sceCdReadClock()
+	Start:   0x340E8
+	End:     0x341A4
+	Section: .text
+Undefined_Gap_0x0_0xC398
+	Start:   0x0
+	End:     0xC398
+	Section: .rel.text
+Undefined_Gap_0x0_0x18
+	Start:   0x0
+	End:     0x18
+	Section: .reginfo
+Undefined_Gap_0x0_0xA8
+	Start:   0x0
+	End:     0xA8
+	Section: .data
+iosSystemSema
+	Start:   0xA8
+	End:     0xAC
+	Section: .data
+Undefined_Gap_0xAC_0xB4
+	Start:   0xAC
+	End:     0xB4
+	Section: .data
+gbPtn
+	Start:   0xB4
+	End:     0xB8
+	Section: .data
+Undefined_Gap_0xB8_0x148
+	Start:   0xB8
+	End:     0x148
+	Section: .data
+rootPtn
+	Start:   0x148
+	End:     0x154
+	Section: .data
+mallocStartAdrs
+	Start:   0x154
+	End:     0x158
+	Section: .data
+Undefined_Gap_0x158_0x270
+	Start:   0x158
+	End:     0x270
+	Section: .data
+iosDefaultPadData
+	Start:   0x270
+	End:     0x360
+	Section: .data
+Undefined_Gap_0x360_0x36C
+	Start:   0x360
+	End:     0x36C
+	Section: .data
+ShockVoiceSetCommon
+	Start:   0x36C
+	End:     0x370
+	Section: .data
+Undefined_Gap_0x370_0x380
+	Start:   0x370
+	End:     0x380
+	Section: .data
+executableModuleGroup
+	Start:   0x380
+	End:     0x384
+	Section: .data
+needResolveModuleGroup
+	Start:   0x388
+	End:     0x38C
+	Section: .data
+symbolDefModuleGroup
+	Start:   0x390
+	End:     0x394
+	Section: .data
+DldSysUndefSymbol
+	Start:   0x394
+	End:     0x398
+	Section: .data
+Undefined_Gap_0x398_0x3C0
+	Start:   0x398
+	End:     0x3C0
+	Section: .data
+UnitMatrix
+	Start:   0x3C0
+	End:     0x400
+	Section: .data
+IdentityQuaternion
+	Start:   0x400
+	End:     0x410
+	Section: .data
+RotX90Quaternion
+	Start:   0x410
+	End:     0x420
+	Section: .data
+Undefined_Gap_0x420_0x450
+	Start:   0x420
+	End:     0x450
+	Section: .data
+ZeroVector
+	Start:   0x450
+	End:     0x460
+	Section: .data
+XUnitVector
+	Start:   0x460
+	End:     0x470
+	Section: .data
+YUnitVector
+	Start:   0x470
+	End:     0x480
+	Section: .data
+ZUnitVector
+	Start:   0x480
+	End:     0x490
+	Section: .data
+ZeroPoint
+	Start:   0x490
+	End:     0x4A0
+	Section: .data
+All1Vector
+	Start:   0x4A0
+	End:     0x4B0
+	Section: .data
+XUnitVectorInv
+	Start:   0x4B0
+	End:     0x4C0
+	Section: .data
+YUnitVectorInv
+	Start:   0x4C0
+	End:     0x4D0
+	Section: .data
+ZUnitVectorInv
+	Start:   0x4D0
+	End:     0x4E0
+	Section: .data
+ZDirVector
+	Start:   0x4E0
+	End:     0x4F0
+	Section: .data
+XUnitPoint
+	Start:   0x4F0
+	End:     0x500
+	Section: .data
+YUnitPoint
+	Start:   0x500
+	End:     0x510
+	Section: .data
+ZUnitPoint
+	Start:   0x510
+	End:     0x520
+	Section: .data
+XUnitPointInv
+	Start:   0x520
+	End:     0x530
+	Section: .data
+YUnitPointInv
+	Start:   0x530
+	End:     0x540
+	Section: .data
+ZUnitPointInv
+	Start:   0x540
+	End:     0x550
+	Section: .data
+Undefined_Gap_0x550_0x580
+	Start:   0x550
+	End:     0x580
+	Section: .data
+fin
+	Start:   0x580
+	End:     0x5A0
+	Section: .data
+Undefined_Gap_0x5A0_0x660
+	Start:   0x5A0
+	End:     0x660
+	Section: .data
+gpMainCallCounter
+	Start:   0x660
+	End:     0x664
+	Section: .data
+Undefined_Gap_0x664_0x7D8
+	Start:   0x664
+	End:     0x7D8
+	Section: .data
+schedAdpcmTickProc
+	Start:   0x7D8
+	End:     0x7DC
+	Section: .data
+Undefined_Gap_0x7DC_0x7E4
+	Start:   0x7DC
+	End:     0x7E4
+	Section: .data
+ischedExecSubThread
+	Start:   0x7E4
+	End:     0x7E8
+	Section: .data
+schedGarbageDisableFlag
+	Start:   0x7EC
+	End:     0x7F0
+	Section: .data
+schedAdpcmFunc
+	Start:   0x7F0
+	End:     0x7F4
+	Section: .data
+Undefined_Gap_0x7F4_0x7FC
+	Start:   0x7F4
+	End:     0x7FC
+	Section: .data
+vschedGameTime
+	Start:   0x7FC
+	End:     0x800
+	Section: .data
+vschedGameTimeExec
+	Start:   0x800
+	End:     0x804
+	Section: .data
+g_pLetterMem
+	Start:   0x804
+	End:     0x808
+	Section: .data
+Undefined_Gap_0x808_0xA18
+	Start:   0x808
+	End:     0xA18
+	Section: .data
+subThreadGroup
+	Start:   0xA18
+	End:     0xA1C
+	Section: .data
+Undefined_Gap_0xA1C_0xA24
+	Start:   0xA1C
+	End:     0xA24
+	Section: .data
+soundTickProcCnt
+	Start:   0xA24
+	End:     0xA28
+	Section: .data
+Undefined_Gap_0xA28_0xA40
+	Start:   0xA28
+	End:     0xA40
+	Section: .data
+pan_tbl
+	Start:   0xA40
+	End:     0xB42
+	Section: .data
+Undefined_Gap_0xB42_0xBA4
+	Start:   0xB42
+	End:     0xBA4
+	Section: .data
+sg2NicoReverbMode
+	Start:   0xBA4
+	End:     0xBA8
+	Section: .data
+control_change_ev
+	Start:   0xBA8
+	End:     0xDA8
+	Section: .data
+channel_ev
+	Start:   0xDA8
+	End:     0xE20
+	Section: .data
+systemcommon_ev
+	Start:   0xE20
+	End:     0xEA0
+	Section: .data
+Undefined_Gap_0xEA0_0xF9C
+	Start:   0xEA0
+	End:     0xF9C
+	Section: .data
+Undefined_Gap_0x0_0x948
+	Start:   0x0
+	End:     0x948
+	Section: .rel.data
+Undefined_Gap_0x0_0x371F
+	Start:   0x0
+	End:     0x371F
+	Section: .rodata
+Undefined_Gap_0x0_0xF70
+	Start:   0x0
+	End:     0xF70
+	Section: .rel.rodata
+Undefined_Gap_0x0_0x8F
+	Start:   0x0
+	End:     0x8F
+	Section: .shstrtab
+Undefined_Gap_0x0_0x77B0
+	Start:   0x0
+	End:     0x77B0
+	Section: .symtab
+Undefined_Gap_0x0_0x7E13
+	Start:   0x0
+	End:     0x7E13
+	Section: .strtab

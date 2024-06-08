@@ -1,0 +1,4567 @@
+void InitialUndefinedData()
+	Start:   0x0
+	End:     0x10
+	Section: .text
+void Function_0x10()
+	Start:   0x10
+	End:     0xC0
+	Section: .text
+void _Exit1()
+	Start:   0xC0
+	End:     0xD0
+	Section: .text
+undefined ResolveRelocation()
+	Start:   0xD0
+	End:     0x274
+	Section: .text
+undefined DecodeSection()
+	Start:   0x278
+	End:     0x4B8
+	Section: .text
+undefined RelocateElfInfoHeader()
+	Start:   0x4B8
+	End:     0x58C
+	Section: .text
+undefined OutputLinkerScriptFile()
+	Start:   0x590
+	End:     0xA54
+	Section: .text
+Function_0xA58
+	Start:   0xA54
+	End:     0xBF8
+	Section: .text
+void LoaderSysJumpRecoverPointNoStateSetting()
+	Start:   0xBF8
+	End:     0xC7C
+	Section: .text
+void LoaderSysJumpRecoverPoint()
+	Start:   0xC80
+	End:     0xD48
+	Section: .text
+undefined LoadModule(char* moduleName)
+	Start:   0xD48
+	End:     0x1190
+	Section: .text
+	Type:    int
+undefined MoveElf()
+	Start:   0x1190
+	End:     0x13C8
+	Section: .text
+void GetProgramNameAndOffset(char* path)
+	Start:   0x13C8
+	End:     0x1518
+	Section: .text
+undefined LoaderSysRelocateOnlineElfInfo()
+	Start:   0x1518
+	End:     0x16E4
+	Section: .text
+undefined RelocateCode()
+	Start:   0x16E8
+	End:     0x17FC
+	Section: .text
+void FreeDecodedSection()
+	Start:   0x1800
+	End:     0x18B8
+	Section: .text
+undefined RelocateSelfSymbol()
+	Start:   0x18B8
+	End:     0x1950
+	Section: .text
+undefined DisposeRelocationElement()
+	Start:   0x1950
+	End:     0x1A30
+	Section: .text
+undefined SetHeapStartPoint()
+	Start:   0x1A30
+	End:     0x1A44
+	Section: .text
+void GetHeapCurrentPoint()
+	Start:   0x1A48
+	End:     0x1A50
+	Section: .text
+undefined LoaderSysResetSystem()
+	Start:   0x1A50
+	End:     0x1AA0
+	Section: .text
+void Function_0x1AA0()
+	Start:   0x1AA0
+	End:     0x1B20
+	Section: .text
+void _checkExistString()
+	Start:   0x1B20
+	End:     0x1B88
+	Section: .text
+void Function_0x1B88()
+	Start:   0x1B88
+	End:     0x1CC8
+	Section: .text
+	Type:    int
+void _execProgWithThread(char* moduleName)
+	Start:   0x1CC8
+	End:     0x1D90
+	Section: .text
+void execProgWithThread(char* path, int threadID)
+	Start:   0x1D90
+	End:     0x1EBC
+	Section: .text
+	Generate: false
+	UseNativePointers: *
+void Function_0x1EBC()
+	Start:   0x1EBC
+	End:     0x20C0
+	Section: .text
+undefined InitException()
+	Start:   0x20C0
+	End:     0x21CC
+	Section: .text
+void setCop0Epc()
+	Start:   0x21D0
+	End:     0x21DC
+	Section: .text
+void ExceptionCallback1()
+	Start:   0x21DC
+	End:     0x235C
+	Section: .text
+undefined DefaultDebugHandler()
+	Start:   0x2360
+	End:     0x2434
+	Section: .text
+undefined LoaderSysDeleteAllExternalIntcHandler()
+	Start:   0x2438
+	End:     0x2500
+	Section: .text
+undefined LoaderSysDeleteAllExternalSema()
+	Start:   0x2500
+	End:     0x2608
+	Section: .text
+undefined LoaderSysExecuteRecoveryFirstProcess()
+	Start:   0x2608
+	End:     0x272C
+	Section: .text
+undefined LoaderSysEntryExternalIntcHandlerList()
+	Start:   0x2730
+	End:     0x278C
+	Section: .text
+void LoaderSysEntryExternalThreadList()
+	Start:   0x2790
+	End:     0x27DC
+	Section: .text
+undefined LoaderSysEntryExternalSemaList()
+	Start:   0x27E0
+	End:     0x282C
+	Section: .text
+undefined LoaderSysEntryExternalIopMemoryList()
+	Start:   0x2830
+	End:     0x28A0
+	Section: .text
+void LoaderSysDeleteExternalIntcHandlerList()
+	Start:   0x28A0
+	End:     0x28EC
+	Section: .text
+void LoaderSysDeleteExternalThreadList()
+	Start:   0x28F0
+	End:     0x292C
+	Section: .text
+void LoaderSysDeleteExternalSemaList()
+	Start:   0x2930
+	End:     0x296C
+	Section: .text
+void LoaderSysDeleteExternalIopMemoryList()
+	Start:   0x2970
+	End:     0x29C4
+	Section: .text
+void LoaderSysInitExternalIntcHandlerList()
+	Start:   0x29C8
+	End:     0x29FC
+	Section: .text
+void LoaderSysInitExternalSemaList()
+	Start:   0x2A00
+	End:     0x2A3C
+	Section: .text
+void LoaderSysInitExternalThreadList()
+	Start:   0x2A40
+	End:     0x2A7C
+	Section: .text
+void LoaderSysExternalThreadListCallBack()
+	Start:   0x2A80
+	End:     0x2AEC
+	Section: .text
+void LoaderSysChangeExteranalThreadPriorityExceptMe()
+	Start:   0x2AF0
+	End:     0x2B68
+	Section: .text
+void LoaderSysDeleteAllExternalThread()
+	Start:   0x2B68
+	End:     0x2BD4
+	Section: .text
+undefined LoaderSysDeleteAllExternalThreadExceptMe()
+	Start:   0x2BD8
+	End:     0x2C54
+	Section: .text
+undefined LoaderSysInitExternalIopMemoryList()
+	Start:   0x2C58
+	End:     0x2C8C
+	Section: .text
+undefined LoaderSysDeleteAllExternalIopMemory()
+	Start:   0x2C90
+	End:     0x2CF4
+	Section: .text
+void LoaderSysPrintf(char* text)
+	Start:   0x2CF8
+	End:     0x2D6C
+	Section: .text
+	Generate: false
+	IncludeContext: false
+	UseNativePointers: *
+undefined LoaderSysLoadIopModuleFromEEBuffer()
+	Start:   0x2D70
+	End:     0x2FDC
+	Section: .text
+undefined LoaderSysCheckCDBootMode()
+	Start:   0x2FE0
+	End:     0x2FE8
+	Section: .text
+undefined LoaderSysPutString(char* text)
+	Start:   0x2FE8
+	End:     0x3008
+	Section: .text
+	Generate: false
+	IncludeContext: false
+	UseNativePointers: *
+void* LoaderSysFOpen(char* path, uint param_2, uint param_3)
+	Start:   0x3008
+	End:     0x301C
+	Section: .text
+	Generate: false
+	UseNativePointers: 1,2
+	IncludeContext: false
+void LoaderSysFClose(void* fileHandle)
+	Start:   0x3020
+	End:     0x3034
+	Section: .text
+	Generate: false
+	IncludeContext: false
+int LoaderSysFSeek()
+	Start:   0x3038
+	End:     0x304C
+	Section: .text
+	Generate: false
+	UseNativePointers: *
+undefined LoaderSysFSeek64()
+	Start:   0x3050
+	End:     0x3064
+	Section: .text
+	Generate: false
+	UseNativePointers: *
+int LoaderSysFRead(void* filePointer, void* output, int length)
+	Start:   0x3068
+	End:     0x307C
+	Section: .text
+	Generate: false 
+	IncludeContext: false
+	UseNativePointers: 1
+undefined LoaderSysFWrite()
+	Start:   0x3080
+	End:     0x3094
+	Section: .text
+	Generate: false
+	UseNativePointers: *
+void LoaderSysRemove()
+	Start:   0x3098
+	End:     0x30AC
+	Section: .text
+void LoaderSysRmdir()
+	Start:   0x30B0
+	End:     0x30C4
+	Section: .text
+void LoaderSysMkdir()
+	Start:   0x30C8
+	End:     0x30DC
+	Section: .text
+int LoaderSysGetstat(char* name, void* buffer)
+	Start:   0x30E0
+	End:     0x30F4
+	Section: .text
+	Generate: false
+	UseNativePointers: 1
+	IncludeContext: false
+void LoaderSysChstat()
+	Start:   0x30F8
+	End:     0x310C
+	Section: .text
+undefined LoaderSysGetMemoryInfo()
+	Start:   0x3110
+	End:     0x3258
+	Section: .text
+undefined LoaderSysDumpIopModuleIdentifiers()
+	Start:   0x3258
+	End:     0x32EC
+	Section: .text
+undefined LoaderSysSendAbort()
+	Start:   0x32F0
+	End:     0x32F8
+	Section: .text
+undefined LoaderSysFlushPrint()
+	Start:   0x32F8
+	End:     0x3300
+	Section: .text
+undefined checkHookDesc()
+	Start:   0x3300
+	End:     0x333C
+	Section: .text
+void setNewIopIdentifier()
+	Start:   0x3340
+	End:     0x33B0
+	Section: .text
+void WarmUpCdDrive()
+	Start:   0x33B0
+	End:     0x39C0
+	Section: .text
+undefined loaderLoop()
+	Start:   0x39C0
+	End:     0x3B3C
+	Section: .text
+undefined LoaderSysGetBootArg()
+	Start:   0x3CA8
+	End:     0x3CB4
+	Section: .text
+undefined LoaderSysLoadIopModule()
+	Start:   0x3CB8
+	End:     0x3D88
+	Section: .text
+undefined LoaderSysUnloadIopModuleByName()
+	Start:   0x3D88
+	End:     0x3E8C
+	Section: .text
+undefined LoaderSysHookPoint()
+	Start:   0x3E90
+	End:     0x3E98
+	Section: .text
+undefined LoaderSysRebootIop()
+	Start:   0x3E98
+	End:     0x3F24
+	Section: .text
+undefined loaderExecResetCallback()
+	Start:   0x3F28
+	End:     0x3F98
+	Section: .text
+undefined loaderSetResetCallback()
+	Start:   0x3F98
+	End:     0x3FF4
+	Section: .text
+void memprintf()
+	Start:   0x3FF8
+	End:     0x4040
+	Section: .text
+undefined imemprintf()
+	Start:   0x4040
+	End:     0x4088
+	Section: .text
+undefined initmemprintf()
+	Start:   0x4088
+	End:     0x4090
+	Section: .text
+void Function_0x4090()
+	Start:   0x4090
+	End:     0x4428
+	Section: .text
+void Function_0x4428()
+	Start:   0x4428
+	End:     0x4668
+	Section: .text
+void Function_0x4668()
+	Start:   0x4668
+	End:     0x4814
+	Section: .text
+void Function_0x4818()
+	Start:   0x4818
+	End:     0x498C
+	Section: .text
+undefined LoaderSysInitTCP()
+	Start:   0x4990
+	End:     0x4CBC
+	Section: .text
+undefined padSysTickProc()
+	Start:   0x4CC0
+	End:     0x4DF4
+	Section: .text
+undefined padsysInit()
+	Start:   0x4DF8
+	End:     0x4E74
+	Section: .text
+undefined padSysGet()
+	Start:   0x4E78
+	End:     0x4E98
+	Section: .text
+undefined padSysReadForLoader()
+	Start:   0x4E98
+	End:     0x4EF4
+	Section: .text
+undefined padSysVibSetAcrParam()
+	Start:   0x4EF8
+	End:     0x4F58
+	Section: .text
+void LoaderSysSetPowerOffCallBackFunc()
+	Start:   0x4F58
+	End:     0x4F60
+	Section: .text
+undefined PreparePowerOff()
+	Start:   0x4F60
+	End:     0x4FEC
+	Section: .text
+void Function_0x4FEC()
+	Start:   0x4FEC
+	End:     0x50B8
+	Section: .text
+undefined usbSerialSysPutString()
+	Start:   0x50B8
+	End:     0x5268
+	Section: .text
+undefined usbSerialSysPrintf()
+	Start:   0x5268
+	End:     0x52D4
+	Section: .text
+undefined usbSerialSysInit()
+	Start:   0x52D8
+	End:     0x53F0
+	Section: .text
+void Function_0x53F0()
+	Start:   0x53F0
+	End:     0x5408
+	Section: .text
+	Type:    int
+void Function_0x53F4()
+	Start:   0x53F4
+	End:     0x5408
+	Section: .text
+undefined PutFont()
+	Start:   0x5408
+	End:     0x56D4
+	Section: .text
+undefined _putString()
+	Start:   0x56D8
+	End:     0x5944
+	Section: .text
+void PutString()
+	Start:   0x5948
+	End:     0x598C
+	Section: .text
+	Generate: false
+	UseNativePointers: *
+void PutStringS(long something, char* format)
+	Start:   0x5990
+	End:     0x59D4
+	Section: .text
+	Generate: false
+	UseNativePointers: *
+	IncludeContext: false
+void Function_0x59D4()
+	Start:   0x59D4
+	End:     0x5BC8
+	Section: .text
+undefined Sync()
+	Start:   0x5BC8
+	End:     0x5CDC
+	Section: .text
+undefined ReinitDisp()
+	Start:   0x5CE0
+	End:     0x5E38
+	Section: .text
+undefined LoaderSysDrawSprite()
+	Start:   0x5E38
+	End:     0x6310
+	Section: .text
+undefined ExecBaseProc()
+	Start:   0x6310
+	End:     0x6380
+	Section: .text
+void SetLocate()
+	Start:   0x6380
+	End:     0x638C
+	Section: .text
+undefined ScrollDisplay()
+	Start:   0x6390
+	End:     0x642C
+	Section: .text
+undefined ClearDisplay()
+	Start:   0x6430
+	End:     0x6494
+	Section: .text
+undefined InitDisp()
+	Start:   0x6498
+	End:     0x6514
+	Section: .text
+void RestoreNormalDrawEnvironment()
+	Start:   0x6518
+	End:     0x6588
+	Section: .text
+void SetTextureWithFrameBuffer()
+	Start:   0x6588
+	End:     0x6650
+	Section: .text
+void SetTexDrawEnvironment()
+	Start:   0x6650
+	End:     0x66FC
+	Section: .text
+void SetDrawnTextureEnvironment()
+	Start:   0x6700
+	End:     0x67CC
+	Section: .text
+void SetDrawEnvironment()
+	Start:   0x67D0
+	End:     0x6894
+	Section: .text
+void SetPrimColor()
+	Start:   0x6898
+	End:     0x69E4
+	Section: .text
+void SetPrimColorTex()
+	Start:   0x69E8
+	End:     0x6B54
+	Section: .text
+void PutChar()
+	Start:   0x6B58
+	End:     0x6B8C
+	Section: .text
+undefined RFU000_FullReset()
+	Start:   0x6BC0
+	End:     0x6BD0
+	Section: .text
+undefined ResetEE()
+	Start:   0x6BD0
+	End:     0x6BE0
+	Section: .text
+undefined SetGsCrt()
+	Start:   0x6BE0
+	End:     0x6BF0
+	Section: .text
+undefined RFU003()
+	Start:   0x6BF0
+	End:     0x6C00
+	Section: .text
+void _Exit()
+	Start:   0x6C00
+	End:     0x6C10
+	Section: .text
+undefined RFU005()
+	Start:   0x6C10
+	End:     0x6C20
+	Section: .text
+undefined _LoadExecPS2()
+	Start:   0x6C20
+	End:     0x6C30
+	Section: .text
+undefined _ExecPS2()
+	Start:   0x6C30
+	End:     0x6C40
+	Section: .text
+undefined RFU008()
+	Start:   0x6C40
+	End:     0x6C50
+	Section: .text
+undefined RFU009()
+	Start:   0x6C50
+	End:     0x6C60
+	Section: .text
+undefined AddSbusIntcHandler()
+	Start:   0x6C60
+	End:     0x6C70
+	Section: .text
+undefined RemoveSbusIntcHandler()
+	Start:   0x6C70
+	End:     0x6C80
+	Section: .text
+undefined Interrupt2Iop()
+	Start:   0x6C80
+	End:     0x6C90
+	Section: .text
+void SetVTLBRefillHandler()
+	Start:   0x6C90
+	End:     0x6CA0
+	Section: .text
+void SetVCommonHandler()
+	Start:   0x6CA0
+	End:     0x6CB0
+	Section: .text
+undefined SetVInterruptHandler()
+	Start:   0x6CB0
+	End:     0x6CC0
+	Section: .text
+undefined AddIntcHandler()
+	Start:   0x6CC0
+	End:     0x6CD0
+	Section: .text
+undefined AddIntcHandler2()
+	Start:   0x6CD0
+	End:     0x6CE0
+	Section: .text
+undefined RemoveIntcHandler()
+	Start:   0x6CE0
+	End:     0x6CF0
+	Section: .text
+undefined AddDmacHandler()
+	Start:   0x6CF0
+	End:     0x6D00
+	Section: .text
+void AddDmacHandler2()
+	Start:   0x6D00
+	End:     0x6D10
+	Section: .text
+undefined RemoveDmacHandler()
+	Start:   0x6D10
+	End:     0x6D20
+	Section: .text
+undefined _EnableIntc()
+	Start:   0x6D20
+	End:     0x6D30
+	Section: .text
+undefined _DisableIntc()
+	Start:   0x6D30
+	End:     0x6D40
+	Section: .text
+undefined _EnableDmac()
+	Start:   0x6D40
+	End:     0x6D50
+	Section: .text
+undefined _DisableDmac()
+	Start:   0x6D50
+	End:     0x6D60
+	Section: .text
+void SetAlarm()
+	Start:   0x6D60
+	End:     0x6D70
+	Section: .text
+void ReleaseAlarm()
+	Start:   0x6D70
+	End:     0x6D80
+	Section: .text
+undefined _iEnableIntc()
+	Start:   0x6D80
+	End:     0x6D90
+	Section: .text
+undefined _iDisableIntc()
+	Start:   0x6D90
+	End:     0x6DA0
+	Section: .text
+undefined _iEnableDmac()
+	Start:   0x6DA0
+	End:     0x6DB0
+	Section: .text
+undefined _iDisableDmac()
+	Start:   0x6DB0
+	End:     0x6DC0
+	Section: .text
+void iSetAlarm()
+	Start:   0x6DC0
+	End:     0x6DD0
+	Section: .text
+void iReleaseAlarm()
+	Start:   0x6DD0
+	End:     0x6DE0
+	Section: .text
+void CreateThread(ThreadParam* parameters)
+	Start:   0x6DE0
+	End:     0x6DF0
+	Section: .text
+	Generate: false
+	IncludeContext: false
+	UseNativePointers: *
+undefined DeleteThread()
+	Start:   0x6DF0
+	End:     0x6E00
+	Section: .text
+undefined _StartThread()
+	Start:   0x6E00
+	End:     0x6E10
+	Section: .text
+undefined ExitThread()
+	Start:   0x6E10
+	End:     0x6E20
+	Section: .text
+undefined ExitDeleteThread()
+	Start:   0x6E20
+	End:     0x6E30
+	Section: .text
+undefined TerminateThread()
+	Start:   0x6E30
+	End:     0x6E40
+	Section: .text
+void iTerminateThread()
+	Start:   0x6E40
+	End:     0x6E50
+	Section: .text
+void DisableDispatchThread()
+	Start:   0x6E50
+	End:     0x6E60
+	Section: .text
+void EnableDispatchThread()
+	Start:   0x6E60
+	End:     0x6E70
+	Section: .text
+void ChangeThreadPriority()
+	Start:   0x6E70
+	End:     0x6E80
+	Section: .text
+undefined iChangeThreadPriority()
+	Start:   0x6E80
+	End:     0x6E90
+	Section: .text
+undefined RotateThreadReadyQueue()
+	Start:   0x6E90
+	End:     0x6EA0
+	Section: .text
+void _iRotateThreadReadyQueue()
+	Start:   0x6EA0
+	End:     0x6EB0
+	Section: .text
+void ReleaseWaitThread()
+	Start:   0x6EB0
+	End:     0x6EC0
+	Section: .text
+void iReleaseWaitThread()
+	Start:   0x6EC0
+	End:     0x6ED0
+	Section: .text
+undefined GetThreadId()
+	Start:   0x6ED0
+	End:     0x6EE0
+	Section: .text
+undefined ReferThreadStatus()
+	Start:   0x6EE0
+	End:     0x6EF0
+	Section: .text
+void iReferThreadStatus()
+	Start:   0x6EF0
+	End:     0x6F00
+	Section: .text
+undefined SleepThread()
+	Start:   0x6F00
+	End:     0x6F10
+	Section: .text
+	Generate: false
+	UseNativePointers: *
+undefined WakeupThread()
+	Start:   0x6F10
+	End:     0x6F20
+	Section: .text
+undefined _iWakeupThread()
+	Start:   0x6F20
+	End:     0x6F30
+	Section: .text
+undefined CancelWakeupThread()
+	Start:   0x6F30
+	End:     0x6F40
+	Section: .text
+void iCancelWakeupThread()
+	Start:   0x6F40
+	End:     0x6F50
+	Section: .text
+undefined SuspendThread()
+	Start:   0x6F50
+	End:     0x6F60
+	Section: .text
+undefined _iSuspendThread()
+	Start:   0x6F60
+	End:     0x6F70
+	Section: .text
+void ResumeThread()
+	Start:   0x6F70
+	End:     0x6F80
+	Section: .text
+void iResumeThread()
+	Start:   0x6F80
+	End:     0x6F90
+	Section: .text
+void JoinThread()
+	Start:   0x6F90
+	End:     0x6FA0
+	Section: .text
+void RFU060()
+	Start:   0x6FA0
+	End:     0x6FB0
+	Section: .text
+void RFU061()
+	Start:   0x6FB0
+	End:     0x6FC0
+	Section: .text
+undefined EndOfHeap()
+	Start:   0x6FC0
+	End:     0x6FD0
+	Section: .text
+void RFU063()
+	Start:   0x6FD0
+	End:     0x6FE0
+	Section: .text
+undefined CreateSema()
+	Start:   0x6FE0
+	End:     0x6FF0
+	Section: .text
+undefined DeleteSema()
+	Start:   0x6FF0
+	End:     0x7000
+	Section: .text
+undefined SignalSema()
+	Start:   0x7000
+	End:     0x7010
+	Section: .text
+undefined iSignalSema()
+	Start:   0x7010
+	End:     0x7020
+	Section: .text
+undefined WaitSema()
+	Start:   0x7020
+	End:     0x7030
+	Section: .text
+undefined PollSema()
+	Start:   0x7030
+	End:     0x7040
+	Section: .text
+void iPollSema()
+	Start:   0x7040
+	End:     0x7050
+	Section: .text
+undefined ReferSemaStatus()
+	Start:   0x7050
+	End:     0x7060
+	Section: .text
+void iReferSemaStatus()
+	Start:   0x7060
+	End:     0x7070
+	Section: .text
+void RFU073()
+	Start:   0x7070
+	End:     0x7080
+	Section: .text
+undefined SetOsdConfigParam()
+	Start:   0x7080
+	End:     0x7090
+	Section: .text
+undefined GetOsdConfigParam()
+	Start:   0x7090
+	End:     0x70A0
+	Section: .text
+void GetGsHParam()
+	Start:   0x70A0
+	End:     0x70B0
+	Section: .text
+void GetGsVParam()
+	Start:   0x70B0
+	End:     0x70C0
+	Section: .text
+void SetGsHParam()
+	Start:   0x70C0
+	End:     0x70D0
+	Section: .text
+void SetGsVParam()
+	Start:   0x70D0
+	End:     0x70E0
+	Section: .text
+void RFU080_CreateEventFlag()
+	Start:   0x70E0
+	End:     0x70F0
+	Section: .text
+void RFU081_DeleteEventFlag()
+	Start:   0x70F0
+	End:     0x7100
+	Section: .text
+void RFU082_SetEventFlag()
+	Start:   0x7100
+	End:     0x7110
+	Section: .text
+void RFU083_iSetEventFlag()
+	Start:   0x7110
+	End:     0x7120
+	Section: .text
+void RFU084_ClearEventFlag()
+	Start:   0x7120
+	End:     0x7130
+	Section: .text
+void RFU085_iClearEventFlag()
+	Start:   0x7130
+	End:     0x7140
+	Section: .text
+void RFU086_WaitEvnetFlag()
+	Start:   0x7140
+	End:     0x7150
+	Section: .text
+void RFU087_PollEvnetFlag()
+	Start:   0x7150
+	End:     0x7160
+	Section: .text
+void RFU088_iPollEvnetFlag()
+	Start:   0x7160
+	End:     0x7170
+	Section: .text
+void RFU089_ReferEventFlagStatus()
+	Start:   0x7170
+	End:     0x7180
+	Section: .text
+void RFU090_iReferEventFlagStatus()
+	Start:   0x7180
+	End:     0x7190
+	Section: .text
+void RFU091()
+	Start:   0x7190
+	End:     0x71A0
+	Section: .text
+	Link: false
+	IncludeContext: true 
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+void EnableIntcHandler()
+	Start:   0x71A0
+	End:     0x71B0
+	Section: .text
+void iEnableIntcHandler()
+	Start:   0x71B0
+	End:     0x71C0
+	Section: .text
+void DisableIntcHandler()
+	Start:   0x71C0
+	End:     0x71D0
+	Section: .text
+void iDisableIntcHandler()
+	Start:   0x71D0
+	End:     0x71E0
+	Section: .text
+void EnableDmacHandler()
+	Start:   0x71E0
+	End:     0x71F0
+	Section: .text
+void iEnableDmacHandler()
+	Start:   0x71F0
+	End:     0x7200
+	Section: .text
+void DisableDmacHandler()
+	Start:   0x7200
+	End:     0x7210
+	Section: .text
+void iDisableDmacHandler()
+	Start:   0x7210
+	End:     0x7220
+	Section: .text
+void KSeg0()
+	Start:   0x7220
+	End:     0x7230
+	Section: .text
+void EnableCache()
+	Start:   0x7230
+	End:     0x7240
+	Section: .text
+void DisableCache()
+	Start:   0x7240
+	End:     0x7250
+	Section: .text
+void GetCop0()
+	Start:   0x7250
+	End:     0x7260
+	Section: .text
+undefined FlushCache()
+	Start:   0x7260
+	End:     0x7270
+	Section: .text
+void CpuConfig()
+	Start:   0x7270
+	End:     0x7280
+	Section: .text
+undefined iGetCop0()
+	Start:   0x7280
+	End:     0x7290
+	Section: .text
+void iFlushCache()
+	Start:   0x7290
+	End:     0x72A0
+	Section: .text
+void iCpuConfig()
+	Start:   0x72A0
+	End:     0x72B0
+	Section: .text
+undefined sceSifStopDma()
+	Start:   0x72B0
+	End:     0x72C0
+	Section: .text
+void SetCPUTimerHandler()
+	Start:   0x72C0
+	End:     0x72D0
+	Section: .text
+void SetCPUTimer()
+	Start:   0x72D0
+	End:     0x72E0
+	Section: .text
+void SetOsdConfigParam2()
+	Start:   0x72E0
+	End:     0x72F0
+	Section: .text
+void GetOsdConfigParam2()
+	Start:   0x72F0
+	End:     0x7300
+	Section: .text
+undefined GsGetIMR()
+	Start:   0x7300
+	End:     0x7310
+	Section: .text
+undefined iGsGetIMR()
+	Start:   0x7310
+	End:     0x7320
+	Section: .text
+undefined GsPutIMR()
+	Start:   0x7320
+	End:     0x7330
+	Section: .text
+undefined iGsPutIMR()
+	Start:   0x7330
+	End:     0x7340
+	Section: .text
+void SetPgifHandler()
+	Start:   0x7340
+	End:     0x7350
+	Section: .text
+undefined SetVSyncFlag()
+	Start:   0x7350
+	End:     0x7360
+	Section: .text
+void RFU116()
+	Start:   0x7360
+	End:     0x7370
+	Section: .text
+void _print()
+	Start:   0x7370
+	End:     0x7380
+	Section: .text
+undefined sceSifDmaStat()
+	Start:   0x7380
+	End:     0x7390
+	Section: .text
+void isceSifDmaStat()
+	Start:   0x7390
+	End:     0x73A0
+	Section: .text
+undefined sceSifSetDma()
+	Start:   0x73A0
+	End:     0x73B0
+	Section: .text
+undefined isceSifSetDma()
+	Start:   0x73B0
+	End:     0x73C0
+	Section: .text
+undefined sceSifSetDChain()
+	Start:   0x73C0
+	End:     0x73D0
+	Section: .text
+undefined isceSifSetDChain()
+	Start:   0x73D0
+	End:     0x73E0
+	Section: .text
+undefined sceSifSetReg()
+	Start:   0x73E0
+	End:     0x73F0
+	Section: .text
+undefined sceSifGetReg()
+	Start:   0x73F0
+	End:     0x7400
+	Section: .text
+	Generate: false
+	UseNativePointers: *
+undefined _ExecOSD()
+	Start:   0x7400
+	End:     0x7410
+	Section: .text
+undefined Deci2Call()
+	Start:   0x7410
+	End:     0x7420
+	Section: .text
+void PSMode()
+	Start:   0x7420
+	End:     0x7430
+	Section: .text
+void MachineType()
+	Start:   0x7430
+	End:     0x7440
+	Section: .text
+undefined GetMemorySize()
+	Start:   0x7440
+	End:     0x7450
+	Section: .text
+undefined _InitTLB()
+	Start:   0x7450
+	End:     0x7460
+	Section: .text
+undefined QueryIntrContext()
+	Start:   0x7460
+	End:     0x7470
+	Section: .text
+undefined DisableIntc()
+	Start:   0x7470
+	End:     0x74D8
+	Section: .text
+undefined EnableIntc()
+	Start:   0x74D8
+	End:     0x7540
+	Section: .text
+undefined DisableDmac()
+	Start:   0x7540
+	End:     0x75A8
+	Section: .text
+undefined EnableDmac()
+	Start:   0x75A8
+	End:     0x7610
+	Section: .text
+undefined iEnableIntc()
+	Start:   0x7610
+	End:     0x7630
+	Section: .text
+undefined iDisableIntc()
+	Start:   0x7630
+	End:     0x7650
+	Section: .text
+void iEnableDmac()
+	Start:   0x7650
+	End:     0x7670
+	Section: .text
+void iDisableDmac()
+	Start:   0x7670
+	End:     0x7690
+	Section: .text
+void Function_0x7690()
+	Start:   0x7690
+	End:     0x7768
+	Section: .text
+undefined InitThread()
+	Start:   0x7768
+	End:     0x7854
+	Section: .text
+void iWakeupThread()
+	Start:   0x7858
+	End:     0x78EC
+	Section: .text
+void iRotateThreadReadyQueue()
+	Start:   0x78F0
+	End:     0x796C
+	Section: .text
+void iSuspendThread()
+	Start:   0x7970
+	End:     0x7A08
+	Section: .text
+undefined DelayThread()
+	Start:   0x7A08
+	End:     0x7AD0
+	Section: .text
+void StartThread()
+	Start:   0x7AD0
+	End:     0x7C48
+	Section: .text
+void Function_0x7C48()
+	Start:   0x7C48
+	End:     0x7C70
+	Section: .text
+void sceVsnprintf()
+	Start:   0x8E08
+	End:     0x8E40
+	Section: .text
+void sceSnprintf()
+	Start:   0x8E40
+	End:     0x8E88
+	Section: .text
+void sceVprintf()
+	Start:   0x8E88
+	End:     0x8EF8
+	Section: .text
+void scePrintf()
+	Start:   0x8EF8
+	End:     0x8F78
+	Section: .text
+undefined kprintf()
+	Start:   0x8F78
+	End:     0x8FF8
+	Section: .text
+undefined sceSifInitRpc()
+	Start:   0x8FF8
+	End:     0x9194
+	Section: .text
+undefined sceSifExitRpc()
+	Start:   0x9198
+	End:     0x91BC
+	Section: .text
+undefined sceSifGetOtherData()
+	Start:   0x94D8
+	End:     0x963C
+	Section: .text
+undefined sceSifBindRpc()
+	Start:   0x97A0
+	End:     0x98EC
+	Section: .text
+undefined sceSifCallRpc(undefined param_1, undefined param_2, undefined param_3, undefined param_4, undefined param_5, undefined param_6, undefined param_7, undefined param_8, undefined4 param_9)
+	Start:   0x9980
+	End:     0x9B80
+	Section: .text
+undefined sceSifCheckStatRpc()
+	Start:   0x9B80
+	End:     0x9BBC
+	Section: .text
+undefined sceSifSetRpcQueue()
+	Start:   0x9BC0
+	End:     0x9C54
+	Section: .text
+undefined sceSifRegisterRpc()
+	Start:   0x9C58
+	End:     0x9D28
+	Section: .text
+undefined sceSifRemoveRpc()
+	Start:   0x9D28
+	End:     0x9DBC
+	Section: .text
+undefined sceSifRemoveRpcQueue()
+	Start:   0x9DC0
+	End:     0x9E50
+	Section: .text
+undefined sceSifGetNextRequest()
+	Start:   0x9E50
+	End:     0x9EA8
+	Section: .text
+undefined sceSifExecRequest()
+	Start:   0x9EA8
+	End:     0xA06C
+	Section: .text
+void sceSifRpcLoop()
+	Start:   0xA070
+	End:     0xA0B0
+	Section: .text
+void scePowerOffHandler()
+	Start:   0xA7D8
+	End:     0xA878
+	Section: .text
+undefined sceFsInit()
+	Start:   0xA8C0
+	End:     0xAAC8
+	Section: .text
+undefined sceFsReset()
+	Start:   0xAB58
+	End:     0xAB8C
+	Section: .text
+void sceFsSetIopBuf()
+	void Start:   0xAB90()
+	End:     0xACD0
+	Section: .text
+void sceFsSetIopPrio()
+	void Start:   0xACD0()
+	End:     0xADC0
+	Section: .text
+void sceOpen()
+	void Start:   0xADC0()
+	End:     0xB050
+	Section: .text
+undefined sceClose()
+	Start:   0xB050
+	End:     0xB1C8
+	Section: .text
+undefined sceLseek()
+	Start:   0xB1C8
+	End:     0xB404
+	Section: .text
+void sceRead()
+	Start:   0xB408
+	End:     0xB674
+	Section: .text
+undefined sceWrite()
+	Start:   0xB678
+	End:     0xB938
+	Section: .text
+undefined sceIoctl()
+	Start:   0xB938
+	End:     0xBCC0
+	Section: .text
+undefined sceIoctl2()
+	Start:   0xBCC0
+	End:     0xBEA8
+	Section: .text
+undefined sceRemove()
+	Start:   0xC058
+	End:     0xC074
+	Section: .text
+void sceMkdir()
+	Start:   0xC078
+	End:     0xC230
+	Section: .text
+undefined sceRmdir()
+	Start:   0xC230
+	End:     0xC24C
+	Section: .text
+void sceFormat()
+	Start:   0xC250
+	End:     0xC4D0
+	Section: .text
+void sceAddDrv()
+	Start:   0xC4D0
+	End:     0xC5FC
+	Section: .text
+void sceDelDrv()
+	Start:   0xC600
+	End:     0xC61C
+	Section: .text
+void sceDopen()
+	Start:   0xC620
+	End:     0xC6E8
+	Section: .text
+void sceDclose()
+	Start:   0xC6E8
+	End:     0xC84C
+	Section: .text
+void sceDread()
+	Start:   0xC850
+	End:     0xC9A4
+	Section: .text
+undefined sceGetstat()
+	Start:   0xC9A8
+	End:     0xCB5C
+	Section: .text
+void sceChstat()
+	Start:   0xCB60
+	End:     0xCDAC
+	Section: .text
+void sceRename()
+	Start:   0xCDB0
+	End:     0xCFB8
+	Section: .text
+void sceChdir()
+	Start:   0xCFB8
+	End:     0xCFD4
+	Section: .text
+void sceSync()
+	Start:   0xCFD8
+	End:     0xD184
+	Section: .text
+void sceMount()
+	Start:   0xD188
+	End:     0xD408
+	Section: .text
+void sceUmount()
+	Start:   0xD408
+	End:     0xD424
+	Section: .text
+void sceLseek64()
+	Start:   0xD428
+	End:     0xD664
+	Section: .text
+undefined sceDevctl()
+	Start:   0xD668
+	End:     0xD910
+	Section: .text
+undefined sceSymlink()
+	Start:   0xD910
+	End:     0xDB08
+	Section: .text
+undefined sceReadlink()
+	Start:   0xDB08
+	End:     0xDCE8
+	Section: .text
+undefined sceSifInitIopHeap()
+	Start:   0xDCE8
+	End:     0xDD70
+	Section: .text
+undefined sceSifAllocIopHeap()
+	Start:   0xDD70
+	End:     0xDDE0
+	Section: .text
+undefined sceSifAllocSysMemory()
+	Start:   0xDDE0
+	End:     0xDE60
+	Section: .text
+undefined sceSifFreeSysMemory()
+	Start:   0xDE60
+	End:     0xDED8
+	Section: .text
+undefined sceSifFreeIopHeap()
+	Start:   0xDED8
+	End:     0xDEF4
+	Section: .text
+void sceSifLoadIopHeap()
+	Start:   0xDEF8
+	End:     0xDFE8
+	Section: .text
+void sceSifQueryMemSize()
+	Start:   0xDFE8
+	End:     0xE058
+	Section: .text
+void sceSifQueryMaxFreeMemSize()
+	Start:   0xE058
+	End:     0xE0C8
+	Section: .text
+undefined sceSifQueryTotalFreeMemSize()
+	Start:   0xE0C8
+	End:     0xE138
+	Section: .text
+undefined sceSifQueryBlockTopAddress()
+	Start:   0xE138
+	End:     0xE1B4
+	Section: .text
+void sceSifQueryBlockSize()
+	Start:   0xE1B8
+	End:     0xE234
+	Section: .text
+undefined sceSifLoadFileReset()
+	Start:   0xE3C8
+	End:     0xE400
+	Section: .text
+undefined sceSifStopModule()
+	Start:   0xE608
+	End:     0xE810
+	Section: .text
+undefined sceSifUnloadModule()
+	Start:   0xE810
+	End:     0xE8A0
+	Section: .text
+undefined sceSifSearchModuleByName()
+	Start:   0xE8A0
+	End:     0xE940
+	Section: .text
+undefined sceSifSearchModuleByAddress()
+	Start:   0xE940
+	End:     0xE9D0
+	Section: .text
+undefined sceSifLoadModuleBuffer()
+	Start:   0xE9D0
+	End:     0xE9EC
+	Section: .text
+void sceSifLoadStartModuleBuffer()
+	Start:   0xE9F0
+	End:     0xEA0C
+	Section: .text
+void sceSifLoadModule()
+	Start:   0xEC38
+	End:     0xEC58
+	Section: .text
+undefined sceSifLoadStartModule()
+	Start:   0xEC58
+	End:     0xEC74
+	Section: .text
+void sceSifLoadElfPart()
+	Start:   0xED80
+	End:     0xED9C
+	Section: .text
+void sceSifLoadElf()
+	Start:   0xEDA0
+	End:     0xEDC8
+	Section: .text
+void sceSifGetIopAddr()
+	Start:   0xEDC8
+	End:     0xEEB4
+	Section: .text
+void sceSifSetIopAddr()
+	Start:   0xEEB8
+	End:     0xEF94
+	Section: .text
+undefined sceSifResetIop()
+	Start:   0xEF98
+	End:     0xF0EC
+	Section: .text
+sceSifIsAliveIop
+	Start:   0xF0F0
+	End:     0xF118
+	Section: .text
+undefined sceSifSyncIop()
+	Start:   0xF118
+	End:     0xF168
+	Section: .text
+sceSifRebootIop
+	Start:   0xF168
+	End:     0xF278
+	Section: .text
+undefined SetTLBHandler()
+	Start:   0xF278
+	End:     0xF2D8
+	Section: .text
+void SetDebugHandler()
+	Start:   0xF2D8
+	End:     0xF35C
+	Section: .text
+undefined InitTLBFunctions()
+	Start:   0xF3C8
+	End:     0xF48C
+	Section: .text
+void PutTLBEntry()
+	Start:   0xF490
+	End:     0xF4A0
+	Section: .text
+void iPutTLBEntry()
+	Start:   0xF4A0
+	End:     0xF4B0
+	Section: .text
+undefined SetTLBEntry()
+	Start:   0xF4C0
+	End:     0xF4F0
+	Section: .text
+void iSetTLBEntry()
+	Start:   0xF4F0
+	End:     0xF500
+	Section: .text
+void GetTLBEntry()
+	Start:   0xF500
+	End:     0xF510
+	Section: .text
+void iGetTLBEntry()
+	Start:   0xF510
+	End:     0xF520
+	Section: .text
+void ProbeTLBEntry()
+	Start:   0xF520
+	End:     0xF530
+	Section: .text
+void iProbeTLBEntry()
+	Start:   0xF530
+	End:     0xF540
+	Section: .text
+void ExpandScratchPad()
+	Start:   0xF540
+	End:     0xF550
+	Section: .text
+void InitTLB()
+	Start:   0xF550
+	End:     0xF590
+	Section: .text
+undefined _kTLBException()
+	Start:   0xF7C0
+	End:     0xF8DC
+	Section: .text
+undefined _xlaunch()
+	Start:   0xF8C0
+	End:     0xF8DC
+	Section: .text
+void _kExitTLBHandler()
+	Start:   0xF900
+	End:     0xF9F4
+	Section: .text
+undefined _kDebugException()
+	Start:   0xFA00
+	End:     0xFB1C
+	Section: .text
+undefined DIntr()
+	Start:   0xFB20
+	End:     0xFB70
+	Section: .text
+undefined EIntr()
+	Start:   0xFB70
+	End:     0xFB88
+	Section: .text
+void __sceKernlGetEhSemaId()
+	Start:   0xFBE8
+	End:     0xFBF4
+	Section: .text
+undefined GetSystemCallEntry()
+	Start:   0xFC90
+	End:     0xFCC4
+	Section: .text
+undefined _InitSys()
+	Start:   0xFDD8
+	End:     0xFE2C
+	Section: .text
+undefined InitExecPS2()
+	Start:   0xFF00
+	End:     0xFFAC
+	Section: .text
+void ExecPS2()
+	Start:   0x10120
+	End:     0x10190
+	Section: .text
+void LoadExecPS2()
+	Start:   0x10190
+	End:     0x101D8
+	Section: .text
+undefined Exit()
+	Start:   0x101D8
+	End:     0x10200
+	Section: .text
+undefined ExecOSD()
+	Start:   0x10200
+	End:     0x1024C
+	Section: .text
+undefined InitAlarm()
+	Start:   0x102B8
+	End:     0x1038C
+	Section: .text
+undefined SetT2()
+	Start:   0x10390
+	End:     0x10400
+	Section: .text
+undefined SetT2_COUNT()
+	Start:   0x10400
+	End:     0x10410
+	Section: .text
+undefined SetT2_MODE()
+	Start:   0x10410
+	End:     0x10420
+	Section: .text
+undefined SetT2_COMP()
+	Start:   0x10420
+	End:     0x10430
+	Section: .text
+undefined InitTimer()
+	Start:   0x10430
+	End:     0x10584
+	Section: .text
+void EndTimer()
+	Start:   0x10588
+	End:     0x10640
+	Section: .text
+void GetTimerPreScaleFactor()
+	Start:   0x10640
+	End:     0x1066C
+	Section: .text
+undefined StartTimerSystemTime()
+	Start:   0x10670
+	End:     0x10700
+	Section: .text
+undefined StopTimerSystemTime()
+	Start:   0x10700
+	End:     0x1077C
+	Section: .text
+undefined iGetTimerSystemTime()
+	Start:   0x10C78
+	End:     0x10CC4
+	Section: .text
+void GetTimerSystemTime()
+	Start:   0x10CC8
+	End:     0x10D44
+	Section: .text
+undefined iAllocTimerCounter()
+	Start:   0x10D48
+	End:     0x10DB8
+	Section: .text
+undefined AllocTimerCounter()
+	Start:   0x10DB8
+	End:     0x10E00
+	Section: .text
+undefined iFreeTimerCounter()
+	Start:   0x10E00
+	End:     0x10EA0
+	Section: .text
+undefined FreeTimerCounter()
+	Start:   0x10EA0
+	End:     0x10EEC
+	Section: .text
+undefined iGetTimerUsedUnusedCounters()
+	Start:   0x10EF0
+	End:     0x10F40
+	Section: .text
+undefined GetTimerUsedUnusedCounters()
+	Start:   0x10F40
+	End:     0x10F9C
+	Section: .text
+undefined iStartTimerCounter()
+	Start:   0x10FA0
+	End:     0x1104C
+	Section: .text
+undefined StartTimerCounter()
+	Start:   0x11050
+	End:     0x1109C
+	Section: .text
+undefined iStopTimerCounter()
+	Start:   0x110A0
+	End:     0x11164
+	Section: .text
+void StopTimerCounter()
+	Start:   0x11168
+	End:     0x111B4
+	Section: .text
+void SetTimerCount()
+	Start:   0x111B8
+	End:     0x11284
+	Section: .text
+undefined iGetTimerBaseTime()
+	Start:   0x11288
+	End:     0x112D0
+	Section: .text
+undefined GetTimerBaseTime()
+	Start:   0x112D0
+	End:     0x1131C
+	Section: .text
+undefined iGetTimerCount()
+	Start:   0x11320
+	End:     0x1138C
+	Section: .text
+void GetTimerCount()
+	Start:   0x11390
+	End:     0x113DC
+	Section: .text
+undefined iSetTimerHandler()
+	Start:   0x113E0
+	End:     0x114D4
+	Section: .text
+undefined SetTimerHandler()
+	Start:   0x114D8
+	End:     0x11554
+	Section: .text
+void TimerBusClock2USec()
+	Start:   0x11558
+	End:     0x11600
+	Section: .text
+undefined TimerUSec2BusClock()
+	Start:   0x11600
+	End:     0x11670
+	Section: .text
+undefined TimerBusClock2Freq()
+	Start:   0x11670
+	End:     0x116C4
+	Section: .text
+void TimerFreq2BusClock()
+	Start:   0x116C8
+	End:     0x116FC
+	Section: .text
+undefined _InitAlarm()
+	Start:   0x11700
+	End:     0x1174C
+	Section: .text
+undefined SetTimerAlarm()
+	Start:   0x117B0
+	End:     0x118DC
+	Section: .text
+undefined iSetTimerAlarm()
+	Start:   0x118E0
+	End:     0x119D0
+	Section: .text
+undefined ReleaseTimerAlarm()
+	Start:   0x119D0
+	End:     0x11A78
+	Section: .text
+undefined iReleaseTimerAlarm()
+	Start:   0x11A78
+	End:     0x11AF0
+	Section: .text
+undefined sceSifInitRebootNotify()
+	Start:   0x11AF0
+	End:     0x11B14
+	Section: .text
+void sceSifSetRebootNotifyBuffer()
+	Start:   0x11B18
+	End:     0x11B94
+	Section: .text
+undefined sceSifAddRebootNotifyHandler()
+	Start:   0x11B98
+	End:     0x11C50
+	Section: .text
+undefined sceSifRemoveRebootNotifyHandler()
+	Start:   0x11C50
+	End:     0x11CA4
+	Section: .text
+undefined sceSifExecNotifyHandler()
+	Start:   0x11CA8
+	End:     0x11D50
+	Section: .text
+undefined sceResetttyinit()
+	Start:   0x11D50
+	End:     0x11D5C
+	Section: .text
+undefined VSync()
+	Start:   0x11D60
+	End:     0x11DF0
+	Section: .text
+	Generate: false
+	UseNativePointers: *
+undefined VSync2()
+	Start:   0x11DF0
+	End:     0x11E94
+	Section: .text
+void write()
+	Start:   0x11E98
+	End:     0x11F14
+	Section: .text
+void read()
+	Start:   0x11F18
+	End:     0x11F8C
+	Section: .text
+void open()
+	Start:   0x11F90
+	End:     0x11FB8
+	Section: .text
+void close()
+	Start:   0x11FB8
+	End:     0x11FC0
+	Section: .text
+void ioctl()
+	Start:   0x11FC0
+	End:     0x11FC8
+	Section: .text
+void lseek()
+	Start:   0x11FC8
+	End:     0x11FD0
+	Section: .text
+void sbrk()
+	Start:   0x11FD0
+	End:     0x1207C
+	Section: .text
+void isatty()
+	Start:   0x12080
+	End:     0x12088
+	Section: .text
+void fstat()
+	Start:   0x12088
+	End:     0x1209C
+	Section: .text
+void getpid()
+	Start:   0x120A0
+	End:     0x120A8
+	Section: .text
+void kill()
+	Start:   0x120A8
+	End:     0x120D0
+	Section: .text
+undefined stat()
+	Start:   0x120D0
+	End:     0x120F8
+	Section: .text
+undefined unlink()
+	Start:   0x120F8
+	End:     0x12120
+	Section: .text
+undefined sceDeci2Open()
+	Start:   0x12120
+	End:     0x12164
+	Section: .text
+sceDeci2Close
+	Start:   0x12168
+	End:     0x1218C
+	Section: .text
+undefined sceDeci2ReqSend()
+	Start:   0x12190
+	End:     0x121C0
+	Section: .text
+undefined sceDeci2Poll()
+	Start:   0x121C0
+	End:     0x121E4
+	Section: .text
+void sceDeci2GrpOpen()
+	Start:   0x121E8
+	End:     0x12218
+	Section: .text
+void sceDeci2GrpClose()
+	Start:   0x12218
+	End:     0x1223C
+	Section: .text
+undefined sceDeci2ExRecv()
+	Start:   0x12240
+	End:     0x12274
+	Section: .text
+undefined sceDeci2ExSend()
+	Start:   0x12278
+	End:     0x122AC
+	Section: .text
+void sceDeci2ExReqSend()
+	Start:   0x122B0
+	End:     0x122E0
+	Section: .text
+void sceDeci2ExLock()
+	Start:   0x122E0
+	End:     0x12304
+	Section: .text
+void sceDeci2ExUnLock()
+	Start:   0x12308
+	End:     0x1232C
+	Section: .text
+undefined kputs()
+	Start:   0x12330
+	End:     0x12354
+	Section: .text
+undefined sceTtyWrite()
+	Start:   0x12598
+	End:     0x1270C
+	Section: .text
+undefined sceTtyRead()
+	Start:   0x12710
+	End:     0x127E0
+	Section: .text
+undefined sceTtyInit()
+	Start:   0x127E0
+	End:     0x1289C
+	Section: .text
+undefined sceSifGetSreg()
+	Start:   0x128D0
+	End:     0x128E8
+	Section: .text
+undefined sceSifSetSreg()
+	Start:   0x128E8
+	End:     0x12904
+	Section: .text
+sceSifGetDataTable
+	Start:   0x12908
+	End:     0x12914
+	Section: .text
+undefined sceSifInitCmd()
+	Start:   0x12918
+	End:     0x12B98
+	Section: .text
+undefined sceSifExitCmd()
+	Start:   0x12B98
+	End:     0x12BCC
+	Section: .text
+void sceSifSetCmdBuffer()
+	Start:   0x12BD0
+	End:     0x12BE8
+	Section: .text
+void sceSifSetSysCmdBuffer()
+	Start:   0x12BE8
+	End:     0x12C00
+	Section: .text
+undefined sceSifAddCmdHandler()
+	Start:   0x12C00
+	End:     0x12C78
+	Section: .text
+undefined sceSifRemoveCmdHandler()
+	Start:   0x12C78
+	End:     0x12CC4
+	Section: .text
+undefined sceSifSendCmd()
+	Start:   0x12E00
+	End:     0x12E3C
+	Section: .text
+undefined isceSifSendCmd()
+	Start:   0x12E40
+	End:     0x12E7C
+	Section: .text
+undefined sceSifWriteBackDCache()
+	Start:   0x12FC8
+	End:     0x13078
+	Section: .text
+undefined sceVif1PkInit()
+	Start:   0x13078
+	End:     0x13088
+	Section: .text
+undefined sceVif1PkReset()
+	Start:   0x13088
+	End:     0x13098
+	Section: .text
+undefined sceVif1PkTerminate()
+	Start:   0x13098
+	End:     0x130F0
+	Section: .text
+undefined sceVif1PkCnt()
+	Start:   0x130F0
+	End:     0x13148
+	Section: .text
+undefined sceVif1PkEnd()
+	Start:   0x13148
+	End:     0x131A0
+	Section: .text
+undefined sceVif1PkOpenDirectCode()
+	Start:   0x131A0
+	End:     0x131F8
+	Section: .text
+undefined sceVif1PkCloseDirectCode()
+	Start:   0x131F8
+	End:     0x13224
+	Section: .text
+undefined sceVif1PkOpenGifTag()
+	Start:   0x13228
+	End:     0x13240
+	Section: .text
+undefined sceVif1PkCloseGifTag()
+	Start:   0x13240
+	End:     0x132E4
+	Section: .text
+undefined sceVif1PkAlign()
+	Start:   0x132E8
+	End:     0x13364
+	Section: .text
+undefined sceVif1PkAddGsData()
+	Start:   0x13368
+	End:     0x13390
+	Section: .text
+undefined sceGsResetGraph()
+	Start:   0x13390
+	End:     0x13520
+	Section: .text
+undefined sceGsGetGParam()
+	Start:   0x13520
+	End:     0x1352C
+	Section: .text
+undefined sceGsResetPath()
+	Start:   0x13530
+	End:     0x13598
+	Section: .text
+undefined sceGsSetDefDrawEnv()
+	Start:   0x13598
+	End:     0x1377C
+	Section: .text
+undefined sceGsPutDrawEnv()
+	Start:   0x13780
+	End:     0x13868
+	Section: .text
+undefined sceGsSetDefDBuff()
+	Start:   0x13868
+	End:     0x13B00
+	Section: .text
+undefined sceGsSwapDBuff()
+	Start:   0x13B00
+	End:     0x13B5C
+	Section: .text
+undefined sceGsSyncV()
+	Start:   0x13B60
+	End:     0x13BF4
+	Section: .text
+undefined sceGsSyncPath()
+	Start:   0x13BF8
+	End:     0x13F0C
+	Section: .text
+undefined sceGsSetDefTexEnv(undefined param_1, undefined param_2, undefined param_3, undefined param_4, undefined param_5, undefined param_6, undefined param_7, undefined param_8, undefined2 param_9, undefined2 param_10, undefined2 param_11, undefined2 param_12)
+	Start:   0x13F10
+	End:     0x1401C
+	Section: .text
+undefined sceGsSetDefAlphaEnv()
+	Start:   0x14020
+	End:     0x1407C
+	Section: .text
+undefined sceGsSetHalfOffset()
+	Start:   0x14080
+	End:     0x14108
+	Section: .text
+undefined sceGsSetDefDispEnv()
+	Start:   0x141B8
+	End:     0x1452C
+	Section: .text
+undefined sceGsPutDispEnv()
+	Start:   0x14530
+	End:     0x145EC
+	Section: .text
+undefined sceGszbufaddr()
+	Start:   0x145F0
+	End:     0x146B8
+	Section: .text
+undefined sceGsSetDefClear(undefined param_1, undefined param_2, undefined param_3, undefined param_4, undefined param_5, undefined param_6, undefined param_7, undefined param_8, undefined1 param_9, undefined1 param_10, undefined4 param_11)
+	Start:   0x146B8
+	End:     0x147BC
+	Section: .text
+undefined sceDmaGetChan()
+	Start:   0x14918
+	End:     0x14940
+	Section: .text
+undefined sceDmaReset()
+	Start:   0x14940
+	End:     0x14A1C
+	Section: .text
+undefined sceDmaPutEnv()
+	Start:   0x14A20
+	End:     0x14BF8
+	Section: .text
+void sceDmaGetEnv()
+	Start:   0x14BF8
+	End:     0x14C30
+	Section: .text
+void sceDmaPutStallAddr()
+	Start:   0x14C30
+	End:     0x14C44
+	Section: .text
+undefined sceDmaSend()
+	Start:   0x14C48
+	End:     0x14CB0
+	Section: .text
+undefined sceDmaSendN()
+	Start:   0x14CB0
+	End:     0x14D24
+	Section: .text
+void sceDmaSendI()
+	Start:   0x14D28
+	End:     0x14D9C
+	Section: .text
+void sceDmaRecv()
+	Start:   0x14DA0
+	End:     0x14DE8
+	Section: .text
+void sceDmaRecvN()
+	Start:   0x14DE8
+	End:     0x14E64
+	Section: .text
+void sceDmaRecvI()
+	Start:   0x14E68
+	End:     0x14EE8
+	Section: .text
+undefined sceDmaSync()
+	Start:   0x14EE8
+	End:     0x14F20
+	Section: .text
+undefined sceDmaWatch()
+	Start:   0x14F20
+	End:     0x14F54
+	Section: .text
+undefined sceDmaPause()
+	Start:   0x14F58
+	End:     0x14FF0
+	Section: .text
+void sceDmaRestart()
+	Start:   0x14FF0
+	End:     0x15004
+	Section: .text
+undefined scePad2Init()
+	Start:   0x15008
+	End:     0x15048
+	Section: .text
+undefined scePad2End()
+	Start:   0x15048
+	End:     0x150B0
+	Section: .text
+undefined scePad2CreateSocket()
+	Start:   0x150B0
+	End:     0x151B8
+	Section: .text
+undefined scePad2DeleteSocket()
+	Start:   0x151B8
+	End:     0x1520C
+	Section: .text
+undefined scePad2Read()
+	Start:   0x15210
+	End:     0x152E4
+	Section: .text
+undefined scePad2GetButtonProfile()
+	Start:   0x152E8
+	End:     0x153B4
+	Section: .text
+undefined scePad2GetState()
+	Start:   0x153B8
+	End:     0x154F8
+	Section: .text
+void scePad2GetButtonInfo()
+	Start:   0x154F8
+	End:     0x155D8
+	Section: .text
+void scePad2StateIntToStr()
+	Start:   0x15888
+	End:     0x158BC
+	Section: .text
+void sceVibGetProfile()
+	Start:   0x158C0
+	End:     0x15940
+	Section: .text
+undefined sceVibSetActParam()
+	Start:   0x15940
+	End:     0x15A2C
+	Section: .text
+undefined sceDbcInit()
+	Start:   0x15A88
+	End:     0x15D28
+	Section: .text
+undefined sceDbcEnd()
+	Start:   0x15D28
+	End:     0x15D70
+	Section: .text
+undefined sceDbcSetWorkAddr()
+	Start:   0x15DD0
+	End:     0x15E3C
+	Section: .text
+undefined sceDbcCreateSocket()
+	Start:   0x15E40
+	End:     0x15F70
+	Section: .text
+undefined sceDbcDeleteSocket()
+	Start:   0x15F70
+	End:     0x1602C
+	Section: .text
+undefined sceDbcGetDepNumber()
+	Start:   0x16030
+	End:     0x1619C
+	Section: .text
+undefined sceDbcGetConnection()
+	Start:   0x161A0
+	End:     0x16294
+	Section: .text
+void sceDbcInitSocket()
+	Start:   0x16298
+	End:     0x16344
+	Section: .text
+void sceDbcResetSocket()
+	Start:   0x16348
+	End:     0x163F4
+	Section: .text
+void sceDbcGetDeviceStatus()
+	Start:   0x163F8
+	End:     0x164A4
+	Section: .text
+undefined sceDbcSearchPortSpecific()
+	Start:   0x164A8
+	End:     0x16568
+	Section: .text
+undefined sceDbcSRData()
+	Start:   0x16568
+	End:     0x166F4
+	Section: .text
+void sceDbcSendData()
+	Start:   0x166F8
+	End:     0x16828
+	Section: .text
+undefined sceDbcSendData2()
+	Start:   0x16828
+	End:     0x169D8
+	Section: .text
+undefined sceDbcSendData3()
+	Start:   0x169D8
+	End:     0x16B30
+	Section: .text
+undefined sceDbcReceiveData()
+	Start:   0x16B30
+	End:     0x16C54
+	Section: .text
+undefined sceCdCallback()
+	Start:   0x16C80
+	End:     0x16CE8
+	Section: .text
+undefined _sceCd_cd_callback()
+	Start:   0x16CE8
+	End:     0x16D88
+	Section: .text
+void _sceCd_cbLoop()
+	Start:   0x16D88
+	End:     0x16E58
+	Section: .text
+void sceCdInitEeCB()
+	Start:   0x16E58
+	End:     0x16EF4
+	Section: .text
+void _sceCd_cd_read_intr()
+	Start:   0x16EF8
+	End:     0x16FB0
+	Section: .text
+undefined sceCdPOffCallback()
+	Start:   0x17138
+	End:     0x171B8
+	Section: .text
+undefined sceCdLayerSearchFile()
+	Start:   0x17288
+	End:     0x17584
+	Section: .text
+undefined sceCdSearchFile()
+	Start:   0x17588
+	End:     0x175A4
+	Section: .text
+undefined _sceCd_ncmd_prechk()
+	Start:   0x175A8
+	End:     0x17700
+	Section: .text
+undefined sceCdNcmdDiskReady()
+	Start:   0x17700
+	End:     0x17798
+	Section: .text
+undefined sceCdSync()
+	Start:   0x17798
+	End:     0x17838
+	Section: .text
+undefined sceCdSyncS()
+	Start:   0x17838
+	End:     0x178A4
+	Section: .text
+undefined _sceCd_scmd_prechk()
+	Start:   0x178A8
+	End:     0x17A00
+	Section: .text
+void _sceCdSC()
+	Start:   0x17A00
+	End:     0x17AB0
+	Section: .text
+undefined sceCdInit()
+	Start:   0x17AB0
+	End:     0x17D98
+	Section: .text
+undefined sceCdDiskReady_old()
+	Start:   0x17D98
+	End:     0x17FB0
+	Section: .text
+undefined sceCdDiskReady()
+	Start:   0x17FB0
+	End:     0x181D0
+	Section: .text
+undefined sceCdPowerOff()
+	Start:   0x181D0
+	End:     0x18284
+	Section: .text
+undefined sceCdMmode()
+	Start:   0x18288
+	End:     0x18358
+	Section: .text
+undefined sceCdChgSys()
+	Start:   0x18358
+	End:     0x1837C
+	Section: .text
+void sceInetPoll()
+	Start:   0x185A8
+	End:     0x1864C
+	Section: .text
+undefined sceInetName2Address()
+	Start:   0x18650
+	End:     0x1870C
+	Section: .text
+undefined sceInetAddress2String()
+	Start:   0x18710
+	End:     0x187A8
+	Section: .text
+undefined sceInetAddress2Name(undefined param_1, undefined param_2, undefined param_3, undefined param_4, undefined param_5, undefined param_6, undefined param_7, undefined param_8, undefined4 param_9)
+	Start:   0x187A8
+	End:     0x18870
+	Section: .text
+undefined sceInetCreate()
+	Start:   0x18870
+	End:     0x188E0
+	Section: .text
+undefined sceInetOpen()
+	Start:   0x188E0
+	End:     0x18928
+	Section: .text
+undefined sceInetClose()
+	Start:   0x18928
+	End:     0x18970
+	Section: .text
+undefined sceInetRecv()
+	Start:   0x18970
+	End:     0x18A38
+	Section: .text
+undefined sceInetRecvFrom(undefined param_1, undefined param_2, undefined param_3, undefined param_4, undefined param_5, undefined param_6, undefined param_7, undefined param_8, undefined4 param_9)
+	Start:   0x18A38
+	End:     0x18B48
+	Section: .text
+undefined sceInetSend()
+	Start:   0x18B48
+	End:     0x18BF8
+	Section: .text
+undefined sceInetSendTo(undefined param_1, undefined param_2, undefined param_3, undefined param_4, undefined param_5, undefined param_6, undefined param_7, undefined param_8, undefined4 param_9)
+	Start:   0x18BF8
+	End:     0x18CDC
+	Section: .text
+void sceInetAbort()
+	Start:   0x18CE0
+	End:     0x18D28
+	Section: .text
+void sceInetControl()
+	Start:   0x18D28
+	End:     0x18DD0
+	Section: .text
+undefined sceInetGetInterfaceList()
+	Start:   0x18DD0
+	End:     0x18E58
+	Section: .text
+undefined sceInetInterfaceControl()
+	Start:   0x18E58
+	End:     0x18F00
+	Section: .text
+undefined sceInetGetRoutingTable()
+	Start:   0x18F00
+	End:     0x18F98
+	Section: .text
+undefined sceInetGetNameServers()
+	Start:   0x18F98
+	End:     0x19020
+	Section: .text
+void sceInetChangeThreadPriority()
+	Start:   0x19020
+	End:     0x19064
+	Section: .text
+void sceInetGetLog()
+	Start:   0x19068
+	End:     0x190F4
+	Section: .text
+void sceInetAbortLog()
+	Start:   0x190F8
+	End:     0x19138
+	Section: .text
+undefined sceInetCtlUpInterface()
+	Start:   0x19138
+	End:     0x1917C
+	Section: .text
+sceInetCtlDownInterface
+	Start:   0x19180
+	End:     0x191C4
+	Section: .text
+undefined sceInetCtlSetAutoMode()
+	Start:   0x191C8
+	End:     0x1920C
+	Section: .text
+void sceInetCtlGetState()
+	Start:   0x19210
+	End:     0x19284
+	Section: .text
+undefined sceLibnetInitialize()
+	Start:   0x19288
+	End:     0x19350
+	Section: .text
+undefined sceLibnetTerminate()
+	Start:   0x19350
+	End:     0x193D0
+	Section: .text
+undefined sceLibnetRegisterHandler()
+	Start:   0x193D0
+	End:     0x19410
+	Section: .text
+undefined sceLibnetUnregisterHandler()
+	Start:   0x19410
+	End:     0x19450
+	Section: .text
+undefined sceLibnetSetConfiguration()
+	Start:   0x19450
+	End:     0x19494
+	Section: .text
+undefined sceLibnetWaitGetInterfaceID()
+	Start:   0x19778
+	End:     0x19804
+	Section: .text
+undefined sceLibnetWaitGetAddress()
+	Start:   0x19808
+	End:     0x1983C
+	Section: .text
+void sceLibnetWaitGetInterfaceEvent()
+	Start:   0x19840
+	End:     0x198B8
+	Section: .text
+undefined sceSifMInitRpc()
+	Start:   0x198B8
+	End:     0x199A0
+	Section: .text
+undefined sceSifMExitRpc()
+	Start:   0x199C8
+	End:     0x199F8
+	Section: .text
+sceSifMBindRpc
+	Start:   0x19BE0
+	End:     0x19C04
+	Section: .text
+undefined sceSifMBindRpcParam()
+	Start:   0x19C08
+	End:     0x19DD8
+	Section: .text
+undefined sceSifMUnBindRpc()
+	Start:   0x19DD8
+	End:     0x19F14
+	Section: .text
+undefined sceSifMCallRpc(undefined param_1, undefined param_2, undefined param_3, undefined param_4, undefined param_5, undefined param_6, undefined param_7, undefined param_8, undefined4 param_9)
+	Start:   0x19F18
+	End:     0x1A188
+	Section: .text
+undefined sceMc2Init()
+	Start:   0x1A188
+	End:     0x1A330
+	Section: .text
+undefined sceMc2End()
+	Start:   0x1A330
+	End:     0x1A408
+	Section: .text
+undefined sceMc2CreateSocket()
+	Start:   0x1A408
+	End:     0x1A498
+	Section: .text
+undefined sceMc2DeleteSocket()
+	Start:   0x1A498
+	End:     0x1A514
+	Section: .text
+void sceMc2SearchSocket()
+	Start:   0x1A518
+	End:     0x1A5C4
+	Section: .text
+void sceMc2ChangeThreadPriority()
+	Start:   0x1A5C8
+	End:     0x1A600
+	Section: .text
+void sceMc2iChangeThreadPriority()
+	Start:   0x1A600
+	End:     0x1A638
+	Section: .text
+undefined sceMc2FormatAsync()
+	Start:   0x1A638
+	End:     0x1A6E8
+	Section: .text
+undefined sceMc2UnformatAsync()
+	Start:   0x1A6E8
+	End:     0x1A798
+	Section: .text
+undefined sceMc2GetInfoAsync()
+	Start:   0x1A798
+	End:     0x1A858
+	Section: .text
+undefined sceMc2SearchFileAsync()
+	Start:   0x1A858
+	End:     0x1A958
+	Section: .text
+undefined sceMc2GetDirAllAsync()
+	Start:   0x1A958
+	End:     0x1AA08
+	Section: .text
+undefined sceMc2ReadFileAsync()
+	Start:   0x1AA08
+	End:     0x1AB28
+	Section: .text
+undefined sceMc2WriteFileAsync()
+	Start:   0x1AB28
+	End:     0x1AC48
+	Section: .text
+undefined sceMc2CreateFileAsync()
+	Start:   0x1AC48
+	End:     0x1AD40
+	Section: .text
+undefined sceMc2DeleteAsync()
+	Start:   0x1AD40
+	End:     0x1AE28
+	Section: .text
+undefined sceMc2GetDirAsync()
+	Start:   0x1AE28
+	End:     0x1AF58
+	Section: .text
+undefined sceMc2MkdirAsync()
+	Start:   0x1AF58
+	End:     0x1B050
+	Section: .text
+undefined sceMc2ChdirAsync()
+	Start:   0x1B050
+	End:     0x1B150
+	Section: .text
+undefined sceMc2ChmodAsync()
+	Start:   0x1B150
+	End:     0x1B250
+	Section: .text
+undefined sceMc2RenameAsync()
+	Start:   0x1B250
+	End:     0x1B36C
+	Section: .text
+undefined sceMc2GetEntSpaceAsync()
+	Start:   0x1B370
+	End:     0x1B458
+	Section: .text
+void sceMc2CheckAsync()
+	Start:   0x1B718
+	End:     0x1B73C
+	Section: .text
+undefined sceMc2Sync()
+	Start:   0x1B740
+	End:     0x1B764
+	Section: .text
+undefined sceMc2GetInfo()
+	Start:   0x1B768
+	End:     0x1B7A4
+	Section: .text
+void sceMc2Format()
+	Start:   0x1B7A8
+	End:     0x1B7E4
+	Section: .text
+void sceMc2Unformat()
+	Start:   0x1B7E8
+	End:     0x1B824
+	Section: .text
+undefined sceMc2ReadFile()
+	Start:   0x1B828
+	End:     0x1B864
+	Section: .text
+undefined sceMc2WriteFile()
+	Start:   0x1B868
+	End:     0x1B8A4
+	Section: .text
+undefined sceMc2CreateFile()
+	Start:   0x1B8A8
+	End:     0x1B8E4
+	Section: .text
+undefined sceMc2Delete()
+	Start:   0x1B8E8
+	End:     0x1B924
+	Section: .text
+void sceMc2Rename()
+	Start:   0x1B928
+	End:     0x1B964
+	Section: .text
+undefined sceMc2Mkdir()
+	Start:   0x1B968
+	End:     0x1B9A4
+	Section: .text
+undefined sceMc2Chdir()
+	Start:   0x1B9A8
+	End:     0x1B9E4
+	Section: .text
+undefined sceMc2GetDir()
+	Start:   0x1B9E8
+	End:     0x1BA24
+	Section: .text
+void sceMc2Chmod()
+	Start:   0x1BA28
+	End:     0x1BA64
+	Section: .text
+void sceMc2SearchFile()
+	Start:   0x1BA68
+	End:     0x1BAA4
+	Section: .text
+void sceMc2GetEntSpace()
+	Start:   0x1BAA8
+	End:     0x1BAE4
+	Section: .text
+undefined _sceMcFatInit()
+	Start:   0x1C138
+	End:     0x1C198
+	Section: .text
+undefined _sceMcFatInit2()
+	Start:   0x1C198
+	End:     0x1C200
+	Section: .text
+undefined _sceMcFatGetInfo()
+	Start:   0x1CB18
+	End:     0x1CEB0
+	Section: .text
+undefined _sceMcFatFormat()
+	Start:   0x1CEB0
+	End:     0x1D7DC
+	Section: .text
+undefined _sceMcFatUnFormat()
+	Start:   0x1D7E0
+	End:     0x1D8E0
+	Section: .text
+undefined _sceMcFatSearchFile()
+	Start:   0x1E988
+	End:     0x1EA78
+	Section: .text
+undefined _sceMcFatCreateFile()
+	Start:   0x1EA78
+	End:     0x1F004
+	Section: .text
+undefined _sceMcFatReadFile()
+	Start:   0x1F008
+	End:     0x1F210
+	Section: .text
+undefined _sceMcFatWriteFile()
+	Start:   0x1F210
+	End:     0x1F7EC
+	Section: .text
+undefined _sceMcFatDeleteFile()
+	Start:   0x1F7F0
+	End:     0x1FA20
+	Section: .text
+undefined _sceMcFatChDir()
+	Start:   0x1FA20
+	End:     0x1FB44
+	Section: .text
+undefined _sceMcFatGetDir()
+	Start:   0x1FB48
+	End:     0x20064
+	Section: .text
+undefined _sceMcFatSetAttr()
+	Start:   0x20068
+	End:     0x201F0
+	Section: .text
+undefined _sceMcFatRename()
+	Start:   0x201F0
+	End:     0x2036C
+	Section: .text
+undefined _sceMcFatGetEntSpace()
+	Start:   0x20370
+	End:     0x20434
+	Section: .text
+undefined _sceMcpInit()
+	Start:   0x20438
+	End:     0x2046C
+	Section: .text
+undefined _sceMcpGetCardSpec()
+	Start:   0x20470
+	End:     0x2048C
+	Section: .text
+undefined _sceMcpCheckNewCard()
+	Start:   0x20490
+	End:     0x204AC
+	Section: .text
+undefined _sceMcpAuthentication()
+	Start:   0x204B0
+	End:     0x204CC
+	Section: .text
+undefined _sceMcpReadSysInfo()
+	Start:   0x204D0
+	End:     0x205E4
+	Section: .text
+undefined _sceMcpWriteSysInfo()
+	Start:   0x205E8
+	End:     0x20704
+	Section: .text
+undefined _sceMcpReadClust()
+	Start:   0x20708
+	End:     0x20748
+	Section: .text
+undefined _sceMcpWriteClust()
+	Start:   0x20748
+	End:     0x20788
+	Section: .text
+undefined _sceMcpFlushCache()
+	Start:   0x20788
+	End:     0x207F8
+	Section: .text
+undefined _sceMcpWriteUserClustOnCache()
+	Start:   0x207F8
+	End:     0x20B8C
+	Section: .text
+undefined _sceMcpReadUserClustOnCache()
+	Start:   0x20B90
+	End:     0x20CD0
+	Section: .text
+undefined _sceMcpReadUserClust()
+	Start:   0x20CD0
+	End:     0x20CEC
+	Section: .text
+undefined _sceMcpWriteUserClust()
+	Start:   0x20CF0
+	End:     0x20D0C
+	Section: .text
+undefined _sceMcpIsSpeckOutBlock()
+	Start:   0x20D10
+	End:     0x20D58
+	Section: .text
+undefined _sceMcpIsSpeckOutClust()
+	Start:   0x20D58
+	End:     0x20DA0
+	Section: .text
+undefined _sceMcpMakeSpecoutBlock()
+	Start:   0x20DA0
+	End:     0x20F14
+	Section: .text
+void _SceMcComGetSysInfo()
+	Start:   0x20F18
+	End:     0x20F30
+	Section: .text
+undefined _sceMcCoreInit()
+	Start:   0x21088
+	End:     0x21118
+	Section: .text
+undefined _sceMcCoreEnd()
+	Start:   0x21118
+	End:     0x2118C
+	Section: .text
+undefined _sceMcCoreSetWriteBackHole()
+	Start:   0x21190
+	End:     0x211B8
+	Section: .text
+undefined _sceMcCoreSetCardSpec()
+	Start:   0x211B8
+	End:     0x211F4
+	Section: .text
+undefined _sceMcCoreGetCardSpec()
+	Start:   0x211F8
+	End:     0x213CC
+	Section: .text
+undefined _sceMcCoreCheckNewCard()
+	Start:   0x213D0
+	End:     0x214D0
+	Section: .text
+undefined _sceMcCoreClearNewCardFlag()
+	Start:   0x214D0
+	End:     0x215A8
+	Section: .text
+undefined _sceMcCoreAuthentication()
+	Start:   0x215A8
+	End:     0x21694
+	Section: .text
+undefined _sceMcCoreWriteBack()
+	Start:   0x21698
+	End:     0x217D0
+	Section: .text
+undefined _sceMcCoreReadClock()
+	Start:   0x217D0
+	End:     0x218D4
+	Section: .text
+undefined _sceMcCoreReadPage2()
+	Start:   0x218D8
+	End:     0x21A6C
+	Section: .text
+undefined _sceMcCoreReadPage()
+	Start:   0x21A70
+	End:     0x21A8C
+	Section: .text
+undefined _sceMcCoreWritePage()
+	Start:   0x21A90
+	End:     0x21C20
+	Section: .text
+undefined _sceMcCoreWriteSameData()
+	Start:   0x21C20
+	End:     0x21D54
+	Section: .text
+undefined _sceMcCoreBlockErase()
+	Start:   0x21D58
+	End:     0x21E88
+	Section: .text
+undefined _sceMcCoreGetConnection()
+	Start:   0x21E88
+	End:     0x21EC0
+	Section: .text
+undefined _sceMcCoreCreateSocket()
+	Start:   0x21EF8
+	End:     0x22018
+	Section: .text
+undefined _sceMcCoreCheckSocket()
+	Start:   0x22018
+	End:     0x22048
+	Section: .text
+undefined _sceMcCoreDeleteSocket()
+	Start:   0x22048
+	End:     0x220B0
+	Section: .text
+undefined _sceMcCoreChangeSocketTypeDbc2Mc()
+	Start:   0x220B0
+	End:     0x220F4
+	Section: .text
+undefined _sceMcCoreChangeSocketTypeMc2Dbc()
+	Start:   0x220F8
+	End:     0x22128
+	Section: .text
+undefined sceNetcnfifSetup()
+	Start:   0x22128
+	End:     0x221D0
+	Section: .text
+undefined sceNetcnfifInit()
+	Start:   0x221D0
+	End:     0x22210
+	Section: .text
+undefined sceNetcnfifCreateCallbackThread()
+	Start:   0x22210
+	End:     0x222D4
+	Section: .text
+sceNetcnfifDeleteCallbackThread
+	Start:   0x222D8
+	End:     0x22338
+	Section: .text
+undefined sceNetcnfifSync()
+	Start:   0x22338
+	End:     0x22354
+	Section: .text
+undefined sceNetcnfifCheck()
+	Start:   0x22358
+	End:     0x22374
+	Section: .text
+undefined sceNetcnfifGetResult()
+	Start:   0x22378
+	End:     0x22448
+	Section: .text
+undefined sceNetcnfifSetFNoDecode()
+	Start:   0x22448
+	End:     0x22458
+	Section: .text
+undefined sceNetcnfifGetCount()
+	Start:   0x22458
+	End:     0x224BC
+	Section: .text
+undefined sceNetcnfifGetList()
+	Start:   0x224C0
+	End:     0x2254C
+	Section: .text
+undefined sceNetcnfifLoadEntry()
+	Start:   0x22550
+	End:     0x225E8
+	Section: .text
+undefined sceNetcnfifLoadEntryAuto()
+	Start:   0x225E8
+	End:     0x229AC
+	Section: .text
+void sceNetcnfifAddEntry()
+	Start:   0x229B0
+	End:     0x22A38
+	Section: .text
+void sceNetcnfifEditEntry()
+	Start:   0x22A38
+	End:     0x22AD8
+	Section: .text
+void sceNetcnfifDeleteEntry()
+	Start:   0x22AD8
+	End:     0x22B54
+	Section: .text
+void sceNetcnfifSetLatestEntry()
+	Start:   0x22B58
+	End:     0x22BD4
+	Section: .text
+void sceNetcnfifDeleteAll()
+	Start:   0x22BD8
+	End:     0x22C2C
+	Section: .text
+void sceNetcnfifCheckCapacity()
+	Start:   0x22C30
+	End:     0x22C84
+	Section: .text
+void sceNetcnfifCheckAdditionalAT()
+	Start:   0x22C88
+	End:     0x22CDC
+	Section: .text
+void sceNetcnfifCheckSpecialProvider()
+	Start:   0x22CE0
+	End:     0x22D68
+	Section: .text
+undefined sceNetcnfifGetAddr()
+	Start:   0x22D68
+	End:     0x22D9C
+	Section: .text
+undefined sceNetcnfifAllocWorkarea()
+	Start:   0x22DA0
+	End:     0x22DE0
+	Section: .text
+undefined sceNetcnfifFreeWorkarea()
+	Start:   0x22DE0
+	End:     0x22E14
+	Section: .text
+undefined sceNetcnfifSetEnv()
+	Start:   0x22E18
+	End:     0x22E64
+	Section: .text
+void sceNetcnfifTerm()
+	Start:   0x22E68
+	End:     0x22EA4
+	Section: .text
+undefined sce_create_callback_thread()
+	Start:   0x23000
+	End:     0x230B0
+	Section: .text
+undefined sce_delete_callback_thread()
+	Start:   0x230B0
+	End:     0x23104
+	Section: .text
+undefined sceNetcnfifSendIOP()
+	Start:   0x23108
+	End:     0x23158
+	Section: .text
+undefined sceNetcnfifDmaCheck()
+	Start:   0x23158
+	End:     0x2317C
+	Section: .text
+undefined sce_call_rpc()
+	Start:   0x23260
+	End:     0x232F0
+	Section: .text
+undefined sce_sync()
+	Start:   0x232F0
+	End:     0x2337C
+	Section: .text
+undefined __divdi3()
+	Start:   0x23380
+	End:     0x23A14
+	Section: .text
+undefined __moddi3()
+	Start:   0x23A18
+	End:     0x240A8
+	Section: .text
+undefined __udivdi3()
+	Start:   0x240A8
+	End:     0x24624
+	Section: .text
+undefined __umoddi3()
+	Start:   0x24628
+	End:     0x24B90
+	Section: .text
+undefined __floatdisf()
+	Start:   0x24B90
+	End:     0x24C78
+	Section: .text
+undefined __fixunsdfdi()
+	Start:   0x24C78
+	End:     0x24D90
+	Section: .text
+undefined __fixunssfdi()
+	Start:   0x24D90
+	End:     0x24EB8
+	Section: .text
+undefined __do_global_dtors()
+	Start:   0x24EB8
+	End:     0x24F44
+	Section: .text
+undefined __do_global_ctors()
+	Start:   0x24F48
+	End:     0x25008
+	Section: .text
+undefined __main()
+	Start:   0x25008
+	End:     0x25040
+	Section: .text
+undefined fptodp()
+	Start:   0x25040
+	End:     0x2507C
+	Section: .text
+void Function_0x25080()
+	Start:   0x25080
+	End:     0x252DC
+	Section: .text
+void Section_0x1_field_0x252CC()
+	Start:   0x252CC
+	End:     0x252D8
+	Section: .text
+	Type:    int
+undefined dpadd()
+	Start:   0x252E0
+	End:     0x25338
+	Section: .text
+undefined dpsub()
+	Start:   0x25338
+	End:     0x2539C
+	Section: .text
+undefined dpmul()
+	Start:   0x253A0
+	End:     0x25624
+	Section: .text
+undefined dpdiv()
+	Start:   0x25628
+	End:     0x25768
+	Section: .text
+undefined dpcmp()
+	Start:   0x25768
+	End:     0x257B4
+	Section: .text
+undefined litodp()
+	Start:   0x257B8
+	End:     0x25870
+	Section: .text
+undefined __make_dp()
+	Start:   0x25870
+	End:     0x2589C
+	Section: .text
+undefined dptofp()
+	Start:   0x258A0
+	End:     0x258F4
+	Section: .text
+undefined dptoul()
+	Start:   0x258F8
+	End:     0x25998
+	Section: .text
+Function_0x25B30
+	Start:   0x25B30
+	End:     0x260A8
+	Section: .text
+undefined __register_frame_info()
+	Start:   0x260A8
+	End:     0x26110
+	Section: .text
+undefined __register_frame()
+	Start:   0x26110
+	End:     0x26140
+	Section: .text
+undefined __register_frame_info_table()
+	Start:   0x26140
+	End:     0x261A8
+	Section: .text
+void __register_frame_table()
+	Start:   0x261A8
+	End:     0x261D8
+	Section: .text
+undefined __deregister_frame_info()
+	Start:   0x261D8
+	End:     0x26294
+	Section: .text
+void __deregister_frame()
+	Start:   0x26298
+	End:     0x262B8
+	Section: .text
+void Function_0x26920()
+	Start:   0x26920
+	End:     0x26D70
+	Section: .text
+void __frame_state_for()
+	Start:   0x26D70
+	End:     0x26F28
+	Section: .text
+undefined __muldi3()
+	Start:   0x26F28
+	End:     0x26F9C
+	Section: .text
+undefined __floatdidf()
+	Start:   0x26FA0
+	End:     0x27048
+	Section: .text
+undefined __unpack_f()
+	Start:   0x27048
+	End:     0x270A4
+	Section: .text
+undefined __make_fp()
+	Start:   0x270A8
+	End:     0x270D4
+	Section: .text
+undefined __pack_d()
+	Start:   0x270D8
+	End:     0x271B0
+	Section: .text
+undefined __unpack_d()
+	Start:   0x271B0
+	End:     0x2726C
+	Section: .text
+undefined __fpcmp_parts_d()
+	Start:   0x27270
+	End:     0x27390
+	Section: .text
+undefined __pack_f()
+	Start:   0x27390
+	End:     0x27444
+	Section: .text
+void abort()
+	Start:   0x27448
+	End:     0x27460
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+void atexit()
+	Start:   0x27460
+	End:     0x27500
+	Section: .text
+void atoi()
+	Start:   0x27500
+	End:     0x27528
+	Section: .text
+undefined __errno()
+	Start:   0x27528
+	End:     0x27534
+	Section: .text
+undefined memalign()
+	Start:   0x27538
+	End:     0x2759C
+	Section: .text
+undefined _memalign_r()
+	Start:   0x275A0
+	End:     0x27768
+	Section: .text
+void* malloc(int length)
+	Start:   0x27768
+	End:     0x277BC
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+void free(void* data)
+	Start:   0x277C0
+	End:     0x27808
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	Compile: false
+void Function_0x27808()
+	Start:   0x27808
+	End:     0x27A60
+	Section: .text
+undefined _malloc_r()
+	Start:   0x27A60
+	End:     0x28188
+	Section: .text
+int memcmp(void* a, void* b, int len)
+	Start:   0x28188
+	End:     0x2821C
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+void memcpy(void* dst, void* src, int len)
+	Start:   0x2821C
+	End:     0x282CC
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+void* memmove(void* dest, void* src, int length)
+	Start:   0x282CC
+	End:     0x283D0
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+void memset_ps2(int dst, int value, int length)
+	Start:   0x283D0
+	End:     0x28490
+	Section: .text
+	Link: true 
+	Generate: false
+	UseNativePointers: *
+	Compile: true
+	IncludeContext: true
+undefined __malloc_lock()
+	Start:   0x28490
+	End:     0x2850C
+	Section: .text
+undefined __malloc_unlock()
+	Start:   0x28510
+	End:     0x2855C
+	Section: .text
+void _printf_r()
+	Start:   0x28560
+	End:     0x285BC
+	Section: .text
+void printf(char* text)
+	Start:   0x285C0
+	End:     0x28630
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+undefined _sbrk_r()
+	Start:   0x28630
+	End:     0x28688
+	Section: .text
+undefined _init_signal_r()
+	Start:   0x28688
+	End:     0x286F8
+	Section: .text
+undefined _signal_r()
+	Start:   0x286F8
+	End:     0x28778
+	Section: .text
+undefined _raise_r()
+	Start:   0x28778
+	End:     0x28850
+	Section: .text
+undefined __sigtramp_r()
+	Start:   0x28850
+	End:     0x288E8
+	Section: .text
+void raise()
+	Start:   0x288E8
+	End:     0x28908
+	Section: .text
+undefined signal()
+	Start:   0x28908
+	End:     0x2892C
+	Section: .text
+_init_signal
+	Start:   0x28930
+	End:     0x2894C
+	Section: .text
+__sigtramp
+	Start:   0x28950
+	End:     0x28970
+	Section: .text
+undefined _kill_r()
+	Start:   0x28970
+	End:     0x289CC
+	Section: .text
+undefined _getpid_r()
+	Start:   0x289D0
+	End:     0x289E4
+	Section: .text
+void _sprintf_r()
+	Start:   0x289E8
+	End:     0x28A70
+	Section: .text
+void sprintf(char* text, char* format)
+	Start:   0x28A70
+	End:     0x28B00
+	Section: .text
+	Generate: false
+	UseNativePointers: *
+	Link: false
+	Compile: false
+	IncludeContext: false
+void sscanf(char* s, char* format, char* data)
+	Start:   0x28B08
+	End:     0x28BB0
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+char* strcat(char* dst, char* src)
+	Start:   0x28BB0
+	End:     0x28CDC
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+char* strchr(char* dst, char* src)
+	Start:   0x28CDC
+	End:     0x28E6C
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+int strcmp(char* s, char* s2)
+	Start:   0x28E6C
+	End:     0x28FB0
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+char* strcpy(char* s, int c)
+	Start:   0x28FB0
+	End:     0x290C4
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+int strlen(char* text)
+	Start:   0x290C4
+	End:     0x291FC
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+int strncmp(char* a, char* b)
+	Start:   0x29200
+	End:     0x293B8
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+ strncpy(char* dst, char* src, int size)
+	Start:   0x293B8
+	End:     0x29574
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+char* strrchr(char* s, int c)
+	Start:   0x29578
+	End:     0x295C8
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+undefined _strtol_r()
+	Start:   0x295C8
+	End:     0x29800
+	Section: .text
+void strtol()
+	Start:   0x29800
+	End:     0x2982C
+	Section: .text
+void vfprintf()
+	Start:   0x29930
+	End:     0x299A4
+	Section: .text
+	Generate: false
+	UseNativePointers: *
+	Link: false
+	Compile: false
+	IncludeContext: false
+undefined _vfprintf_r()
+	Start:   0x299A8
+	End:     0x2B018
+	Section: .text
+void Function_0x2B1D8()
+	Start:   0x2B1D8
+	End:     0x2B2B8
+	Section: .text
+undefined __svfscanf()
+	Start:   0x2B2B8
+	End:     0x2BF44
+	Section: .text
+undefined __sccl()
+	Start:   0x2BF48
+	End:     0x2C048
+	Section: .text
+void vsprintf()
+	Start:   0x2C048
+	End:     0x2C09C
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+void vsprintf_r()
+	Start:   0x2C0A0
+	End:     0x2C0F4
+	Section: .text
+undefined __swsetup()
+	Start:   0x2C0F8
+	End:     0x2C204
+	Section: .text
+void atof()
+	Start:   0x2C208
+	End:     0x2C220
+	Section: .text
+void atol()
+	Start:   0x2C220
+	End:     0x2C23C
+	Section: .text
+undefined _dtoa_r()
+	Start:   0x2C470
+	End:     0x2D6D4
+	Section: .text
+void fflush(void* fileStream)
+	Start:   0x2D6D8
+	End:     0x2D7EC
+	Section: .text
+	Generate: false
+	UseNativePointers: *
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Link: false
+undefined __sfmoreglue()
+	Start:   0x2D850
+	End:     0x2D8C8
+	Section: .text
+undefined __sfp()
+	Start:   0x2D8C8
+	End:     0x2D9C0
+	Section: .text
+undefined _cleanup_r()
+	Start:   0x2D9C0
+	End:     0x2D9DC
+	Section: .text
+	Includes: <stdio.h>
+void _cleanup()
+	Start:   0x2D9E0
+	End:     0x2D9FC
+	Section: .text
+undefined __sinit()
+	Start:   0x2DA00
+	End:     0x2DA8C
+	Section: .text
+void fread(void* file, long offset, int mode)
+	Start:   0x2DA90
+	End:     0x2DBAC
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+undefined _free_r()
+	Start:   0x2DBB0
+	End:     0x2DEA4
+	Section: .text
+undefined _malloc_trim_r()
+	Start:   0x2DEA8
+	End:     0x2E014
+	Section: .text
+undefined __sfvwrite()
+	Start:   0x2E018
+	End:     0x2E3F8
+	Section: .text
+undefined _fwalk()
+	Start:   0x2E3F8
+	End:     0x2E48C
+	Section: .text
+void _setlocale_r()
+	Start:   0x2E490
+	End:     0x2E51C
+	Section: .text
+undefined _localeconv_r()
+	Start:   0x2E520
+	End:     0x2E52C
+	Section: .text
+void setlocale()
+	Start:   0x2E530
+	End:     0x2E554
+	Section: .text
+void* localeconv()
+	Start:   0x2E558
+	End:     0x2E574
+	Section: .text
+undefined __smakebuf()
+	Start:   0x2E578
+	End:     0x2E6CC
+	Section: .text
+undefined _mbtowc_r()
+	Start:   0x2E6D0
+	End:     0x2E704
+	Section: .text
+void* memchr(void* s, int c, int n)
+	Start:   0x2E704
+	End:     0x2E7E4
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+undefined _Balloc()
+	Start:   0x2E7E8
+	End:     0x2E88C
+	Section: .text
+undefined _Bfree()
+	Start:   0x2E890
+	End:     0x2E8BC
+	Section: .text
+undefined _multadd()
+	Start:   0x2E8C0
+	End:     0x2E9C8
+	Section: .text
+undefined _s2b()
+	Start:   0x2E9C8
+	End:     0x2EAF8
+	Section: .text
+undefined _hi0bits()
+	Start:   0x2EAF8
+	End:     0x2EB78
+	Section: .text
+undefined _lo0bits()
+	Start:   0x2EB78
+	End:     0x2EC34
+	Section: .text
+undefined _i2b()
+	Start:   0x2EC38
+	End:     0x2EC70
+	Section: .text
+undefined _multiply()
+	Start:   0x2EC70
+	End:     0x2EE7C
+	Section: .text
+undefined _pow5mult()
+	Start:   0x2EE80
+	End:     0x2EF7C
+	Section: .text
+undefined _lshift()
+	Start:   0x2EF80
+	End:     0x2F0D8
+	Section: .text
+undefined __mcmp()
+	Start:   0x2F0D8
+	End:     0x2F140
+	Section: .text
+undefined __mdiff()
+	Start:   0x2F140
+	End:     0x2F2D0
+	Section: .text
+undefined _ulp()
+	Start:   0x2F2D0
+	End:     0x2F3A0
+	Section: .text
+undefined _b2d()
+	Start:   0x2F3A0
+	End:     0x2F538
+	Section: .text
+undefined _d2b()
+	Start:   0x2F538
+	End:     0x2F6BC
+	Section: .text
+undefined _ratio()
+	Start:   0x2F6C0
+	End:     0x2F78C
+	Section: .text
+void _mprec_log10()
+	Start:   0x2F790
+	End:     0x2F800
+	Section: .text
+undefined __srefill()
+	Start:   0x2F838
+	End:     0x2F9B4
+	Section: .text
+int isinf(double value)
+	Start:   0x2F9B8
+	End:     0x2FA00
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+int isnan(double value)
+	Start:   0x2FA00
+	End:     0x2FA3C
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+void __sread()
+	Start:   0x2FA40
+	End:     0x2FAA4
+	Section: .text
+void __swrite()
+	Start:   0x2FAA8
+	End:     0x2FB28
+	Section: .text
+void __sseek()
+	Start:   0x2FB28
+	End:     0x2FB8C
+	Section: .text
+void __sclose()
+	Start:   0x2FB90
+	End:     0x2FBAC
+	Section: .text
+void _strtod_r()
+	Start:   0x2FBB0
+	End:     0x30AC4
+	Section: .text
+void strtod()
+	Start:   0x30AC8
+	End:     0x30AEC
+	Section: .text
+void strtodf()
+	Start:   0x30AF0
+	End:     0x30B18
+	Section: .text
+undefined _strtoul_r()
+	Start:   0x30B18
+	End:     0x30D44
+	Section: .text
+undefined strtoul()
+	Start:   0x30D48
+	End:     0x30D74
+	Section: .text
+undefined __submore()
+	Start:   0x30D78
+	End:     0x30E60
+	Section: .text
+void ungetc()
+	Start:   0x30E60
+	End:     0x30FE8
+	Section: .text
+	Generate: false
+	UseNativePointers: *
+	Link: false
+	Compile: false
+	IncludeContext: false
+undefined _write_r()
+	Start:   0x30FE8
+	End:     0x31048
+	Section: .text
+undefined _calloc_r()
+	Start:   0x31048
+	End:     0x310FC
+	Section: .text
+undefined _close_r()
+	Start:   0x31100
+	End:     0x31158
+	Section: .text
+undefined _fstat_r()
+	Start:   0x31158
+	End:     0x311B4
+	Section: .text
+undefined _lseek_r()
+	Start:   0x311B8
+	End:     0x31218
+	Section: .text
+undefined _read_r()
+	Start:   0x31218
+	End:     0x31278
+	Section: .text
+undefined _realloc_r()
+	Start:   0x31278
+	End:     0x31818
+	Section: .text
+undefined _sceSDC()
+	Start:   0x31818
+	End:     0x318BC
+	Section: .text
+undefined SyncDCache()
+	Start:   0x318C0
+	End:     0x3193C
+	Section: .text
+void iSyncDCache()
+	Start:   0x31940
+	End:     0x31954
+	Section: .text
+undefined _sceIDC()
+	Start:   0x31958
+	End:     0x319FC
+	Section: .text
+void InvalidDCache()
+	Start:   0x31A00
+	End:     0x31A7C
+	Section: .text
+void iInvalidDCache()
+	Start:   0x31A80
+	End:     0x31A94
+	Section: .text
+undefined __fixdfdi()
+	Start:   0x31A98
+	End:     0x31B10
+	Section: .text
+undefined dptoli()
+	Start:   0x31B10
+	End:     0x31BAC
+	Section: .text
+undefined ExceptionCallback()
+	Start:   0x21E0
+	End:     0x235C
+	Section: .text
+int main(int argc, char** argv)
+	Start:   0x3B40
+	End:     0x3CA4
+	Section: .text
+	Link: true 
+	Generate: false
+	UseNativePointers: *
+	Compile: true 
+undefined FUN_00104ff0()
+	Start:   0x4FF0
+	End:     0x50A0
+	Section: .text
+undefined FUN_001050a0()
+	Start:   0x50A0
+	End:     0x50B8
+	Section: .text
+undefined FUN_001059d8()
+	Start:   0x59D8
+	End:     0x5BC8
+	Section: .text
+undefined FUN_00107c70()
+	Start:   0x7C70
+	End:     0x7CA8
+	Section: .text
+undefined FUN_00107ca8()
+	Start:   0x7CA8
+	End:     0x7D58
+	Section: .text
+undefined FUN_00107d58()
+	Start:   0x7D58
+	End:     0x7D8C
+	Section: .text
+undefined FUN_00107d90()
+	Start:   0x7D90
+	End:     0x7E20
+	Section: .text
+undefined FUN_00107e20()
+	Start:   0x7E20
+	End:     0x7FF4
+	Section: .text
+undefined FUN_00107ff8()
+	Start:   0x7FF8
+	End:     0x8D0C
+	Section: .text
+undefined FUN_00108d10()
+	Start:   0x8D10
+	End:     0x8D68
+	Section: .text
+undefined FUN_00108d68()
+	Start:   0x8D68
+	End:     0x8D90
+	Section: .text
+undefined FUN_00108d90()
+	Start:   0x8D90
+	End:     0x8DB8
+	Section: .text
+undefined FUN_00108db8()
+	Start:   0x8DB8
+	End:     0x8E04
+	Section: .text
+undefined FUN_001091c0()
+	Start:   0x91C0
+	End:     0x9268
+	Section: .text
+undefined FUN_00109268()
+	Start:   0x9268
+	End:     0x9284
+	Section: .text
+undefined FUN_00109288()
+	Start:   0x9288
+	End:     0x92B8
+	Section: .text
+undefined FUN_001092b8()
+	Start:   0x92B8
+	End:     0x92F8
+	Section: .text
+undefined FUN_001092f8()
+	Start:   0x92F8
+	End:     0x93C4
+	Section: .text
+undefined FUN_001093c8()
+	Start:   0x93C8
+	End:     0x9408
+	Section: .text
+undefined FUN_00109408()
+	Start:   0x9408
+	End:     0x94D8
+	Section: .text
+undefined FUN_00109640()
+	Start:   0x9640
+	End:     0x968C
+	Section: .text
+undefined FUN_00109690()
+	Start:   0x9690
+	End:     0x96D0
+	Section: .text
+undefined FUN_001096d0()
+	Start:   0x96D0
+	End:     0x979C
+	Section: .text
+undefined FUN_001098f0()
+	Start:   0x98F0
+	End:     0x997C
+	Section: .text
+undefined FUN_0010a0b0()
+	Start:   0xA0B0
+	End:     0xA120
+	Section: .text
+undefined FUN_0010a120()
+	Start:   0xA120
+	End:     0xA19C
+	Section: .text
+undefined FUN_0010a1a0()
+	Start:   0xA1A0
+	End:     0xA228
+	Section: .text
+undefined FUN_0010a228(undefined param_1, undefined param_2, undefined param_3, undefined param_4, undefined param_5, undefined param_6, undefined param_7, undefined param_8, undefined4 param_9, undefined4 param_10)
+	Start:   0xA228
+	End:     0xA314
+	Section: .text
+undefined FUN_0010a318()
+	Start:   0xA318
+	End:     0xA384
+	Section: .text
+undefined FUN_0010a388()
+	Start:   0xA388
+	End:     0xA738
+	Section: .text
+undefined FUN_0010a740()
+	Start:   0xA740
+	End:     0xA794
+	Section: .text
+undefined FUN_0010a798()
+	Start:   0xA798
+	End:     0xA7C4
+	Section: .text
+undefined FUN_0010a7c8()
+	Start:   0xA7C8
+	End:     0xA7D4
+	Section: .text
+undefined FUN_0010a878()
+	Start:   0xA878
+	End:     0xA8BC
+	Section: .text
+undefined FUN_0010aac8()
+	Start:   0xAAC8
+	End:     0xAB54
+	Section: .text
+undefined FUN_0010bea8()
+	Start:   0xBEA8
+	End:     0xC058
+	Section: .text
+undefined FUN_0010e238()
+	Start:   0xE238
+	End:     0xE338
+	Section: .text
+undefined FUN_0010e338()
+	Start:   0xE338
+	End:     0xE3C4
+	Section: .text
+undefined FUN_0010e400()
+	Start:   0xE400
+	End:     0xE608
+	Section: .text
+undefined FUN_0010ea10()
+	Start:   0xEA10
+	End:     0xEC34
+	Section: .text
+undefined FUN_0010ec78()
+	Start:   0xEC78
+	End:     0xED7C
+	Section: .text
+undefined FUN_0010f360()
+	Start:   0xF360
+	End:     0xF370
+	Section: .text
+undefined FUN_0010f370()
+	Start:   0xF370
+	End:     0xF3A8
+	Section: .text
+void RFU091()
+	IncludeContext: true 
+	Start:   0xF3A8
+	End:     0xF3B8
+	Section: .text
+undefined SetSyscall()
+	Start:   0xF3B8
+	End:     0xF3C8
+	Section: .text
+void SetTLBEntry1()
+	Start:   0xF4B0
+	End:     0xF4C0
+	Section: .text
+undefined FUN_0010f590()
+	Start:   0xF590
+	End:     0xF784
+	Section: .text
+undefined FUN_0010fb88()
+	Start:   0xFB88
+	End:     0xFBE8
+	Section: .text
+undefined FUN_0010fbf8()
+	Start:   0xFBF8
+	End:     0xFC08
+	Section: .text
+undefined FUN_0010fc08()
+	Start:   0xFC08
+	End:     0xFC40
+	Section: .text
+undefined FUN_0010fc40()
+	Start:   0xFC40
+	End:     0xFC80
+	Section: .text
+undefined FUN_0010fc80()
+	Start:   0xFC80
+	End:     0xFC90
+	Section: .text
+undefined FUN_0010fcc8()
+	Start:   0xFCC8
+	End:     0xFDC4
+	Section: .text
+void SetSyscall()
+	Start:   0xFDC8
+	End:     0xFDD8
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+void SetSyscall()
+	Start:   0xFE30
+	End:     0xFE40
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+undefined FUN_0010fe40()
+	Start:   0xFE40
+	End:     0xFE50
+	Section: .text
+undefined FUN_0010fe50()
+	Start:   0xFE50
+	End:     0xFE88
+	Section: .text
+void RFU091()
+	Start:   0xFE88
+	End:     0xFE98
+	Section: .text
+	Link: false
+	IncludeContext: true 
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+undefined FUN_0010fe98()
+	Start:   0xFE98
+	End:     0xFF00
+	Section: .text
+undefined FUN_0010ffb0()
+	Start:   0xFFB0
+	End:     0xFFC0
+	Section: .text
+undefined FUN_0010ffc0()
+	Start:   0xFFC0
+	End:     0xFFF0
+	Section: .text
+void SetSyscall()
+	Start:   0xFFF0
+	End:     0x10000
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+undefined FUN_00110000()
+	Start:   0x10000
+	End:     0x10118
+	Section: .text
+void InitTLBRef()
+	Start:   0x10118
+	End:     0x10120
+	Section: .text
+void SetSyscall()
+	Start:   0x10250
+	End:     0x10260
+	Section: .text
+	Link: false
+	IncludeContext: false
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+undefined FUN_00110260()
+	Start:   0x10260
+	End:     0x10270
+	Section: .text
+undefined FUN_00110270()
+	Start:   0x10270
+	End:     0x102A8
+	Section: .text
+void RFU091()
+	Start:   0x102A8
+	End:     0x102B8
+	Section: .text
+	Link: false
+	IncludeContext: true 
+	Generate: false
+	UseNativePointers: *
+	Compile: false
+undefined FUN_00110780()
+	Start:   0x10780
+	End:     0x10910
+	Section: .text
+undefined FUN_00110910()
+	Start:   0x10910
+	End:     0x10990
+	Section: .text
+undefined FUN_00110998()
+	Start:   0x10998
+	End:     0x109D0
+	Section: .text
+undefined FUN_001109d0()
+	Start:   0x109D0
+	End:     0x10C74
+	Section: .text
+undefined FUN_00111750()
+	Start:   0x11750
+	End:     0x117AC
+	Section: .text
+undefined FUN_00112358()
+	Start:   0x12358
+	End:     0x1237C
+	Section: .text
+undefined FUN_00112380()
+	Start:   0x12380
+	End:     0x123BC
+	Section: .text
+undefined FUN_001123c0()
+	Start:   0x123C0
+	End:     0x123FC
+	Section: .text
+undefined FUN_00112400()
+	Start:   0x12400
+	End:     0x12590
+	Section: .text
+undefined FUN_001128a0()
+	Start:   0x128A0
+	End:     0x128BC
+	Section: .text
+undefined FUN_001128c0()
+	Start:   0x128C0
+	End:     0x128CC
+	Section: .text
+undefined FUN_00112cc8()
+	Start:   0x12CC8
+	End:     0x12DFC
+	Section: .text
+undefined FUN_00112e80()
+	Start:   0x12E80
+	End:     0x12FC8
+	Section: .text
+undefined FUN_00114108()
+	Start:   0x14108
+	End:     0x141A8
+	Section: .text
+undefined GetGsDxDyOffset()
+	Start:   0x141A8
+	End:     0x141B8
+	Section: .text
+undefined FUN_001147c0()
+	Start:   0x147C0
+	End:     0x14830
+	Section: .text
+undefined FUN_00114830()
+	Start:   0x14830
+	End:     0x148B4
+	Section: .text
+undefined FUN_001148b8()
+	Start:   0x148B8
+	End:     0x148E0
+	Section: .text
+undefined FUN_001148e0()
+	Start:   0x148E0
+	End:     0x14914
+	Section: .text
+undefined FUN_001155d8()
+	Start:   0x155D8
+	End:     0x15650
+	Section: .text
+undefined FUN_00115650()
+	Start:   0x15650
+	End:     0x156A4
+	Section: .text
+undefined FUN_001156a8()
+	Start:   0x156A8
+	End:     0x1570C
+	Section: .text
+undefined FUN_00115710()
+	Start:   0x15710
+	End:     0x15774
+	Section: .text
+undefined FUN_00115778()
+	Start:   0x15778
+	End:     0x157D4
+	Section: .text
+undefined FUN_001157d8()
+	Start:   0x157D8
+	End:     0x15888
+	Section: .text
+undefined FUN_00115a30()
+	Start:   0x15A30
+	End:     0x15A84
+	Section: .text
+undefined FUN_00115d70()
+	Start:   0x15D70
+	End:     0x15DD0
+	Section: .text
+undefined FUN_00116c58()
+	Start:   0x16C58
+	End:     0x16C80
+	Section: .text
+undefined FUN_00116fb0()
+	Start:   0x16FB0
+	End:     0x17094
+	Section: .text
+undefined FUN_00117098()
+	Start:   0x17098
+	End:     0x17138
+	Section: .text
+undefined FUN_001171b8()
+	Start:   0x171B8
+	End:     0x1720C
+	Section: .text
+undefined FUN_00117210()
+	Start:   0x17210
+	End:     0x17288
+	Section: .text
+undefined FUN_00118380()
+	Start:   0x18380
+	End:     0x18434
+	Section: .text
+undefined FUN_00118438()
+	Start:   0x18438
+	End:     0x1848C
+	Section: .text
+undefined FUN_00118490()
+	Start:   0x18490
+	End:     0x184E4
+	Section: .text
+undefined FUN_001184e8()
+	Start:   0x184E8
+	End:     0x18574
+	Section: .text
+undefined FUN_00118578()
+	Start:   0x18578
+	End:     0x185A4
+	Section: .text
+undefined FUN_00119498()
+	Start:   0x19498
+	End:     0x19528
+	Section: .text
+undefined FUN_00119528()
+	Start:   0x19528
+	End:     0x19544
+	Section: .text
+undefined FUN_00119548()
+	Start:   0x19548
+	End:     0x19564
+	Section: .text
+undefined FUN_00119568()
+	Start:   0x19568
+	End:     0x19644
+	Section: .text
+undefined FUN_00119648()
+	Start:   0x19648
+	End:     0x1966C
+	Section: .text
+undefined FUN_00119670()
+	Start:   0x19670
+	End:     0x19708
+	Section: .text
+undefined FUN_00119708()
+	Start:   0x19708
+	End:     0x19774
+	Section: .text
+undefined FUN_001199a0()
+	Start:   0x199A0
+	End:     0x199C4
+	Section: .text
+undefined FUN_001199f8()
+	Start:   0x199F8
+	End:     0x19AA0
+	Section: .text
+undefined FUN_00119aa0()
+	Start:   0x19AA0
+	End:     0x19ABC
+	Section: .text
+undefined FUN_00119ac0()
+	Start:   0x19AC0
+	End:     0x19BE0
+	Section: .text
+undefined FUN_0011b458()
+	Start:   0x1B458
+	End:     0x1B670
+	Section: .text
+undefined FUN_0011b670()
+	Start:   0x1B670
+	End:     0x1B714
+	Section: .text
+undefined FUN_0011bae8()
+	Start:   0x1BAE8
+	End:     0x1BB44
+	Section: .text
+undefined FUN_0011bb48()
+	Start:   0x1BB48
+	End:     0x1BBB4
+	Section: .text
+undefined FUN_0011bbb8()
+	Start:   0x1BBB8
+	End:     0x1BC0C
+	Section: .text
+undefined FUN_0011bc10()
+	Start:   0x1BC10
+	End:     0x1BCC4
+	Section: .text
+bool FUN_0011bcc8(char* param_1, char* param_2)
+	Start:   0x1BCC8
+	End:     0x1BE40
+	Section: .text
+undefined FUN_0011be48()
+	Start:   0x1BE48
+	End:     0x1BF68
+	Section: .text
+undefined FUN_0011bf68()
+	Start:   0x1BF68
+	End:     0x1BFAC
+	Section: .text
+undefined FUN_0011bfb0()
+	Start:   0x1BFB0
+	End:     0x1C134
+	Section: .text
+undefined FUN_0011c200()
+	Start:   0x1C200
+	End:     0x1C31C
+	Section: .text
+undefined FUN_0011c320()
+	Start:   0x1C320
+	End:     0x1C3B0
+	Section: .text
+undefined FUN_0011c3b0()
+	Start:   0x1C3B0
+	End:     0x1C4C8
+	Section: .text
+undefined FUN_0011c4c8()
+	Start:   0x1C4C8
+	End:     0x1C50C
+	Section: .text
+undefined FUN_0011c510()
+	Start:   0x1C510
+	End:     0x1C574
+	Section: .text
+undefined FUN_0011c578()
+	Start:   0x1C578
+	End:     0x1C6A8
+	Section: .text
+undefined FUN_0011c6a8()
+	Start:   0x1C6A8
+	End:     0x1C7D4
+	Section: .text
+undefined FUN_0011c7d8()
+	Start:   0x1C7D8
+	End:     0x1C8AC
+	Section: .text
+undefined FUN_0011c8b0()
+	Start:   0x1C8B0
+	End:     0x1CA30
+	Section: .text
+undefined FUN_0011ca30()
+	Start:   0x1CA30
+	End:     0x1CAC0
+	Section: .text
+undefined FUN_0011cac0()
+	Start:   0x1CAC0
+	End:     0x1CB18
+	Section: .text
+undefined FUN_0011d8e0()
+	Start:   0x1D8E0
+	End:     0x1D984
+	Section: .text
+undefined FUN_0011d988()
+	Start:   0x1D988
+	End:     0x1D9E8
+	Section: .text
+undefined FUN_0011d9e8()
+	Start:   0x1D9E8
+	End:     0x1DC5C
+	Section: .text
+undefined FUN_0011dc60()
+	Start:   0x1DC60
+	End:     0x1E0B0
+	Section: .text
+undefined FUN_0011e0b0()
+	Start:   0x1E0B0
+	End:     0x1E254
+	Section: .text
+undefined FUN_0011e258()
+	Start:   0x1E258
+	End:     0x1E384
+	Section: .text
+undefined FUN_0011e388()
+	Start:   0x1E388
+	End:     0x1E854
+	Section: .text
+undefined FUN_0011e858()
+	Start:   0x1E858
+	End:     0x1E984
+	Section: .text
+undefined FUN_00120f30()
+	Start:   0x20F30
+	End:     0x20FFC
+	Section: .text
+undefined FUN_00121000()
+	Start:   0x21000
+	End:     0x21054
+	Section: .text
+undefined FUN_00121058()
+	Start:   0x21058
+	End:     0x21084
+	Section: .text
+undefined FUN_00121ec0()
+	Start:   0x21EC0
+	End:     0x21EF8
+	Section: .text
+undefined FUN_00122ea8()
+	Start:   0x22EA8
+	End:     0x22F8C
+	Section: .text
+undefined FUN_00122f90()
+	Start:   0x22F90
+	End:     0x2303C
+	Section: .text
+undefined FUN_00123180()
+	Start:   0x23180
+	End:     0x231A4
+	Section: .text
+undefined FUN_001231a8()
+	Start:   0x231A8
+	End:     0x23208
+	Section: .text
+undefined FUN_00123208()
+	Start:   0x23208
+	End:     0x2325C
+	Section: .text
+undefined FUN_00125998()
+	Start:   0x25998
+	End:     0x259DC
+	Section: .text
+undefined FUN_001259e0()
+	Start:   0x259E0
+	End:     0x25A38
+	Section: .text
+undefined FUN_00125a38()
+	Start:   0x25A38
+	End:     0x25B30
+	Section: .text
+undefined FUN_001262b8()
+	Start:   0x262B8
+	End:     0x262F8
+	Section: .text
+undefined FUN_001262f8()
+	Start:   0x262F8
+	End:     0x26384
+	Section: .text
+undefined FUN_00126388()
+	Start:   0x26388
+	End:     0x263E0
+	Section: .text
+undefined FUN_001263e0()
+	Start:   0x263E0
+	End:     0x26544
+	Section: .text
+undefined FUN_00126548()
+	Start:   0x26548
+	End:     0x266E8
+	Section: .text
+undefined FUN_001266f0()
+	Start:   0x266F0
+	End:     0x26800
+	Section: .text
+undefined FUN_00126800()
+	Start:   0x26800
+	End:     0x26918
+	Section: .text
+undefined FUN_00129830()
+	Start:   0x29830
+	End:     0x29874
+	Section: .text
+undefined FUN_00129878()
+	Start:   0x29878
+	End:     0x2992C
+	Section: .text
+undefined FUN_0012b018()
+	Start:   0x2B018
+	End:     0x2B1D4
+	Section: .text
+undefined FUN_0012c240()
+	Start:   0x2C240
+	End:     0x2C468
+	Section: .text
+undefined FUN_0012d7f0()
+	Start:   0x2D7F0
+	End:     0x2D84C
+	Section: .text
+undefined FUN_0012f800()
+	Start:   0x2F800
+	End:     0x2F830
+	Section: .text
+moduleInfo
+	Start:   0x0
+	End:     0x48
+	Section: .data
+initialElfInfo
+	Start:   0x48
+	End:     0xB8
+	Section: .data
+DebugHandlers
+	Start:   0x100
+	End:     0x150
+	Section: .data
+	Type:    DebugHandler[0x10]
+eeRegInfo
+	Start:   0x180
+	End:     0x380
+	Section: .data
+funcList
+	Start:   0x390
+	End:     0x3A0
+	Section: .data
+myaddr
+	Start:   0x3C0
+	End:     0x3D0
+	Section: .data
+_sceFs_q
+	Start:   0x690
+	End:     0x710
+	Section: .data
+_kDebugHandler
+	Start:   0xA70
+	End:     0xAB0
+	Section: .data
+TLBInfo
+	Start:   0xD68
+	End:     0xD84
+	Section: .data
+SysExecPS2Entry
+	Start:   0x1550
+	End:     0x1568
+	Section: .data
+dch
+	Start:   0x1DB0
+	End:     0x1DD8
+	Section: .data
+_sceCd_ncmdrdata
+	Start:   0x1EC0
+	End:     0x1F20
+	Section: .data
+_sceCd_ncmdsdata
+	Start:   0x1F40
+	End:     0x2F40
+	Section: .data
+_sceCd_rd_intr_data
+	Start:   0x2F40
+	End:     0x2FD0
+	Section: .data
+_sceCd_Read_cur_pos
+	Start:   0x3000
+	End:     0x3010
+	Section: .data
+_sceCd_cd_ncmd
+	Start:   0x3010
+	End:     0x3038
+	Section: .data
+_sceCd_scmdrdata
+	Start:   0x3040
+	End:     0x3460
+	Section: .data
+_sceCd_scmdsdata
+	Start:   0x3480
+	End:     0x3888
+	Section: .data
+_sceCd_rcmdrdata
+	Start:   0x38C0
+	End:     0x39C0
+	Section: .data
+_sceCd_cd_scmd
+	Start:   0x39C0
+	End:     0x39E8
+	Section: .data
+gSceMc2SysInfo
+	Start:   0x3A38
+	End:     0x3D40
+	Section: .data
+__malloc_av_
+	Start:   0x4068
+	End:     0x4470
+	Section: .data
+__malloc_trim_threshold
+	Start:   0x4470
+	End:     0x4478
+	Section: .data
+__malloc_top_pad
+	Start:   0x4478
+	End:     0x4480
+	Section: .data
+__malloc_max_sbrked_mem
+	Start:   0x4488
+	End:     0x4490
+	Section: .data
+__malloc_max_total_mem
+	Start:   0x4490
+	End:     0x4498
+	Section: .data
+__malloc_current_mallinfo
+	Start:   0x4498
+	End:     0x44C0
+	Section: .data
+LoaderVersionBuildDate
+	Start:   0xAB8
+	End:     0xAC4
+	Section: .rodata
+LoaderVersionBuildTime
+	Start:   0xAC8
+	End:     0xAD1
+	Section: .rodata
+__thenan_df
+	Start:   0x3138
+	End:     0x3150
+	Section: .rodata
+_ctype_
+	Start:   0x3220
+	End:     0x3321
+	Section: .rodata
+__mprec_tens
+	Start:   0x3A60
+	End:     0x3B28
+	Section: .rodata
+__mprec_bigtens
+	Start:   0x3B28
+	End:     0x3B50
+	Section: .rodata
+__mprec_tinytens
+	Start:   0x3B50
+	End:     0x3B78
+	Section: .rodata
+__infinity
+	Start:   0x3C50
+	End:     0x3C58
+	Section: .rodata
+ThreadList
+	Start:   0x1590
+	End:     0x1990
+	Section: .bss
+	Type:    int[0x100]
+SemaphorList
+	Start:   0x1990
+	End:     0x1D90
+	Section: .bss
+	Type:    int[0x100]
+ExternalIntcHandlerList
+	Start:   0x1D90
+	End:     0x2590
+	Section: .bss
+	Type:    IntcHandler
+ExternalIOPMemoryList
+	Start:   0x2590
+	End:     0x2990
+	Section: .bss
+	Type:    int[0x100]
+key_value
+	Start:   0x2FD98
+	End:     0x30198
+	Section: .bss
+mainELFArguments
+	Start:   0x2D90
+	End:     0x2DA0
+	Section: .bss

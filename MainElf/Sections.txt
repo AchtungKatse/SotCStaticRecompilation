@@ -1,0 +1,208 @@
+Section 0x0
+Name:            
+	Name Offset:     0
+	Type:            NULL
+	Flags:           0
+	Memory Address:  0
+	File Offset:     0
+	Size:            0
+	Link:            NULL
+	Info:            NULL
+	Alignment:       0
+	Entry Size:      0
+
+Section 0x1
+Name:            .text
+	Name Offset:     1B
+	Type:            PROGBITS
+	Flags:           6
+	Memory Address:  100000
+	File Offset:     1000
+	Size:            31BAC
+	Link:            NULL
+	Info:            NULL
+	Alignment:       40
+	Entry Size:      0
+
+Section 0x2
+Name:            .text_nop
+	Name Offset:     21
+	Type:            PROGBITS
+	Flags:           3
+	Memory Address:  131BAC
+	File Offset:     32BAC
+	Size:            8
+	Link:            NULL
+	Info:            NULL
+	Alignment:       1
+	Entry Size:      0
+
+Section 0x3
+Name:            .reginfo
+	Name Offset:     2B
+	Type:            1879048198
+	Flags:           Allocate
+	Memory Address:  131BB4
+	File Offset:     32BB4
+	Size:            18
+	Link:            NULL
+	Info:            NULL
+	Alignment:       4
+	Entry Size:      1
+
+Section 0x4
+Name:            .data
+	Name Offset:     34
+	Type:            PROGBITS
+	Flags:           3
+	Memory Address:  131C00
+	File Offset:     32C00
+	Size:            44CC
+	Link:            NULL
+	Info:            NULL
+	Alignment:       80
+	Entry Size:      0
+
+Section 0x5
+Name:            .ctors
+	Name Offset:     3A
+	Type:            PROGBITS
+	Flags:           3
+	Memory Address:  1360CC
+	File Offset:     370CC
+	Size:            8
+	Link:            NULL
+	Info:            NULL
+	Alignment:       4
+	Entry Size:      0
+
+Section 0x6
+Name:            .dtors
+	Name Offset:     41
+	Type:            PROGBITS
+	Flags:           3
+	Memory Address:  1360D4
+	File Offset:     370D4
+	Size:            8
+	Link:            NULL
+	Info:            NULL
+	Alignment:       4
+	Entry Size:      0
+
+Section 0x7
+Name:            .eh_frame
+	Name Offset:     48
+	Type:            PROGBITS
+	Flags:           3
+	Memory Address:  1360E0
+	File Offset:     370E0
+	Size:            4
+	Link:            NULL
+	Info:            NULL
+	Alignment:       8
+	Entry Size:      0
+
+Section 0x8
+Name:            .rodata
+	Name Offset:     52
+	Type:            PROGBITS
+	Flags:           Allocate
+	Memory Address:  136100
+	File Offset:     37100
+	Size:            3C58
+	Link:            NULL
+	Info:            NULL
+	Alignment:       10
+	Entry Size:      0
+
+Section 0x9
+Name:            .lit4
+	Name Offset:     5A
+	Type:            PROGBITS
+	Flags:           268435459
+	Memory Address:  139D80
+	File Offset:     3AD80
+	Size:            4
+	Link:            NULL
+	Info:            NULL
+	Alignment:       4
+	Entry Size:      0
+
+Section 0xA
+Name:            .data_nop
+	Name Offset:     60
+	Type:            PROGBITS
+	Flags:           3
+	Memory Address:  139D84
+	File Offset:     3AD84
+	Size:            8
+	Link:            NULL
+	Info:            NULL
+	Alignment:       1
+	Entry Size:      0
+
+Section 0xB
+Name:            .sdata
+	Name Offset:     6A
+	Type:            PROGBITS
+	Flags:           268435459
+	Memory Address:  139E00
+	File Offset:     3AE00
+	Size:            380
+	Link:            NULL
+	Info:            NULL
+	Alignment:       8
+	Entry Size:      0
+
+Section 0xC
+Name:            .sbss
+	Name Offset:     71
+	Type:            NoBits
+	Flags:           268435459
+	Memory Address:  13A180
+	File Offset:     3B180
+	Size:            10
+	Link:            NULL
+	Info:            NULL
+	Alignment:       4
+	Entry Size:      0
+
+Section 0xD
+Name:            .bss
+	Name Offset:     77
+	Type:            NoBits
+	Flags:           3
+	Memory Address:  13A200
+	File Offset:     3B1F0
+	Size:            30198
+	Link:            NULL
+	Info:            NULL
+	Alignment:       80
+	Entry Size:      0
+
+Section 0xE
+Name:            .mdebug.eabi64
+	Name Offset:     7C
+	Type:            PROGBITS
+	Flags:           0
+	Memory Address:  0
+	File Offset:     3B1F0
+	Size:            0
+	Link:            NULL
+	Info:            NULL
+	Alignment:       1
+	Entry Size:      0
+
+Section 0xF
+Name:            .shstrtab
+	Name Offset:     11
+	Type:            StringTable
+	Flags:           0
+	Memory Address:  0
+	File Offset:     3B1F0
+	Size:            8B
+	Link:            NULL
+	Info:            NULL
+	Alignment:       1
+	Entry Size:      0
+

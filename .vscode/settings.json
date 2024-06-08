@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "hide-files.files": [],
+    "cmake.sourceDirectory": "/home/achtung/Documents/RE/ShadowOfTheColossus/SotC Static Recompilation/Main ELF/Disassembly",
+    "files.associations": {
+        "functionlist.h": "c"
+    }
+}
